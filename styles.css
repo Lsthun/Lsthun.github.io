@@ -455,16 +455,22 @@ a {
 
 .explore-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
   gap: 18px;
+  align-items: start;
 }
 
 .explore-panel {
-  min-height: 100%;
   background:
     linear-gradient(160deg, rgba(231, 133, 60, 0.92), rgba(197, 98, 44, 0.95)),
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
   color: var(--white);
+}
+
+.explore-panel__button {
+  margin-top: 20px;
+  background: rgba(255, 253, 249, 0.16);
+  border-color: rgba(255, 253, 249, 0.22);
 }
 
 .explore-list {
@@ -472,25 +478,49 @@ a {
   gap: 18px;
 }
 
+.explore-list article {
+  overflow: hidden;
+}
+
+.explore-card__link {
+  display: grid;
+  gap: 12px;
+}
+
+.explore-card__action {
+  color: var(--coastal);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.explore-card__link:hover .explore-card__action,
+.explore-card__link:focus-visible .explore-card__action {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .explore-media {
-  margin: 18px 0 0;
+  margin: 4px 0 0;
 }
 
 .explore-media img {
   width: 100%;
   border-radius: 18px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   box-shadow: 0 18px 34px rgba(16, 42, 53, 0.16);
 }
 
-.explore-media figcaption {
-  margin-top: 10px;
+.explore-media__credit {
+  margin: 10px 0 0;
   color: rgba(16, 42, 53, 0.68);
   font-size: 0.82rem;
   line-height: 1.5;
 }
 
+.explore-media__credit a,
 .explore-media a {
   color: var(--coastal);
   font-weight: 700;

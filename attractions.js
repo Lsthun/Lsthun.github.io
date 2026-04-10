@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (visibleItems.length === 0) {
       calendarFeed.innerHTML = `
         <div class="calendar-feed-empty">
-          <p>No curated picks are loaded for this location in the selected month yet.</p>
+          <p>No sourced community events are loaded for this location in the selected month yet.</p>
         </div>
       `;
       return;
@@ -303,6 +303,8 @@ document.addEventListener("DOMContentLoaded", async () => {
               <span>${escapeHtml(dayFormatter.format(item.dateObject))}</span>
               <span>${escapeHtml(item.location)}</span>
               <span>${escapeHtml(item.category)}</span>
+              ${item.timeLabel ? `<span>${escapeHtml(item.timeLabel)}</span>` : ""}
+              ${item.source ? `<span>${escapeHtml(item.source)}</span>` : ""}
             </p>
             <h4>${escapeHtml(item.title)}</h4>
             <p>${escapeHtml(item.description)}</p>
