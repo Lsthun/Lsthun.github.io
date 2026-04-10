@@ -370,6 +370,16 @@ a {
   margin-bottom: 28px;
 }
 
+.section__copy,
+.calendar-shell__copy,
+.calendar-note,
+.attraction-feature p,
+.restaurant-card p,
+.calendar-feed-card p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 .section h2,
 .contact-panel h2 {
   font-size: clamp(2.6rem, 5vw, 4.2rem);
@@ -383,7 +393,7 @@ a {
 }
 
 .stay-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .stay-card {
@@ -462,6 +472,302 @@ a {
   gap: 18px;
 }
 
+.attractions {
+  overflow: hidden;
+}
+
+.attractions__intro h2 {
+  max-width: 14ch;
+}
+
+.attractions-hero,
+.restaurant-grid,
+.calendar-feed {
+  display: grid;
+  gap: 18px;
+}
+
+.attractions-hero {
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  margin-bottom: 18px;
+}
+
+.attraction-feature,
+.restaurant-card,
+.calendar-shell,
+.calendar-grid__day,
+.calendar-feed-card {
+  border: 1px solid rgba(16, 42, 53, 0.08);
+  border-radius: var(--radius-md);
+}
+
+.attraction-feature,
+.restaurant-card,
+.calendar-shell,
+.calendar-feed-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(246, 238, 228, 0.92));
+}
+
+.attraction-feature {
+  padding: 24px;
+}
+
+.attraction-feature--walking {
+  background:
+    linear-gradient(160deg, rgba(47, 123, 130, 0.98), rgba(28, 77, 85, 0.98)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  color: var(--white);
+}
+
+.attraction-feature--walking .stay-card__tag {
+  color: rgba(255, 253, 249, 0.82);
+}
+
+.attraction-feature--map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.attraction-feature h3,
+.calendar-shell h3,
+.calendar-feed__header h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.attraction-feature__actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.restaurant-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 18px;
+}
+
+.restaurant-card {
+  padding: 22px;
+}
+
+.restaurant-card h3,
+.calendar-feed-card h4 {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+
+.attraction-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  color: var(--coastal);
+  font-weight: 800;
+}
+
+.calendar-shell {
+  padding: 24px;
+}
+
+.calendar-shell__header,
+.calendar-feed__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.calendar-nav,
+.calendar-filter {
+  border: 1px solid rgba(16, 42, 53, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.calendar-nav {
+  min-height: 44px;
+  padding: 0 16px;
+}
+
+.calendar-filter {
+  min-height: 42px;
+  padding: 0 18px;
+}
+
+.calendar-nav:hover,
+.calendar-nav:focus-visible,
+.calendar-filter:hover,
+.calendar-filter:focus-visible,
+.attraction-link:hover,
+.attraction-link:focus-visible {
+  transform: translateY(-2px);
+}
+
+.calendar-filter.is-active {
+  background: linear-gradient(135deg, #226d74, #2f7b82);
+  color: var(--white);
+  box-shadow: 0 14px 26px rgba(47, 123, 130, 0.24);
+}
+
+.calendar-month-label {
+  min-width: 180px;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.calendar-filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0 18px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 12px;
+  min-width: 840px;
+}
+
+.calendar-grid-wrap {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.calendar-grid__day,
+.calendar-grid__label,
+.calendar-grid__blank {
+  min-height: 120px;
+}
+
+.calendar-grid__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  color: rgba(16, 42, 53, 0.6);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.calendar-grid__blank {
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.36);
+  border: 1px dashed rgba(16, 42, 53, 0.08);
+}
+
+.calendar-grid__day {
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.calendar-grid__day.is-today {
+  border-color: rgba(47, 123, 130, 0.36);
+  box-shadow: 0 12px 24px rgba(47, 123, 130, 0.12);
+}
+
+.calendar-grid__day.has-items {
+  background: linear-gradient(180deg, rgba(236, 248, 247, 0.98), rgba(255, 255, 255, 0.9));
+}
+
+.calendar-grid__date {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(16, 42, 53, 0.06);
+  font-weight: 800;
+}
+
+.calendar-grid__items {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.calendar-grid__pill {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(47, 123, 130, 0.12);
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.calendar-grid__more {
+  color: rgba(16, 42, 53, 0.65);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.calendar-feed__header {
+  margin: 24px 0 14px;
+}
+
+.calendar-feed {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.calendar-feed-card {
+  padding: 20px;
+}
+
+.calendar-feed-card__meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 12px;
+}
+
+.calendar-feed-card__meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(16, 42, 53, 0.06);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.calendar-feed-empty {
+  padding: 22px;
+  border-radius: var(--radius-md);
+  border: 1px dashed rgba(16, 42, 53, 0.14);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.calendar-note {
+  margin: 18px 0 0;
+  color: rgba(16, 42, 53, 0.72);
+}
+
 .contact-panel {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -482,6 +788,7 @@ a {
 @media (max-width: 1080px) {
   .hero,
   .explore-layout,
+  .attractions-hero,
   .contact-panel,
   .stay-grid,
   .amenities-grid,
@@ -534,5 +841,20 @@ a {
 
   .button {
     width: 100%;
+  }
+
+  .attraction-feature__actions .button {
+    width: auto;
+  }
+
+  .calendar-grid__label {
+    min-height: 34px;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+  }
+
+  .calendar-grid__day,
+  .calendar-grid__blank {
+    min-height: 108px;
   }
 }
