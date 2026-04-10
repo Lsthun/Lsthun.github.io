@@ -1,0 +1,54 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="48" fill="#FBF4EB"/>
+  <circle cx="320" cy="132" r="26" fill="#E7853C"/>
+  <path d="M168 364V152" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M214 364V110" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M470 364V128" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M514 364V160" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M168 170L152 198L164 198L148 224L164 224L146 252" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M214 126L196 158L210 158L190 188L206 188L184 220L202 220L178 254" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M262 174L248 198L260 198L244 224L258 224L240 250" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M470 146L452 176L466 176L448 204L462 204L442 232L456 232L436 262" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M514 178L498 204L510 204L494 230L508 230L490 258" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M346 168L378 212H314L346 168Z" stroke="#8BB9BA" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M284 184L314 212H254L284 184Z" stroke="#8BB9BA" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M396 186L426 214H366L396 186Z" stroke="#8BB9BA" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M197 270H406C418 270 428 280 428 292V352H186V281C186 275 191 270 197 270Z" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5"/>
+  <path d="M295 245H367C378 245 387 254 387 265V270H275V265C275 254 284 245 295 245Z" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5"/>
+  <path d="M428 293H468C488 293 504 309 504 329V352H428V293Z" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5"/>
+  <path d="M476 289H495C502 289 508 295 508 302V316L476 289Z" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="208" y="292" width="52" height="34" rx="8" fill="#2F7B82"/>
+  <rect x="278" y="292" width="38" height="34" rx="8" fill="#2F7B82"/>
+  <rect x="336" y="286" width="38" height="86" rx="10" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5"/>
+  <path d="M443 321H477C482 321 486 325 486 330V352H443V321Z" fill="#2F7B82"/>
+  <rect x="204" y="339" width="34" height="33" rx="6" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="4"/>
+  <circle cx="252" cy="374" r="20" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5"/>
+  <circle cx="438" cy="374" r="20" fill="#FBF4EB" stroke="#4B9CA0" stroke-width="5"/>
+  <circle cx="252" cy="374" r="7" fill="#4B9CA0"/>
+  <circle cx="438" cy="374" r="7" fill="#4B9CA0"/>
+  <path d="M424 376H456" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M232 376H272" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M346 304V352" stroke="#4B9CA0" stroke-width="4"/>
+  <path d="M378 304V330" stroke="#4B9CA0" stroke-width="4"/>
+  <path d="M284 256H304" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M354 256H370" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M172 404H518" stroke="#4B9CA0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M186 404L164 420" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M502 404L524 420" stroke="#4B9CA0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M280 430L250 448L290 450L324 440" stroke="#8C6B4A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M406 430L436 448L398 450L364 440" stroke="#8C6B4A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M332 406C340 420 346 428 346 438C346 452 334 462 320 462C306 462 294 452 294 438C294 429 300 420 308 406C311 401 315 395 320 388C325 395 329 401 332 406Z" fill="#E7853C" stroke="#C9662A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M318 414C323 422 326 428 326 434C326 441 321 446 314 446C307 446 302 441 302 434C302 429 305 424 310 416L314 410L318 414Z" fill="#F7C16C"/>
+  <ellipse cx="286" cy="454" rx="12" ry="9" fill="#D7D7D7"/>
+  <ellipse cx="308" cy="462" rx="14" ry="10" fill="#D7D7D7"/>
+  <ellipse cx="333" cy="462" rx="16" ry="10" fill="#D7D7D7"/>
+  <ellipse cx="353" cy="454" rx="12" ry="9" fill="#D7D7D7"/>
+  <path d="M219 506C180 516 135 500 108 468" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M220 508C202 560 138 574 96 536C68 510 72 472 102 460C124 451 148 462 160 484C167 498 163 521 142 530" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M226 509C262 490 300 485 344 488" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M346 490C392 492 432 501 474 530" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M474 530C500 552 542 556 564 533C580 516 580 492 562 482C546 472 526 477 516 495C508 510 514 530 530 536" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M478 530C518 513 548 494 564 462" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <text x="320" y="532" text-anchor="middle" font-family="Brush Script MT, Lucida Handwriting, cursive" font-size="70" fill="#111111">Bay St. Louis</text>
+  <text x="320" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" letter-spacing="10" fill="#111111">CAMPGROUND</text>
+</svg>

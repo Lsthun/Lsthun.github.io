@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bay St. Louis Campground</title>
+    <meta
+      name="description"
+      content="A redesigned landing page for Bay St. Louis Campground with rates, amenities, local highlights, and booking contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Bay St. Louis Campground home">
+          <img
+            class="brand__mark"
+            src="./assets/bsl-campground-logo-exact.jpg"
+            alt="Bay St. Louis Campground logo"
+          />
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#stay">Stay</a>
+          <a href="#amenities">Amenities</a>
+          <a href="#explore">Explore</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero__content">
+            <p class="eyebrow">Mississippi Gulf Coast Camping</p>
+            <h1>Easygoing RV stays minutes from the beach, downtown, and the good stuff.</h1>
+            <p class="hero__lede">
+              Bay St. Louis Campground brings together full-hookup RV sites,
+              cozy cabins, and family-friendly amenities in one calm coastal
+              basecamp just off Highway 90.
+            </p>
+
+            <div class="hero__actions">
+              <a class="button button--primary" href="tel:12284672080">Call to Book</a>
+              <a class="button button--secondary" href="#stay">See Rates</a>
+            </div>
+
+            <ul class="hero__highlights" aria-label="Campground highlights">
+              <li>1 mile to the pet-friendly beach</li>
+              <li>30 &amp; 50 amp RV sites with hookups</li>
+              <li>Pool, fishing pond, playground, and laundry</li>
+            </ul>
+          </div>
+
+          <aside class="hero-card" aria-label="Location and quick details">
+            <img
+              class="hero-card__logo"
+              src="./assets/bsl-campground-logo-exact.jpg"
+              alt=""
+            />
+            <div class="hero-card__body">
+              <p class="hero-card__label">Campground Address</p>
+              <p>814 Highway 90</p>
+              <p>Bay St. Louis, MS 39520</p>
+            </div>
+            <div class="hero-card__body">
+              <p class="hero-card__label">Current Rates</p>
+              <p>30 amp sites: $55/day</p>
+              <p>50 amp sites: $60/day</p>
+              <p>Monthly rates available upon request</p>
+            </div>
+            <p class="hero-card__fineprint">
+              All prices include water, sewer, electricity, and Wi-Fi.
+            </p>
+          </aside>
+        </section>
+
+        <section class="value-strip" aria-label="Why guests stay here">
+          <article>
+            <p class="value-strip__number">01</p>
+            <h2>Close to everything</h2>
+            <p>
+              Reach Bay St. Louis beach, downtown restaurants, casinos, and day
+              trips to New Orleans without giving up the laid-back campground feel.
+            </p>
+          </article>
+          <article>
+            <p class="value-strip__number">02</p>
+            <h2>Built for families</h2>
+            <p>
+              Cabins, a playground, a pool, and a catch-and-release pond make it
+              easy to settle in for a long weekend or a longer stay.
+            </p>
+          </article>
+          <article>
+            <p class="value-strip__number">03</p>
+            <h2>Simple, practical comfort</h2>
+            <p>
+              Full hookups, on-site laundry, and approachable daily pricing keep
+              the experience relaxed and low-fuss.
+            </p>
+          </article>
+        </section>
+
+        <section class="section stay" id="stay">
+          <div class="section__intro">
+            <p class="eyebrow">Stay Your Way</p>
+            <h2>Flexible options for RV travelers and cabin guests.</h2>
+          </div>
+
+          <div class="stay-grid">
+            <article class="stay-card stay-card--featured">
+              <p class="stay-card__tag">Most Popular</p>
+              <h3>50 amp RV Site</h3>
+              <p class="stay-card__price">$60<span>/day</span></p>
+              <p>
+                Spacious full-hookup site with 50 amp service for easy coastal
+                stays near town.
+              </p>
+            </article>
+
+            <article class="stay-card">
+              <h3>30 amp RV Site</h3>
+              <p class="stay-card__price">$55<span>/day</span></p>
+              <p>
+                Full hookups included, with convenient access to beach days,
+                downtown Bay St. Louis, and the campground amenities.
+              </p>
+            </article>
+
+            <article class="stay-card">
+              <h3>Camping Cabins</h3>
+              <p class="stay-card__price">Call<span> for availability</span></p>
+              <p>
+                Family-friendly cabin stays for guests who want the campground
+                atmosphere without bringing the RV along.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section amenities" id="amenities">
+          <div class="section__intro">
+            <p class="eyebrow">Amenities</p>
+            <h2>Everything you need for a comfortable campground rhythm.</h2>
+          </div>
+
+          <div class="amenities-grid">
+            <article class="amenity">
+              <h3>All Hookups Included</h3>
+              <p>Water, sewer, electricity, and Wi-Fi are built into every rate.</p>
+            </article>
+            <article class="amenity">
+              <h3>Pool Access</h3>
+              <p>Cool off after the beach or give the kids a steady vacation favorite.</p>
+            </article>
+            <article class="amenity">
+              <h3>Fishing Pond</h3>
+              <p>Enjoy a catch-and-release pond right on site for a quieter afternoon.</p>
+            </article>
+            <article class="amenity">
+              <h3>Playground</h3>
+              <p>A simple family perk that gives little campers room to roam.</p>
+            </article>
+            <article class="amenity">
+              <h3>On-Site Laundry</h3>
+              <p>Practical amenities that make longer stays easier to manage.</p>
+            </article>
+            <article class="amenity">
+              <h3>Pet-Friendly Beach Nearby</h3>
+              <p>Just a mile away, so guests can bring along the whole crew.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section explore" id="explore">
+          <div class="section__intro">
+            <p class="eyebrow">Explore The Area</p>
+            <h2>Your campground can feel tucked away without being far away.</h2>
+          </div>
+
+          <div class="explore-layout">
+            <div class="explore-panel">
+              <h3>Minutes from Bay St. Louis</h3>
+              <p>
+                Start the day with coffee in town, head to the beach, swing by
+                local shops or casinos, and still be back at your site before sunset.
+              </p>
+            </div>
+
+            <div class="explore-list" role="list" aria-label="Nearby highlights">
+              <article role="listitem">
+                <p class="explore-list__label">Beach</p>
+                <h3>Pet-friendly shoreline</h3>
+                <p>Only one mile from camp for quick morning walks and evening breezes.</p>
+              </article>
+              <article role="listitem">
+                <p class="explore-list__label">Downtown</p>
+                <h3>Restaurants, shops, and local charm</h3>
+                <p>Easy access to Bay St. Louis favorites without a long drive.</p>
+              </article>
+              <article role="listitem">
+                <p class="explore-list__label">Day Trip</p>
+                <h3>New Orleans in reach</h3>
+                <p>About 55 miles away when you want a bigger-city adventure.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact">
+          <div class="contact-panel">
+            <div>
+              <p class="eyebrow">Plan Your Stay</p>
+              <h2>Book your spot and start your Gulf Coast getaway.</h2>
+              <p class="contact-panel__text">
+                For availability, cabin questions, or monthly rates, contact the
+                campground directly. This redesign keeps the call-to-book flow
+                simple and front-and-center.
+              </p>
+            </div>
+
+            <div class="contact-actions">
+              <a class="button button--primary" href="tel:12284672080">(228) 467-2080</a>
+              <a class="button button--ghost" href="https://maps.google.com/?q=814+Highway+90+Bay+St.+Louis+MS+39520">Get Directions</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
