@@ -55,7 +55,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 18px 24px;
+  padding: 14px 24px;
   background: rgba(255, 253, 249, 0.75);
   border: 1px solid rgba(16, 42, 53, 0.08);
   border-radius: 999px;
@@ -63,18 +63,22 @@ a {
   position: sticky;
   top: 20px;
   z-index: 10;
+  overflow: hidden;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
   min-width: 0;
+  max-width: 100%;
 }
 
 .brand__mark {
-  width: clamp(210px, 24vw, 300px);
+  width: clamp(180px, 22vw, 250px);
+  max-height: 88px;
   height: auto;
   flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .site-nav {
@@ -224,6 +228,66 @@ a {
   border: 1px solid rgba(16, 42, 53, 0.08);
   font-size: 0.95rem;
   font-weight: 600;
+}
+
+.hero__highlight {
+  position: relative;
+}
+
+.hero__highlight--interactive {
+  padding: 0;
+  overflow: visible;
+}
+
+.hero__highlight--interactive a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100%;
+  padding: 18px 18px 20px;
+  border-radius: inherit;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.hero__highlight--interactive a:hover,
+.hero__highlight--interactive a:focus-visible {
+  background: rgba(47, 123, 130, 0.1);
+  box-shadow: 0 18px 34px rgba(47, 123, 130, 0.16);
+  transform: translateY(-2px);
+}
+
+.hero__highlight--interactive a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 18px;
+  bottom: calc(100% + 10px);
+  width: max-content;
+  max-width: 220px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(16, 42, 53, 0.94);
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.4;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.hero__highlight--interactive a:hover::after,
+.hero__highlight--interactive a:focus-visible::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero__highlight-action {
+  color: var(--coastal);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .hero-card {
@@ -454,7 +518,8 @@ a {
   }
 
   .brand__mark {
-    width: min(100%, 240px);
+    width: min(100%, 220px);
+    max-height: none;
   }
 
   .hero h1 {
