@@ -450,9 +450,10 @@
                 <p class="eyebrow">Monthly Attractions Calendar</p>
                 <h3>Filter local picks by location.</h3>
                 <p class="calendar-shell__copy">
-                  The calendar defaults to the current month and refreshes from
-                  Coastal Mississippi, Shoofly Magazine, and the Hancock Chamber.
-                  Filter for Bay St. Louis, Waveland, or Gulfport or Biloxi.
+                    The calendar defaults to the current month and refreshes from
+                    Coastal Mississippi, Shoofly Magazine, and the Hancock Chamber.
+                    Filter for Bay St. Louis, Waveland, or Gulfport or Biloxi, then
+                    click any active day to zoom in on that date's full lineup.
                 </p>
               </div>
 
@@ -474,8 +475,15 @@
               <div class="calendar-grid" id="calendar-grid" aria-label="Local attractions calendar"></div>
             </div>
 
+            <div class="calendar-zoom-bar" aria-live="polite">
+              <p class="calendar-zoom-bar__copy" id="calendar-zoom-copy">
+                Click a day with events to zoom in on that date.
+              </p>
+              <button class="calendar-clear" type="button" id="calendar-clear-day" hidden>Show Full Month</button>
+            </div>
+
             <div class="calendar-feed__header">
-              <h3>Filtered picks for this month</h3>
+              <h3 id="calendar-feed-title">Filtered picks for this month</h3>
               <a
                 class="attraction-link"
                 href="https://www.google.com/maps/search/?api=1&query=restaurants+bars+downtown+Bay+St.+Louis+MS"

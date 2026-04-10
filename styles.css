@@ -6,6 +6,9 @@
   --coastal-soft: #8ec7c4;
   --pine: #4b7965;
   --sun: #e7853c;
+  --bay-city: #2f7b82;
+  --waveland-city: #4b7965;
+  --gulf-city: #d96e2f;
   --white: #fffdf9;
   --shadow: 0 24px 80px rgba(16, 42, 53, 0.12);
   --radius-lg: 32px;
@@ -658,6 +661,13 @@ a {
   padding: 0 16px;
 }
 
+.calendar-nav:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+  transform: none;
+  box-shadow: none;
+}
+
 .calendar-filter {
   min-height: 42px;
   padding: 0 18px;
@@ -731,8 +741,36 @@ a {
 }
 
 .calendar-grid__day {
+  appearance: none;
+  display: block;
+  width: 100%;
   padding: 14px;
+  border: 1px solid rgba(16, 42, 53, 0.08);
   background: rgba(255, 255, 255, 0.86);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: default;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.calendar-grid__day:disabled {
+  opacity: 1;
+}
+
+.calendar-grid__day.is-clickable {
+  cursor: pointer;
+}
+
+.calendar-grid__day.is-clickable:hover,
+.calendar-grid__day.is-clickable:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(16, 42, 53, 0.12);
+}
+
+.calendar-grid__day.is-selected {
+  border-color: rgba(231, 133, 60, 0.56);
+  box-shadow: 0 16px 30px rgba(231, 133, 60, 0.18);
 }
 
 .calendar-grid__day.is-today {
@@ -774,10 +812,60 @@ a {
   line-height: 1.35;
 }
 
+.calendar-grid__pill[data-city="bay-st-louis"] {
+  background: rgba(47, 123, 130, 0.14);
+}
+
+.calendar-grid__pill[data-city="waveland"] {
+  background: rgba(75, 121, 101, 0.16);
+}
+
+.calendar-grid__pill[data-city="gulfport-biloxi"] {
+  background: rgba(231, 133, 60, 0.18);
+}
+
 .calendar-grid__more {
   color: rgba(16, 42, 53, 0.65);
   font-size: 0.8rem;
   font-weight: 700;
+}
+
+.calendar-zoom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  padding: 18px 20px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid rgba(16, 42, 53, 0.08);
+}
+
+.calendar-zoom-bar__copy {
+  margin: 0;
+  color: rgba(16, 42, 53, 0.78);
+  font-weight: 700;
+}
+
+.calendar-clear {
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid rgba(16, 42, 53, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.calendar-clear:hover,
+.calendar-clear:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(16, 42, 53, 0.12);
 }
 
 .calendar-feed__header {
@@ -790,6 +878,18 @@ a {
 
 .calendar-feed-card {
   padding: 20px;
+}
+
+.calendar-feed-card[data-city="bay-st-louis"] {
+  border-top: 4px solid var(--bay-city);
+}
+
+.calendar-feed-card[data-city="waveland"] {
+  border-top: 4px solid var(--waveland-city);
+}
+
+.calendar-feed-card[data-city="gulfport-biloxi"] {
+  border-top: 4px solid var(--gulf-city);
 }
 
 .calendar-feed-card__meta {
@@ -808,6 +908,29 @@ a {
   background: rgba(16, 42, 53, 0.06);
   font-size: 0.8rem;
   font-weight: 700;
+}
+
+.calendar-feed-card__meta span[data-city="bay-st-louis"] {
+  background: rgba(47, 123, 130, 0.14);
+}
+
+.calendar-feed-card__meta span[data-city="waveland"] {
+  background: rgba(75, 121, 101, 0.16);
+}
+
+.calendar-feed-card__meta span[data-city="gulfport-biloxi"] {
+  background: rgba(231, 133, 60, 0.18);
+}
+
+.calendar-feed-card__description {
+  margin: 0;
+}
+
+.calendar-feed-card__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
 }
 
 .calendar-feed-empty {
@@ -910,5 +1033,13 @@ a {
   .calendar-grid__day,
   .calendar-grid__blank {
     min-height: 108px;
+  }
+
+  .calendar-zoom-bar {
+    align-items: stretch;
+  }
+
+  .calendar-clear {
+    width: 100%;
   }
 }

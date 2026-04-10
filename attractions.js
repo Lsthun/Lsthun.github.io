@@ -139,6 +139,13 @@ const fallbackAttractionsFeed = {
 };
 
 const weekdayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const descriptionLimit = 180;
+
+const locationSlugMap = {
+  "Bay St. Louis": "bay-st-louis",
+  Waveland: "waveland",
+  "Gulfport/Biloxi": "gulfport-biloxi"
+};
 
 function parseLocalDate(dateString) {
   const [year, month, day] = dateString.split("-").map(Number);
@@ -156,6 +163,30 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function getLocationSlug(location) {
+  return locationSlugMap[location] || "other";
+}
+
+function truncateText(value, maxLength = descriptionLimit) {
+  const normalized = String(value || "").replace(/\s+/g, " ").trim();
+  if (normalized.length <= maxLength) {
+    return normalized;
+  }
+
+  const sliced = normalized.slice(0, maxLength - 1);
+  const lastSpace = sliced.lastIndexOf(" ");
+  const trimmed = lastSpace > maxLength * 0.6 ? sliced.slice(0, lastSpace) : sliced;
+  return `${trimmed.trimEnd()}...`;
+}
+
+function buildSourceLabel(item) {
+  if (item.source) {
+    return `View on ${item.source}`;
+  }
+
+  return item.cta || "Open";
 }
 
 async function loadAttractionsFeed() {
@@ -189,6 +220,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const monthLabel = document.getElementById("calendar-month-label");
   const calendarGrid = document.getElementById("calendar-grid");
   const calendarFeed = document.getElementById("calendar-feed");
+  const calendarFeedTitle = document.getElementById("calendar-feed-title");
+  const zoomCopy = document.getElementById("calendar-zoom-copy");
+  const clearDayButton = document.getElementById("calendar-clear-day");
   const filterButtons = Array.from(document.querySelectorAll("[data-location-filter]"));
   const navButtons = Array.from(document.querySelectorAll("[data-calendar-nav]"));
 
@@ -209,12 +243,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   const todayKey = formatMonthKey(today);
   let currentMonthIndex = monthKeys.includes(todayKey) ? monthKeys.indexOf(todayKey) : 0;
   let activeLocation = "All";
+  let selectedDate = null;
 
   const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" });
   const dayFormatter = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
+  const dayDetailFormatter = new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" });
 
-  function getVisibleItems() {
-    const activeMonthKey = monthKeys[currentMonthIndex];
+  function getActiveMonthKey() {
+    return monthKeys[currentMonthIndex];
+  }
+
+  function getMonthItems() {
+    const activeMonthKey = getActiveMonthKey();
     return items.filter((item) => {
       const matchesMonth = formatMonthKey(item.dateObject) === activeMonthKey;
       const matchesLocation = activeLocation === "All" || item.location === activeLocation;
@@ -222,19 +262,48 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
+  function getVisibleItems() {
+    const monthItems = getMonthItems();
+    if (!selectedDate) {
+      return monthItems;
+    }
+
+    return monthItems.filter((item) => item.date === selectedDate);
+  }
+
   function renderMonthLabel() {
-    const [year, month] = monthKeys[currentMonthIndex].split("-").map(Number);
+    const [year, month] = getActiveMonthKey().split("-").map(Number);
     monthLabel.textContent = monthFormatter.format(new Date(year, month - 1, 1));
   }
 
+  function renderNavState() {
+    navButtons.forEach((button) => {
+      const isPrevious = button.dataset.calendarNav === "prev";
+      const isDisabled = isPrevious ? currentMonthIndex === 0 : currentMonthIndex === monthKeys.length - 1;
+      button.disabled = isDisabled;
+      button.setAttribute("aria-disabled", String(isDisabled));
+    });
+  }
+
+  function syncSelectedDate() {
+    if (!selectedDate) {
+      return;
+    }
+
+    const hasMatch = getMonthItems().some((item) => item.date === selectedDate);
+    if (!hasMatch) {
+      selectedDate = null;
+    }
+  }
+
   function renderGrid() {
-    const [year, month] = monthKeys[currentMonthIndex].split("-").map(Number);
+    const [year, month] = getActiveMonthKey().split("-").map(Number);
     const firstDay = new Date(year, month - 1, 1);
     const lastDay = new Date(year, month, 0);
-    const visibleItems = getVisibleItems();
+    const monthItems = getMonthItems();
     const itemsByDay = new Map();
 
-    visibleItems.forEach((item) => {
+    monthItems.forEach((item) => {
       const day = item.dateObject.getDate();
       if (!itemsByDay.has(day)) {
         itemsByDay.set(day, []);
@@ -251,6 +320,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const daysMarkup = Array.from({ length: lastDay.getDate() }, (_, index) => {
       const dayNumber = index + 1;
       const dayItems = itemsByDay.get(dayNumber) || [];
+      const dayKey = `${getActiveMonthKey()}-${String(dayNumber).padStart(2, "0")}`;
       const isToday =
         year === today.getFullYear() &&
         month - 1 === today.getMonth() &&
@@ -262,25 +332,61 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
 
       if (dayItems.length > 0) {
-        dayClasses.push("has-items");
+        dayClasses.push("has-items", "is-clickable");
+      }
+
+      if (selectedDate === dayKey) {
+        dayClasses.push("is-selected");
       }
 
       const pills = dayItems
         .slice(0, 2)
-        .map((item) => `<span class="calendar-grid__pill">${escapeHtml(item.title)}</span>`)
+        .map((item) => `<span class="calendar-grid__pill" data-city="${escapeHtml(getLocationSlug(item.location))}">${escapeHtml(item.title)}</span>`)
         .join("");
 
       const more = dayItems.length > 2 ? `<span class="calendar-grid__more">+${dayItems.length - 2} more</span>` : "";
 
       return `
-        <div class="${dayClasses.join(" ")}">
+        <button class="${dayClasses.join(" ")}" type="button" data-day-key="${dayKey}" aria-pressed="${String(selectedDate === dayKey)}" ${dayItems.length === 0 ? "disabled" : ""}>
           <span class="calendar-grid__date">${dayNumber}</span>
           <div class="calendar-grid__items">${pills}${more}</div>
-        </div>
+        </button>
       `;
     }).join("");
 
     calendarGrid.innerHTML = `${labelsMarkup}${blanksMarkup}${daysMarkup}`;
+  }
+
+  function renderZoomState() {
+    if (!zoomCopy) {
+      return;
+    }
+
+    if (selectedDate) {
+      const selectedItems = getVisibleItems();
+      zoomCopy.textContent = `${selectedItems.length} activities on ${dayDetailFormatter.format(parseLocalDate(selectedDate))}.`;
+      if (clearDayButton) {
+        clearDayButton.hidden = false;
+      }
+
+      if (calendarFeedTitle) {
+        calendarFeedTitle.textContent = `All activities on ${dayDetailFormatter.format(parseLocalDate(selectedDate))}`;
+      }
+
+      return;
+    }
+
+    const monthItems = getMonthItems();
+    const locationLabel = activeLocation === "All" ? "all cities" : activeLocation;
+    zoomCopy.textContent = `Showing ${monthItems.length} activities for ${locationLabel}. Click a day with events to zoom in.`;
+
+    if (clearDayButton) {
+      clearDayButton.hidden = true;
+    }
+
+    if (calendarFeedTitle) {
+      calendarFeedTitle.textContent = `Filtered picks for ${monthLabel.textContent}`;
+    }
   }
 
   function renderFeed() {
@@ -298,17 +404,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     calendarFeed.innerHTML = visibleItems
       .map(
         (item) => `
-          <article class="calendar-feed-card">
+          <article class="calendar-feed-card" data-city="${escapeHtml(getLocationSlug(item.location))}">
             <p class="calendar-feed-card__meta">
               <span>${escapeHtml(dayFormatter.format(item.dateObject))}</span>
-              <span>${escapeHtml(item.location)}</span>
+              <span data-city="${escapeHtml(getLocationSlug(item.location))}">${escapeHtml(item.location)}</span>
               <span>${escapeHtml(item.category)}</span>
               ${item.timeLabel ? `<span>${escapeHtml(item.timeLabel)}</span>` : ""}
               ${item.source ? `<span>${escapeHtml(item.source)}</span>` : ""}
             </p>
             <h4>${escapeHtml(item.title)}</h4>
-            <p>${escapeHtml(item.description)}</p>
-            <a class="attraction-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.cta || "Open")}</a>
+            <p class="calendar-feed-card__description">${escapeHtml(truncateText(item.description))}</p>
+            <div class="calendar-feed-card__actions">
+              <a class="attraction-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(buildSourceLabel(item))}</a>
+            </div>
           </article>
         `
       )
@@ -316,22 +424,43 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function render() {
+    syncSelectedDate();
     renderMonthLabel();
+    renderNavState();
     renderGrid();
+    renderZoomState();
     renderFeed();
   }
 
   navButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const direction = button.dataset.calendarNav === "next" ? 1 : -1;
-      currentMonthIndex = (currentMonthIndex + direction + monthKeys.length) % monthKeys.length;
+      const nextIndex = currentMonthIndex + direction;
+      if (nextIndex < 0 || nextIndex >= monthKeys.length) {
+        return;
+      }
+
+      currentMonthIndex = nextIndex;
+      selectedDate = null;
       render();
     });
+  });
+
+  calendarGrid.addEventListener("click", (event) => {
+    const target = event.target.closest("[data-day-key]");
+    if (!target || target.disabled) {
+      return;
+    }
+
+    const nextDayKey = target.dataset.dayKey;
+    selectedDate = selectedDate === nextDayKey ? null : nextDayKey;
+    render();
   });
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
       activeLocation = button.dataset.locationFilter || "All";
+      selectedDate = null;
 
       filterButtons.forEach((candidate) => {
         const isActive = candidate === button;
@@ -342,6 +471,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       render();
     });
   });
+
+  if (clearDayButton) {
+    clearDayButton.addEventListener("click", () => {
+      selectedDate = null;
+      render();
+    });
+  }
 
   render();
 });
