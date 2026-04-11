@@ -17,6 +17,7 @@ from dateutil import parser as date_parser
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = ROOT / "attractions-feed.json"
+EMBEDDED_OUTPUT_PATH = ROOT / "attractions-feed.js"
 LOCAL_TZ = ZoneInfo("America/Chicago")
 TODAY = datetime.now(LOCAL_TZ).date()
 MAX_DATE = TODAY + timedelta(days=210)
@@ -447,6 +448,15 @@ def dedupe_items(items: list[EventItem]) -> list[EventItem]:
     return sorted(winners.values(), key=lambda item: (item.date, item.location, item.title))
 
 
+def write_payload_files(payload: dict[str, Any]) -> None:
+    json_text = json.dumps(payload, indent=2)
+    OUTPUT_PATH.write_text(json_text, encoding="utf-8")
+    EMBEDDED_OUTPUT_PATH.write_text(
+        f"window.__ATTRACTIONS_FEED__ = {json_text};\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     source_reports: list[dict[str, Any]] = []
     all_items: list[EventItem] = []
@@ -454,8 +464,8 @@ def main() -> None:
     for scraper in (scrape_shoofly, scrape_hancock_chamber, scrape_coastal_mississippi):
         try:
             items, report = scraper()
-        except Exception as exc:  # pragma: no cover - defensive logging path
-            report = {
+    write_payload_files(payload)
+    print(f"Wrote {len(unique_items)} events to {OUTPUT_PATH} and {EMBEDDED_OUTPUT_PATH}")
                 "name": scraper.__name__,
                 "status": "error",
                 "itemCount": 0,
