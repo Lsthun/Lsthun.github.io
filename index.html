@@ -37,7 +37,7 @@
       </header>
 
       <main id="top">
-        <section class="hero">
+        <section class="hero" id="stay">
           <div class="hero__content">
             <p class="eyebrow">Mississippi Gulf Coast Camping</p>
             <h1>Easygoing RV stays minutes from the beach, downtown, and the good stuff.</h1>
@@ -49,26 +49,8 @@
 
             <div class="hero__actions">
               <a class="button button--primary" href="tel:12284672080">Call to Book</a>
-              <a class="button button--secondary" href="#stay">See Rates</a>
+              <a class="button button--secondary" href="#rates">See Rates</a>
             </div>
-
-            <ul class="hero__highlights" aria-label="Campground highlights">
-              <li class="hero__highlight hero__highlight--interactive">
-                <a
-                  href="https://www.google.com/maps/dir/Bay+St+Louis+Campground,+814+US-90,+Bay+St+Louis,+MS+39520/Bay+St.+Louis+Beach,+Bay+St+Louis,+MS+39520/@30.3117344,-89.3479605,3893m/data=!3m2!1e3!4b1!4m14!4m13!1m5!1m1!1s0x889c2da330913efd:0xfc19d4c4cbeead78!2m2!1d-89.3518966!2d30.3137503!1m5!1m1!1s0x889c2db2e1f97c7d:0x2f117dc7ecd3162e!2m2!1d-89.329896!2d30.3033478!3e0?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Open Google Maps directions from Bay St. Louis Campground to Bay St. Louis Beach"
-                  data-tooltip="Open Google Maps directions to Bay St. Louis Beach"
-                  aria-label="Get directions from Bay St. Louis Campground to Bay St. Louis Beach in Google Maps"
-                >
-                  <span>2 miles to the pet-friendly beach</span>
-                  <span class="hero__highlight-action">View route</span>
-                </a>
-              </li>
-              <li>30 &amp; 50 amp RV sites with hookups</li>
-              <li>Pool, fishing pond, playground, and laundry</li>
-            </ul>
           </div>
 
           <aside class="hero-card" aria-label="Location and quick details">
@@ -82,11 +64,21 @@
               <p>814 Highway 90</p>
               <p>Bay St. Louis, MS 39520</p>
             </div>
-            <div class="hero-card__body">
+            <div class="hero-card__body" id="rates">
               <p class="hero-card__label">Current Rates</p>
-              <p>30 amp sites: $55/day</p>
-              <p>50 amp sites: $60/day</p>
-              <p>Monthly rates available upon request</p>
+              <div class="hero-card__rates">
+                <div class="hero-card__rate">
+                  <p class="hero-card__rate-name">30 amp RV sites</p>
+                  <p class="hero-card__rate-price">$55/day</p>
+                  <p class="hero-card__rate-note">Spacious full-hookup sites with easy access to the pool, laundry, and quick runs into town.</p>
+                </div>
+                <div class="hero-card__rate">
+                  <p class="hero-card__rate-name">50 amp RV sites</p>
+                  <p class="hero-card__rate-price">$60/day</p>
+                  <p class="hero-card__rate-note">Spacious full-hookup sites that work well for longer rigs and longer Gulf Coast stays.</p>
+                </div>
+              </div>
+              <p>Monthly rates available upon request.</p>
             </div>
             <p class="hero-card__fineprint">
               All prices include water, sewer, electricity, and Wi-Fi.
@@ -99,7 +91,7 @@
             <h2>Close to everything</h2>
             <p>
               Reach Bay St. Louis beach, downtown restaurants, casinos, and day
-              trips to New Orleans without giving up the laid-back campground feel.
+              trips around the Gulf Coast without giving up the laid-back campground feel.
             </p>
           </article>
           <article>
@@ -118,61 +110,9 @@
           </article>
         </section>
 
-        <section class="section stay" id="stay">
-          <div class="section__intro">
-            <p class="eyebrow">Stay Your Way</p>
-            <h2>Flexible options for RV travelers and cabin guests.</h2>
-            <p class="section__copy">
-              Short stays are easy to book, and long-term RV stays are available too.
-              Call for monthly rates and current availability.
-            </p>
-          </div>
-
-          <div class="stay-grid">
-            <article class="stay-card stay-card--featured">
-              <p class="stay-card__tag">Most Popular</p>
-              <h3>50 amp RV Site</h3>
-              <p class="stay-card__price">$60<span>/day</span></p>
-              <p>
-                Spacious full-hookup site with 50 amp service for easy coastal
-                stays near town.
-              </p>
-            </article>
-
-            <article class="stay-card">
-              <h3>30 amp RV Site</h3>
-              <p class="stay-card__price">$55<span>/day</span></p>
-              <p>
-                Full hookups included, with convenient access to beach days,
-                downtown Bay St. Louis, and the campground amenities.
-              </p>
-            </article>
-
-            <article class="stay-card">
-              <h3>Camping Cabins</h3>
-              <p class="stay-card__price">Call<span> for availability</span></p>
-              <p>
-                Family-friendly cabin stays for guests who want the campground
-                atmosphere without bringing the RV along.
-              </p>
-            </article>
-
-            <article class="stay-card">
-              <p class="stay-card__tag">Long-Term Option</p>
-              <h3>Monthly RV Stays</h3>
-              <p class="stay-card__price">Call<span> for rates</span></p>
-              <p>
-                Planning a longer Gulf Coast stay? Call for long-term rates,
-                site availability, and the best fit for your rig.
-              </p>
-            </article>
-          </div>
-        </section>
-
         <section class="section amenities" id="amenities">
           <div class="section__intro">
             <p class="eyebrow">Amenities</p>
-            <h2>Everything you need for a comfortable campground rhythm.</h2>
           </div>
 
           <div class="amenities-grid">
@@ -196,10 +136,6 @@
               <h3>On-Site Laundry</h3>
               <p>Practical amenities that make longer stays easier to manage.</p>
             </article>
-            <article class="amenity">
-              <h3>Pet-Friendly Beach Nearby</h3>
-              <p>Just 2 miles away, so guests can bring along the whole crew.</p>
-            </article>
           </div>
         </section>
 
@@ -214,14 +150,8 @@
               <h3>Downtown Bay St. Louis</h3>
               <p>
                 Start the day with coffee in town, head to the beach, swing by
-                local shops or casinos, and still be back at your site before sunset.
+                local shops, and still be back at your site before sunset.
               </p>
-              <a
-                class="button button--ghost explore-panel__button"
-                href="https://www.google.com/maps/search/?api=1&query=things+to+do+near+Bay+St.+Louis+Campground"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open Nearby Map</a>
             </div>
           </div>
 
@@ -229,72 +159,38 @@
             <div class="explore-list" role="list" aria-label="Nearby highlights">
               <article role="listitem">
                 <p class="explore-list__label">Beach</p>
-                <a
-                  class="explore-card__link"
-                  href="https://www.google.com/maps/dir/Bay+St+Louis+Campground,+814+US-90,+Bay+St+Louis,+MS+39520/Bay+St.+Louis+Beach,+Bay+St+Louis,+MS+39520/@30.3117344,-89.3479605,3893m/data=!3m2!1e3!4b1!4m14!4m13!1m5!1m1!1s0x889c2da330913efd:0xfc19d4c4cbeead78!2m2!1d-89.3518966!2d30.3137503!1m5!1m1!1s0x889c2db2e1f97c7d:0x2f117dc7ecd3162e!2m2!1d-89.329896!2d30.3033478!3e0?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="explore-card__body">
-                    <h3>Pet-friendly shoreline</h3>
-                    <p>Only 2 miles from camp for quick morning walks and evening breezes.</p>
-                    <span class="explore-card__action">Open beach directions</span>
-                  </div>
-                  <figure class="explore-media">
-                    <img
-                      src="./assets/bay-st-louis-beach-replacement.jpg"
-                      alt="Bay St. Louis beach shoreline with sandbars and calm water"
-                    />
-                  </figure>
-                </a>
-                <p class="explore-media__credit">
-                  Beach photo provided for this site update.
-                </p>
+                <figure class="explore-media">
+                  <img
+                    src="./assets/boys%20on%20the%20beach.jpg"
+                    alt="Two boys walking together along the Bay St. Louis shoreline"
+                  />
+                </figure>
+                <p class="explore-card__caption">Just 2 miles from camp for an easy beach stop.</p>
               </article>
               <article role="listitem">
                 <p class="explore-list__label">Downtown</p>
-                <a
-                  class="explore-card__link"
-                  href="https://www.google.com/maps/search/?api=1&query=Old+Town+Bay+St.+Louis+MS"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="explore-card__body">
-                    <h3>Restaurants, shops, and local charm</h3>
-                    <p>Easy access to Bay St. Louis favorites without a long drive.</p>
-                    <span class="explore-card__action">Open Old Town map</span>
-                  </div>
-                  <figure class="explore-media">
-                    <img
-                      src="./assets/bay-st-louis-downtown-replacement.jpg"
-                      alt="Aerial view of downtown Bay St. Louis near the waterfront"
-                    />
-                  </figure>
-                </a>
+                <h3>Restaurants, shops, and local charm</h3>
+                <figure class="explore-media">
+                  <img
+                    src="./assets/bay-st-louis-downtown-replacement.jpg"
+                    alt="Aerial view of downtown Bay St. Louis near the waterfront"
+                  />
+                </figure>
+                <p class="explore-card__caption">Easy access to Bay St. Louis favorites without a long drive.</p>
                 <p class="explore-media__credit">
                   Downtown photo provided for this site update.
                 </p>
               </article>
               <article role="listitem">
                 <p class="explore-list__label">Day Trip</p>
-                <a
-                  class="explore-card__link"
-                  href="https://www.google.com/maps/search/?api=1&query=Jackson+Square+New+Orleans+LA"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="explore-card__body">
-                    <h3>New Orleans in reach</h3>
-                    <p>About 55 miles away when you want a bigger-city adventure.</p>
-                    <span class="explore-card__action">Open Jackson Square map</span>
-                  </div>
-                  <figure class="explore-media">
-                    <img
-                      src="./assets/jackson-square-wikimedia-cc-by-2.0.jpg"
-                      alt="Jackson Square and St. Louis Cathedral in New Orleans with horse-drawn carriages in the foreground"
-                    />
-                  </figure>
-                </a>
+                <h3>New Orleans in reach</h3>
+                <figure class="explore-media">
+                  <img
+                    src="./assets/jackson-square-wikimedia-cc-by-2.0.jpg"
+                    alt="Jackson Square and St. Louis Cathedral in New Orleans with horse-drawn carriages in the foreground"
+                  />
+                </figure>
+                <p class="explore-card__caption">About 55 miles away when you want a bigger-city adventure.</p>
                 <p class="explore-media__credit">
                   Photo by
                   <a
@@ -318,10 +214,10 @@
           <div class="section__intro attractions__intro">
             <div class="attractions__intro-copy">
               <p class="eyebrow">Attractions</p>
-              <h2>Downtown favorites, walkable bites, and a month-by-month local planner.</h2>
+              <h2>A short list for breakfast, dinner, and a night out.</h2>
               <p class="section__copy">
-                Use the quick links below to punch out to nearby dining, bars, and
-                local attractions in Bay St. Louis, Waveland, and Gulfport or Biloxi.
+                Keep the local picks tight: one walkable option from camp plus a few
+                downtown Bay St. Louis favorites for breakfast, dinner, and live music.
               </p>
             </div>
 
@@ -339,139 +235,48 @@
               <p class="stay-card__tag">Walking Distance Pick</p>
               <h3>Avocado's Bar &amp; Grill</h3>
               <p>
-                A strong go-to for Mexican food, drinks, and an easy night out.
-                Avocado's is close enough to the campground for a quick walk.
-              </p>
-              <div class="attraction-feature__actions">
-                <a
-                  class="button button--primary"
-                  href="https://avocados-grill.com/location/bay-st-louise/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Visit Website</a>
-                <a
-                  class="button button--ghost"
-                  href="https://www.google.com/maps/place/Avocado%E2%80%99s+Bar+%26+Grill/@30.314825,-89.351807,17z/data=!3m1!4b1!4m6!3m5!1s0x889dd10d23bf1ebf:0x87149ee3aa7e4f32!8m2!3d30.314825!4d-89.351807!16s%2Fg%2F11hbkbqfxx?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Open In Maps</a>
-              </div>
-            </article>
-
-            <article class="attraction-feature attraction-feature--map">
-              <p class="stay-card__tag">Downtown Bay St. Louis</p>
-              <h3>Bars, seafood spots, and waterfront hangouts nearby</h3>
-              <p>
-                Downtown Bay St. Louis is an easy drive from camp and makes it simple
-                to build a dinner, drinks, and live-music kind of night.
+                A close-to-camp option for tacos, margaritas, and an easy casual night
+                without needing to plan much.
               </p>
               <a
                 class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=restaurants+bars+downtown+Bay+St.+Louis+MS"
+                href="https://www.google.com/maps/place/Avocado%E2%80%99s+Bar+%26+Grill/@30.314825,-89.351807,17z/data=!3m1!4b1!4m6!3m5!1s0x889dd10d23bf1ebf:0x87149ee3aa7e4f32!8m2!3d30.314825!4d-89.351807!16s%2Fg%2F11hbkbqfxx?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Open Downtown Dining Map</a>
+              >Open In Maps</a>
             </article>
           </div>
 
           <div class="restaurant-grid" role="list" aria-label="Nearby downtown restaurants and bars">
             <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Seafood</p>
-              <h3>Thorny Oyster</h3>
-              <p>Downtown seafood and raw-bar option when you want a Bay St. Louis night out.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=Thorny+Oyster+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
+              <p class="explore-list__label">Breakfast</p>
+              <h3>Mockingbird Cafe</h3>
+              <p>Good first stop for coffee, breakfast, and an easy start before the beach or a downtown walk.</p>
             </article>
 
             <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Waterfront</p>
-              <h3>The Blind Tiger</h3>
-              <p>Laid-back waterfront food and drinks with a casual Bay St. Louis feel.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=The+Blind+Tiger+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
+              <p class="explore-list__label">Places To Eat</p>
+              <h3>Thorny Oyster + Anthony's Ristorante</h3>
+              <p>Use Thorny Oyster for seafood and raw-bar energy, or Anthony's when you want a nicer downtown dinner.</p>
             </article>
 
             <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Dinner</p>
-              <h3>Field's Steak &amp; Oyster Bar</h3>
-              <p>Solid choice when you want a more polished steak or oyster dinner downtown.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=Field%27s+Steak+and+Oyster+Bar+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
-            </article>
-
-            <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Beachfront</p>
-              <h3>200 North Beach</h3>
-              <p>Restaurant and bar with coastal views when you want dinner close to the water.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=200+North+Beach+Restaurant+and+Bar+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
-            </article>
-
-            <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Harbor</p>
-              <h3>Lemoine's Landing</h3>
-              <p>Harbor-area dining that fits well into a downtown walk or an evening loop.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=Lemoine%27s+Landing+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
-            </article>
-
-            <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Italian</p>
-              <h3>Anthony's Ristorante</h3>
-              <p>Newer high-end Italian spot in downtown Bay St. Louis when you want a more upscale dinner.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/place/Anthony's+Ristorante/@30.3102322,-89.3272523,243m/data=!3m1!1e3!4m14!1m7!3m6!1s0x889c2dd9a8740ecf:0x3494b0b96b66173a!2sDan+B's+Restaurant+%26+Bar!8m2!3d30.3099995!4d-89.325643!16s%2Fg%2F11fz9jkpdj!3m5!1s0x889c2d0015889b25:0x5d0c70efcb148e70!8m2!3d30.3099813!4d-89.3267193!16s%2Fg%2F11xzgnfq5_?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
-            </article>
-
-            <article class="restaurant-card" role="listitem">
-              <p class="explore-list__label">Night Out</p>
-              <h3>Dan B's and Buoys</h3>
-              <p>Good nearby stop for drinks, music, and a more lively downtown evening.</p>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=Dan+B%27s+Restaurant+and+Bar+Buoys+Bar+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open In Maps</a>
+              <p class="explore-list__label">Bars + Live Music</p>
+              <h3>Blind Tiger + Dan B's</h3>
+              <p>Pick Blind Tiger for a casual waterfront hang, then Dan B's when you want drinks, music, and more energy.</p>
             </article>
           </div>
 
           <div class="calendar-shell">
             <div class="calendar-shell__header">
               <div>
-                <p class="eyebrow">Monthly Attractions Calendar</p>
+                <p class="eyebrow">Local Events Calendar</p>
                 <h3>Filter local picks by location.</h3>
                 <p class="calendar-shell__copy">
-                  The calendar defaults to the current month and refreshes from
-                  Coastal Mississippi, Shoofly Magazine, the Hancock Chamber,
-                  and official Gulf Coast anchor-event sites for major weeks like
-                  Jeepin' the Coast and Cruisin' the Coast. Filter for Bay St.
-                  Louis, Waveland, or Gulfport or Biloxi, then click any active
-                  day to zoom in on that date's full lineup.
+                  Filter for Bay St. Louis, Waveland, or Gulfport/Biloxi, then pick
+                  a day to reveal that date's sourced lineup. On mobile, the calendar
+                  shifts to a one-week snapshot and the date picker lets guests jump
+                  straight to the week they want.
                 </p>
               </div>
 
@@ -479,6 +284,10 @@
                 <button class="calendar-nav" type="button" data-calendar-nav="prev">Previous</button>
                 <p class="calendar-month-label" id="calendar-month-label" aria-live="polite"></p>
                 <button class="calendar-nav" type="button" data-calendar-nav="next">Next</button>
+                <div class="calendar-jump">
+                  <label class="calendar-jump__label" for="calendar-week-picker">Jump to week</label>
+                  <input class="calendar-date-picker" type="date" id="calendar-week-picker" />
+                </div>
               </div>
             </div>
 
@@ -495,29 +304,25 @@
 
             <div class="calendar-agenda" id="calendar-agenda" aria-label="Local attractions agenda"></div>
 
-            <div class="calendar-zoom-bar" aria-live="polite">
-              <p class="calendar-zoom-bar__copy" id="calendar-zoom-copy">
-                Select a day with events to zoom in on that date.
+            <div class="calendar-results" id="calendar-results" hidden>
+              <div class="calendar-zoom-bar" aria-live="polite">
+                <p class="calendar-zoom-bar__copy" id="calendar-zoom-copy">
+                  Select a day with events to zoom in on that date.
+                </p>
+                <button class="calendar-clear" type="button" id="calendar-clear-day" hidden>Show Full Month</button>
+              </div>
+
+              <div class="calendar-feed__header" id="calendar-feed-header">
+                <h3 id="calendar-feed-title">Filtered picks for this month</h3>
+              </div>
+
+              <div class="calendar-feed" id="calendar-feed"></div>
+
+              <p class="calendar-note">
+                Events in this calendar are generated from local community sources and can
+                be refreshed automatically for GitHub Pages deployments.
               </p>
-              <button class="calendar-clear" type="button" id="calendar-clear-day" hidden>Show Full Month</button>
             </div>
-
-            <div class="calendar-feed__header">
-              <h3 id="calendar-feed-title">Filtered picks for this month</h3>
-              <a
-                class="attraction-link"
-                href="https://www.google.com/maps/search/?api=1&query=restaurants+bars+downtown+Bay+St.+Louis+MS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Open Downtown Dining Map</a>
-            </div>
-
-            <div class="calendar-feed" id="calendar-feed"></div>
-
-            <p class="calendar-note">
-              Events in this calendar are generated from local community sources and can
-              be refreshed automatically for GitHub Pages deployments.
-            </p>
           </div>
         </section>
 

@@ -4,6 +4,7 @@ const embeddedAttractionsFeed = window.__ATTRACTIONS_FEED__ && Array.isArray(win
 
 const weekdayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const descriptionLimit = 180;
+const mobileCalendarBreakpoint = window.matchMedia("(max-width: 760px)");
 
 const locationSlugMap = {
   "Bay St. Louis": "bay-st-louis",
@@ -18,6 +19,10 @@ function parseLocalDate(dateString) {
 
 function formatMonthKey(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`;
+}
+
+function formatDateInputValue(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 }
 
 function escapeHtml(value) {
@@ -53,6 +58,56 @@ function buildSourceLabel(item) {
   return item.cta || "Open";
 }
 
+function buildMonthKeys(items) {
+  if (items.length === 0) {
+    return [];
+  }
+
+  const firstMonth = new Date(items[0].dateObject.getFullYear(), items[0].dateObject.getMonth(), 1);
+  const lastMonth = new Date(items[items.length - 1].dateObject.getFullYear(), items[items.length - 1].dateObject.getMonth(), 1);
+  const monthKeys = [];
+
+  for (let cursor = new Date(firstMonth); cursor <= lastMonth; cursor = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 1)) {
+    monthKeys.push(formatMonthKey(cursor));
+  }
+
+  return monthKeys;
+}
+
+function getMonthBounds(monthKey) {
+  const [year, month] = monthKey.split("-").map(Number);
+  return {
+    first: new Date(year, month - 1, 1),
+    last: new Date(year, month, 0)
+  };
+}
+
+function isSameCalendarDay(left, right) {
+  return (
+    left.getFullYear() === right.getFullYear() &&
+    left.getMonth() === right.getMonth() &&
+    left.getDate() === right.getDate()
+  );
+}
+
+function clampDate(date, minDate, maxDate) {
+  if (date < minDate) {
+    return new Date(minDate);
+  }
+
+  if (date > maxDate) {
+    return new Date(maxDate);
+  }
+
+  return new Date(date);
+}
+
+function getWeekStart(date) {
+  const start = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  start.setDate(start.getDate() - start.getDay());
+  return start;
+}
+
 async function loadAttractionsFeed() {
   try {
     const response = await fetch("./attractions-feed.json", { cache: "no-store" });
@@ -84,56 +139,77 @@ document.addEventListener("DOMContentLoaded", async () => {
   const monthLabel = document.getElementById("calendar-month-label");
   const calendarGrid = document.getElementById("calendar-grid");
   const calendarAgenda = document.getElementById("calendar-agenda");
+  const calendarResults = document.getElementById("calendar-results");
   const calendarFeed = document.getElementById("calendar-feed");
+  const calendarFeedHeader = document.getElementById("calendar-feed-header");
   const calendarFeedTitle = document.getElementById("calendar-feed-title");
   const zoomCopy = document.getElementById("calendar-zoom-copy");
   const clearDayButton = document.getElementById("calendar-clear-day");
+  const weekPicker = document.getElementById("calendar-week-picker");
   const filterButtons = Array.from(document.querySelectorAll("[data-location-filter]"));
   const navButtons = Array.from(document.querySelectorAll("[data-calendar-nav]"));
 
-  if (!monthLabel || !calendarGrid || !calendarFeed || filterButtons.length === 0 || navButtons.length === 0) {
+  if (
+    !monthLabel ||
+    !calendarGrid ||
+    !calendarAgenda ||
+    !calendarResults ||
+    !calendarFeed ||
+    !calendarFeedHeader ||
+    !zoomCopy ||
+    !clearDayButton ||
+    !weekPicker ||
+    filterButtons.length === 0 ||
+    navButtons.length === 0
+  ) {
     return;
   }
 
   const feed = await loadAttractionsFeed();
   const items = normalizeItems(feed.items || []);
-  const monthKeys = Array.from(new Set(items.map((item) => formatMonthKey(item.dateObject))));
+  const monthKeys = buildMonthKeys(items);
 
   if (monthKeys.length === 0) {
+    calendarResults.hidden = false;
     calendarFeed.innerHTML = '<div class="calendar-feed-empty"><p>No attractions are loaded yet.</p></div>';
     return;
   }
 
+  const firstAvailableDate = items[0].dateObject;
+  const lastAvailableDate = items[items.length - 1].dateObject;
   const today = new Date();
   const todayKey = formatMonthKey(today);
   let currentMonthIndex = monthKeys.includes(todayKey) ? monthKeys.indexOf(todayKey) : 0;
   let activeLocation = "All";
   let selectedDate = null;
+  let weekAnchorDate = null;
 
   const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" });
   const dayFormatter = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
   const dayDetailFormatter = new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" });
 
+  weekPicker.min = formatDateInputValue(firstAvailableDate);
+  weekPicker.max = formatDateInputValue(lastAvailableDate);
+
   function getActiveMonthKey() {
     return monthKeys[currentMonthIndex];
   }
 
+  function getLocationItems() {
+    return items.filter((item) => activeLocation === "All" || item.location === activeLocation);
+  }
+
   function getMonthItems() {
     const activeMonthKey = getActiveMonthKey();
-    return items.filter((item) => {
-      const matchesMonth = formatMonthKey(item.dateObject) === activeMonthKey;
-      const matchesLocation = activeLocation === "All" || item.location === activeLocation;
-      return matchesMonth && matchesLocation;
-    });
+    return getLocationItems().filter((item) => formatMonthKey(item.dateObject) === activeMonthKey);
   }
 
   function getVisibleItems() {
-    const monthItems = getMonthItems();
     if (!selectedDate) {
-      return monthItems;
+      return [];
     }
 
-    return monthItems.filter((item) => item.date === selectedDate);
+    return getLocationItems().filter((item) => item.date === selectedDate);
   }
 
   function getItemsByDay(monthItems) {
@@ -150,6 +226,48 @@ document.addEventListener("DOMContentLoaded", async () => {
     return itemsByDay;
   }
 
+  function getItemsByDate(locationItems) {
+    const itemsByDate = new Map();
+
+    locationItems.forEach((item) => {
+      if (!itemsByDate.has(item.date)) {
+        itemsByDate.set(item.date, []);
+      }
+      itemsByDate.get(item.date).push(item);
+    });
+
+    return itemsByDate;
+  }
+
+  function syncSelectedDate() {
+    if (!selectedDate) {
+      return;
+    }
+
+    const hasMatch = getLocationItems().some((item) => item.date === selectedDate);
+    if (!hasMatch) {
+      selectedDate = null;
+    }
+  }
+
+  function syncWeekAnchor() {
+    const activeMonthKey = getActiveMonthKey();
+    const monthBounds = getMonthBounds(activeMonthKey);
+    const monthItems = getMonthItems();
+
+    if (selectedDate) {
+      weekAnchorDate = parseLocalDate(selectedDate);
+    } else if (!weekAnchorDate || formatMonthKey(weekAnchorDate) !== activeMonthKey) {
+      const fallbackDate = monthItems.length > 0 ? monthItems[0].dateObject : monthBounds.first;
+      const preferredDate = formatMonthKey(today) === activeMonthKey ? today : fallbackDate;
+      weekAnchorDate = clampDate(preferredDate, monthBounds.first, monthBounds.last);
+    } else {
+      weekAnchorDate = clampDate(weekAnchorDate, monthBounds.first, monthBounds.last);
+    }
+
+    weekPicker.value = formatDateInputValue(weekAnchorDate);
+  }
+
   function renderMonthLabel() {
     const [year, month] = getActiveMonthKey().split("-").map(Number);
     monthLabel.textContent = monthFormatter.format(new Date(year, month - 1, 1));
@@ -162,17 +280,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       button.disabled = isDisabled;
       button.setAttribute("aria-disabled", String(isDisabled));
     });
-  }
-
-  function syncSelectedDate() {
-    if (!selectedDate) {
-      return;
-    }
-
-    const hasMatch = getMonthItems().some((item) => item.date === selectedDate);
-    if (!hasMatch) {
-      selectedDate = null;
-    }
   }
 
   function renderGrid() {
@@ -229,32 +336,21 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function renderAgenda() {
-    if (!calendarAgenda) {
-      return;
-    }
+    const locationItems = getLocationItems();
+    const itemsByDate = getItemsByDate(locationItems);
+    const weekStart = getWeekStart(weekAnchorDate);
+    const weekDates = Array.from({ length: 7 }, (_, index) => {
+      const nextDate = new Date(weekStart);
+      nextDate.setDate(weekStart.getDate() + index);
+      return nextDate;
+    });
 
-    const [year, month] = getActiveMonthKey().split("-").map(Number);
-    const monthItems = getMonthItems();
-    const itemsByDay = getItemsByDay(monthItems);
-    const dayEntries = Array.from(itemsByDay.entries()).sort((left, right) => left[0] - right[0]);
-
-    if (dayEntries.length === 0) {
-      calendarAgenda.innerHTML = `
-        <div class="calendar-feed-empty">
-          <p>No sourced community events are loaded for this location in the selected month yet.</p>
-        </div>
-      `;
-      return;
-    }
-
-    calendarAgenda.innerHTML = dayEntries
-      .map(([dayNumber, dayItems]) => {
-        const dayKey = `${getActiveMonthKey()}-${String(dayNumber).padStart(2, "0")}`;
-        const dayDate = new Date(year, month - 1, dayNumber);
-        const isToday =
-          year === today.getFullYear() &&
-          month - 1 === today.getMonth() &&
-          dayNumber === today.getDate();
+    calendarAgenda.innerHTML = weekDates
+      .map((date) => {
+        const dayKey = formatDateInputValue(date);
+        const dayItems = itemsByDate.get(dayKey) || [];
+        const isToday = isSameCalendarDay(date, today);
+        const isCurrentMonth = formatMonthKey(date) === getActiveMonthKey();
         const dayClasses = ["calendar-agenda__day"];
 
         if (selectedDate === dayKey) {
@@ -265,24 +361,33 @@ document.addEventListener("DOMContentLoaded", async () => {
           dayClasses.push("is-today");
         }
 
-        const previewMarkup = dayItems
-          .slice(0, 3)
-          .map(
-            (item) =>
-              `<span class="calendar-grid__pill" data-city="${escapeHtml(getLocationSlug(item.location))}">${escapeHtml(item.title)}</span>`
-          )
-          .join("");
+        if (!isCurrentMonth) {
+          dayClasses.push("is-outside-month");
+        }
 
-        const countLabel = `${dayItems.length} ${dayItems.length === 1 ? "event" : "events"}`;
-        const moreMarkup = dayItems.length > 3 ? `<span class="calendar-grid__more">+${dayItems.length - 3} more</span>` : "";
+        if (dayItems.length === 0) {
+          dayClasses.push("is-empty");
+        }
+
+        const previewMarkup = dayItems.length > 0
+          ? dayItems
+              .slice(0, 2)
+              .map(
+                (item) =>
+                  `<span class="calendar-grid__pill" data-city="${escapeHtml(getLocationSlug(item.location))}">${escapeHtml(item.title)}</span>`
+              )
+              .join("")
+          : '<span class="calendar-grid__more">No events</span>';
+
+        const countLabel = dayItems.length === 0 ? "No events" : `${dayItems.length} ${dayItems.length === 1 ? "event" : "events"}`;
 
         return `
-          <button class="${dayClasses.join(" ")}" type="button" data-day-key="${dayKey}" aria-pressed="${String(selectedDate === dayKey)}">
+          <button class="${dayClasses.join(" ")}" type="button" data-day-key="${dayKey}" aria-pressed="${String(selectedDate === dayKey)}" ${dayItems.length === 0 ? "disabled" : ""}>
             <span class="calendar-agenda__day-top">
-              <span class="calendar-agenda__date">${escapeHtml(dayDetailFormatter.format(dayDate))}</span>
+              <span class="calendar-agenda__date">${escapeHtml(dayDetailFormatter.format(date))}</span>
               <span class="calendar-agenda__count">${countLabel}</span>
             </span>
-            <div class="calendar-agenda__items">${previewMarkup}${moreMarkup}</div>
+            <div class="calendar-agenda__items">${previewMarkup}</div>
           </button>
         `;
       })
@@ -290,19 +395,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function renderZoomState() {
-    if (!zoomCopy) {
-      return;
-    }
-
     if (selectedDate) {
       const selectedItems = getVisibleItems();
-      zoomCopy.textContent = `${selectedItems.length} activities on ${dayDetailFormatter.format(parseLocalDate(selectedDate))}.`;
-      if (clearDayButton) {
-        clearDayButton.hidden = false;
-      }
+      const selectedDateObject = parseLocalDate(selectedDate);
+      zoomCopy.textContent = `${selectedItems.length} activities on ${dayDetailFormatter.format(selectedDateObject)}.`;
+      calendarResults.hidden = false;
+      clearDayButton.hidden = false;
 
       if (calendarFeedTitle) {
-        calendarFeedTitle.textContent = `All activities on ${dayDetailFormatter.format(parseLocalDate(selectedDate))}`;
+        calendarFeedTitle.textContent = `Filtered picks for ${dayDetailFormatter.format(selectedDateObject)}`;
       }
 
       return;
@@ -310,24 +411,26 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const monthItems = getMonthItems();
     const locationLabel = activeLocation === "All" ? "all cities" : activeLocation;
-    zoomCopy.textContent = `Showing ${monthItems.length} activities for ${locationLabel}. Select a day with events to zoom in.`;
+    zoomCopy.textContent = mobileCalendarBreakpoint.matches
+      ? `Showing a week at a time for ${locationLabel}. Pick a day with events to reveal the filtered picks.`
+      : `Showing ${monthItems.length} activities for ${locationLabel}. Select a day with events to reveal the filtered picks.`;
 
-    if (clearDayButton) {
-      clearDayButton.hidden = true;
-    }
-
-    if (calendarFeedTitle) {
-      calendarFeedTitle.textContent = `Filtered picks for ${monthLabel.textContent}`;
-    }
+    calendarResults.hidden = true;
+    clearDayButton.hidden = true;
   }
 
   function renderFeed() {
+    if (!selectedDate) {
+      calendarFeed.innerHTML = "";
+      return;
+    }
+
     const visibleItems = getVisibleItems();
 
     if (visibleItems.length === 0) {
       calendarFeed.innerHTML = `
         <div class="calendar-feed-empty">
-          <p>No sourced community events are loaded for this location in the selected month yet.</p>
+          <p>No sourced community events are loaded for this date yet.</p>
         </div>
       `;
       return;
@@ -357,6 +460,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function render() {
     syncSelectedDate();
+    syncWeekAnchor();
     renderMonthLabel();
     renderNavState();
     renderGrid();
@@ -366,7 +470,21 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function handleDaySelection(nextDayKey) {
-    selectedDate = selectedDate === nextDayKey ? null : nextDayKey;
+    if (selectedDate === nextDayKey) {
+      selectedDate = null;
+      render();
+      return;
+    }
+
+    selectedDate = nextDayKey;
+    weekAnchorDate = parseLocalDate(nextDayKey);
+
+    const selectedMonthKey = formatMonthKey(weekAnchorDate);
+    const selectedMonthIndex = monthKeys.indexOf(selectedMonthKey);
+    if (selectedMonthIndex >= 0) {
+      currentMonthIndex = selectedMonthIndex;
+    }
+
     render();
   }
 
@@ -380,6 +498,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       currentMonthIndex = nextIndex;
       selectedDate = null;
+      weekAnchorDate = null;
       render();
     });
   });
@@ -393,16 +512,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     handleDaySelection(target.dataset.dayKey);
   });
 
-  if (calendarAgenda) {
-    calendarAgenda.addEventListener("click", (event) => {
-      const target = event.target.closest("[data-day-key]");
-      if (!target) {
-        return;
-      }
+  calendarAgenda.addEventListener("click", (event) => {
+    const target = event.target.closest("[data-day-key]");
+    if (!target || target.disabled) {
+      return;
+    }
 
-      handleDaySelection(target.dataset.dayKey);
-    });
-  }
+    handleDaySelection(target.dataset.dayKey);
+  });
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -419,11 +536,30 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   });
 
-  if (clearDayButton) {
-    clearDayButton.addEventListener("click", () => {
-      selectedDate = null;
-      render();
-    });
+  clearDayButton.addEventListener("click", () => {
+    selectedDate = null;
+    render();
+  });
+
+  weekPicker.addEventListener("change", () => {
+    if (!weekPicker.value) {
+      return;
+    }
+
+    const nextDate = parseLocalDate(weekPicker.value);
+    const monthKey = formatMonthKey(nextDate);
+    const nextMonthIndex = monthKeys.indexOf(monthKey);
+    if (nextMonthIndex >= 0) {
+      currentMonthIndex = nextMonthIndex;
+    }
+
+    weekAnchorDate = clampDate(nextDate, firstAvailableDate, lastAvailableDate);
+    selectedDate = null;
+    render();
+  });
+
+  if (typeof mobileCalendarBreakpoint.addEventListener === "function") {
+    mobileCalendarBreakpoint.addEventListener("change", render);
   }
 
   render();

@@ -163,7 +163,7 @@ a {
 
 .hero h1 {
   max-width: 12ch;
-  font-size: clamp(3.5rem, 8vw, 6.25rem);
+  font-size: clamp(3.1rem, 7.2vw, 5.5rem);
 }
 
 .hero__lede,
@@ -330,6 +330,43 @@ a {
   font-weight: 800;
 }
 
+.hero-card__rates {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.hero-card__rate {
+  display: grid;
+  gap: 6px;
+}
+
+.hero-card__rate-name,
+.hero-card__rate-price,
+.hero-card__rate-note {
+  margin: 0;
+}
+
+.hero-card__rate-name {
+  color: rgba(255, 253, 249, 0.76);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-card__rate-price {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 0.95;
+}
+
+.hero-card__rate-note {
+  color: rgba(255, 253, 249, 0.82);
+  line-height: 1.6;
+}
+
 .hero-card__fineprint {
   margin-top: 24px;
   padding-top: 18px;
@@ -489,6 +526,8 @@ a {
 }
 
 .explore-list article {
+  display: grid;
+  gap: 14px;
   overflow: hidden;
 }
 
@@ -520,7 +559,7 @@ a {
 }
 
 .explore-media {
-  margin: 4px 0 0;
+  margin: 0;
 }
 
 .explore-media img {
@@ -536,6 +575,11 @@ a {
   color: rgba(16, 42, 53, 0.68);
   font-size: 0.82rem;
   line-height: 1.5;
+}
+
+.explore-card__caption {
+  margin: 0;
+  color: rgba(16, 42, 53, 0.78);
 }
 
 .explore-media__credit a,
@@ -585,7 +629,7 @@ a {
 }
 
 .attractions-hero {
-  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  grid-template-columns: 1fr;
   margin-bottom: 18px;
 }
 
@@ -641,7 +685,7 @@ a {
 }
 
 .restaurant-grid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-bottom: 18px;
 }
 
@@ -682,6 +726,32 @@ a {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+.calendar-jump {
+  display: grid;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.calendar-jump__label {
+  color: rgba(16, 42, 53, 0.62);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.calendar-date-picker {
+  min-height: 44px;
+  min-width: 200px;
+  padding: 0 14px;
+  border: 1px solid rgba(16, 42, 53, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
 }
 
 .calendar-nav,
@@ -907,6 +977,14 @@ a {
   border-color: rgba(47, 123, 130, 0.36);
 }
 
+.calendar-agenda__day.is-empty {
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.calendar-agenda__day.is-outside-month {
+  opacity: 0.72;
+}
+
 .calendar-agenda__day-top {
   display: flex;
   align-items: center;
@@ -949,6 +1027,11 @@ a {
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.74);
   border: 1px solid rgba(16, 42, 53, 0.08);
+}
+
+.calendar-results {
+  display: grid;
+  gap: 0;
 }
 
 .calendar-zoom-bar__copy {
@@ -1079,6 +1162,7 @@ a {
   .attractions-hero,
   .contact-panel,
   .stay-grid,
+  .restaurant-grid,
   .amenities-grid,
   .value-strip {
     grid-template-columns: 1fr;
@@ -1151,7 +1235,7 @@ a {
   }
 
   .hero h1 {
-    font-size: clamp(3rem, 18vw, 4.3rem);
+    font-size: clamp(2.6rem, 15vw, 3.9rem);
   }
 
   .section h2,
@@ -1194,6 +1278,16 @@ a {
 
   .calendar-nav {
     width: 100%;
+  }
+
+  .calendar-jump {
+    grid-column: 1 / -1;
+    margin-left: 0;
+  }
+
+  .calendar-date-picker {
+    width: 100%;
+    min-width: 0;
   }
 
   .calendar-filters {
