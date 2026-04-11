@@ -163,7 +163,6 @@ a {
 
 .hero h1 {
   max-width: 12ch;
-  font-size: clamp(3.1rem, 7.2vw, 5.5rem);
 }
 
 .hero__lede,
@@ -418,6 +417,7 @@ a {
   line-height: 1.7;
 }
 
+.hero h1,
 .section h2,
 .contact-panel h2 {
   font-size: clamp(2.6rem, 5vw, 4.2rem);
@@ -1212,21 +1212,32 @@ a {
     padding: 18px;
     position: static;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+  }
+
+  .brand {
+    align-self: center;
+    justify-content: center;
   }
 
   .site-nav {
     width: 100%;
-    gap: 14px 18px;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+    padding-bottom: 0;
   }
 
   .site-nav a {
-    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 8px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-align: center;
   }
 
   .brand__mark {
@@ -1234,14 +1245,13 @@ a {
     max-height: none;
   }
 
-  .hero h1 {
-    font-size: clamp(2.6rem, 15vw, 3.9rem);
-  }
-
+  .hero h1,
   .section h2,
   .contact-panel h2 {
     max-width: none;
-    font-size: clamp(2.3rem, 12vw, 3.5rem);
+    font-size: clamp(2.1rem, 11vw, 3.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
   }
 
   .button {
