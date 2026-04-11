@@ -83,6 +83,7 @@ function normalizeItems(rawItems) {
 document.addEventListener("DOMContentLoaded", async () => {
   const monthLabel = document.getElementById("calendar-month-label");
   const calendarGrid = document.getElementById("calendar-grid");
+  const calendarAgenda = document.getElementById("calendar-agenda");
   const calendarFeed = document.getElementById("calendar-feed");
   const calendarFeedTitle = document.getElementById("calendar-feed-title");
   const zoomCopy = document.getElementById("calendar-zoom-copy");
@@ -135,6 +136,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     return monthItems.filter((item) => item.date === selectedDate);
   }
 
+  function getItemsByDay(monthItems) {
+    const itemsByDay = new Map();
+
+    monthItems.forEach((item) => {
+      const day = item.dateObject.getDate();
+      if (!itemsByDay.has(day)) {
+        itemsByDay.set(day, []);
+      }
+      itemsByDay.get(day).push(item);
+    });
+
+    return itemsByDay;
+  }
+
   function renderMonthLabel() {
     const [year, month] = getActiveMonthKey().split("-").map(Number);
     monthLabel.textContent = monthFormatter.format(new Date(year, month - 1, 1));
@@ -165,15 +180,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const firstDay = new Date(year, month - 1, 1);
     const lastDay = new Date(year, month, 0);
     const monthItems = getMonthItems();
-    const itemsByDay = new Map();
-
-    monthItems.forEach((item) => {
-      const day = item.dateObject.getDate();
-      if (!itemsByDay.has(day)) {
-        itemsByDay.set(day, []);
-      }
-      itemsByDay.get(day).push(item);
-    });
+    const itemsByDay = getItemsByDay(monthItems);
 
     const labelsMarkup = weekdayLabels
       .map((label) => `<div class="calendar-grid__label">${label}</div>`)
@@ -221,6 +228,67 @@ document.addEventListener("DOMContentLoaded", async () => {
     calendarGrid.innerHTML = `${labelsMarkup}${blanksMarkup}${daysMarkup}`;
   }
 
+  function renderAgenda() {
+    if (!calendarAgenda) {
+      return;
+    }
+
+    const [year, month] = getActiveMonthKey().split("-").map(Number);
+    const monthItems = getMonthItems();
+    const itemsByDay = getItemsByDay(monthItems);
+    const dayEntries = Array.from(itemsByDay.entries()).sort((left, right) => left[0] - right[0]);
+
+    if (dayEntries.length === 0) {
+      calendarAgenda.innerHTML = `
+        <div class="calendar-feed-empty">
+          <p>No sourced community events are loaded for this location in the selected month yet.</p>
+        </div>
+      `;
+      return;
+    }
+
+    calendarAgenda.innerHTML = dayEntries
+      .map(([dayNumber, dayItems]) => {
+        const dayKey = `${getActiveMonthKey()}-${String(dayNumber).padStart(2, "0")}`;
+        const dayDate = new Date(year, month - 1, dayNumber);
+        const isToday =
+          year === today.getFullYear() &&
+          month - 1 === today.getMonth() &&
+          dayNumber === today.getDate();
+        const dayClasses = ["calendar-agenda__day"];
+
+        if (selectedDate === dayKey) {
+          dayClasses.push("is-selected");
+        }
+
+        if (isToday) {
+          dayClasses.push("is-today");
+        }
+
+        const previewMarkup = dayItems
+          .slice(0, 3)
+          .map(
+            (item) =>
+              `<span class="calendar-grid__pill" data-city="${escapeHtml(getLocationSlug(item.location))}">${escapeHtml(item.title)}</span>`
+          )
+          .join("");
+
+        const countLabel = `${dayItems.length} ${dayItems.length === 1 ? "event" : "events"}`;
+        const moreMarkup = dayItems.length > 3 ? `<span class="calendar-grid__more">+${dayItems.length - 3} more</span>` : "";
+
+        return `
+          <button class="${dayClasses.join(" ")}" type="button" data-day-key="${dayKey}" aria-pressed="${String(selectedDate === dayKey)}">
+            <span class="calendar-agenda__day-top">
+              <span class="calendar-agenda__date">${escapeHtml(dayDetailFormatter.format(dayDate))}</span>
+              <span class="calendar-agenda__count">${countLabel}</span>
+            </span>
+            <div class="calendar-agenda__items">${previewMarkup}${moreMarkup}</div>
+          </button>
+        `;
+      })
+      .join("");
+  }
+
   function renderZoomState() {
     if (!zoomCopy) {
       return;
@@ -242,7 +310,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const monthItems = getMonthItems();
     const locationLabel = activeLocation === "All" ? "all cities" : activeLocation;
-    zoomCopy.textContent = `Showing ${monthItems.length} activities for ${locationLabel}. Click a day with events to zoom in.`;
+    zoomCopy.textContent = `Showing ${monthItems.length} activities for ${locationLabel}. Select a day with events to zoom in.`;
 
     if (clearDayButton) {
       clearDayButton.hidden = true;
@@ -292,8 +360,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderMonthLabel();
     renderNavState();
     renderGrid();
+    renderAgenda();
     renderZoomState();
     renderFeed();
+  }
+
+  function handleDaySelection(nextDayKey) {
+    selectedDate = selectedDate === nextDayKey ? null : nextDayKey;
+    render();
   }
 
   navButtons.forEach((button) => {
@@ -316,10 +390,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    const nextDayKey = target.dataset.dayKey;
-    selectedDate = selectedDate === nextDayKey ? null : nextDayKey;
-    render();
+    handleDaySelection(target.dataset.dayKey);
   });
+
+  if (calendarAgenda) {
+    calendarAgenda.addEventListener("click", (event) => {
+      const target = event.target.closest("[data-day-key]");
+      if (!target) {
+        return;
+      }
+
+      handleDaySelection(target.dataset.dayKey);
+    });
+  }
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {

@@ -311,12 +311,22 @@
 
         <section class="section attractions" id="attractions">
           <div class="section__intro attractions__intro">
-            <p class="eyebrow">Attractions</p>
-            <h2>Downtown favorites, walkable bites, and a month-by-month local planner.</h2>
-            <p class="section__copy">
-              Use the quick links below to punch out to nearby dining, bars, and
-              local attractions in Bay St. Louis, Waveland, and Gulfport or Biloxi.
-            </p>
+            <div class="attractions__intro-copy">
+              <p class="eyebrow">Attractions</p>
+              <h2>Downtown favorites, walkable bites, and a month-by-month local planner.</h2>
+              <p class="section__copy">
+                Use the quick links below to punch out to nearby dining, bars, and
+                local attractions in Bay St. Louis, Waveland, and Gulfport or Biloxi.
+              </p>
+            </div>
+
+            <figure class="attractions__intro-media">
+              <img
+                src="./assets/bay-st-louis-attractions-header.jpg"
+                alt="Aerial view of downtown Bay St. Louis near the waterfront and main street"
+                loading="lazy"
+              />
+            </figure>
           </div>
 
           <div class="attractions-hero">
@@ -476,9 +486,11 @@
               <div class="calendar-grid" id="calendar-grid" aria-label="Local attractions calendar"></div>
             </div>
 
+            <div class="calendar-agenda" id="calendar-agenda" aria-label="Local attractions agenda"></div>
+
             <div class="calendar-zoom-bar" aria-live="polite">
               <p class="calendar-zoom-bar__copy" id="calendar-zoom-copy">
-                Click a day with events to zoom in on that date.
+                Select a day with events to zoom in on that date.
               </p>
               <button class="calendar-clear" type="button" id="calendar-clear-day" hidden>Show Full Month</button>
             </div>
@@ -527,6 +539,15 @@
         </section>
       </main>
     </div>
+
+    <nav class="mobile-quick-nav" aria-label="Quick mobile navigation">
+      <a href="#stay">Stay</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#explore">Explore</a>
+      <a href="#attractions">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
     <script src="./attractions-feed.js"></script>
     <script src="./attractions.js" defer></script>
   </body>
