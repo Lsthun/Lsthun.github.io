@@ -96,7 +96,6 @@
 
         <section class="value-strip" aria-label="Why guests stay here">
           <article>
-            <p class="value-strip__number">01</p>
             <h2>Close to everything</h2>
             <p>
               Reach Bay St. Louis beach, downtown restaurants, casinos, and day
@@ -104,7 +103,6 @@
             </p>
           </article>
           <article>
-            <p class="value-strip__number">02</p>
             <h2>Built for families</h2>
             <p>
               Cabins, a playground, a pool, and a catch-and-release pond make it
@@ -112,7 +110,6 @@
             </p>
           </article>
           <article>
-            <p class="value-strip__number">03</p>
             <h2>Simple, practical comfort</h2>
             <p>
               Full hookups, on-site laundry, and approachable daily pricing keep
@@ -207,14 +204,14 @@
         </section>
 
         <section class="section explore" id="explore">
-          <div class="section__intro">
-            <p class="eyebrow">Explore The Area</p>
-            <h2>Your campground can feel tucked away without being far away.</h2>
-          </div>
+          <div class="explore-head">
+            <div class="section__intro explore__intro">
+              <p class="eyebrow">Explore The Area</p>
+              <h2>Your campground can feel tucked away without being far away.</h2>
+            </div>
 
-          <div class="explore-layout">
             <div class="explore-panel">
-              <h3>Minutes from Bay St. Louis</h3>
+              <h3>Downtown Bay St. Louis</h3>
               <p>
                 Start the day with coffee in town, head to the beach, swing by
                 local shops or casinos, and still be back at your site before sunset.
@@ -226,7 +223,9 @@
                 rel="noopener noreferrer"
               >Open Nearby Map</a>
             </div>
+          </div>
 
+          <div class="explore-layout">
             <div class="explore-list" role="list" aria-label="Nearby highlights">
               <article role="listitem">
                 <p class="explore-list__label">Beach</p>
@@ -236,9 +235,11 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3>Pet-friendly shoreline</h3>
-                  <p>Only 2 miles from camp for quick morning walks and evening breezes.</p>
-                  <span class="explore-card__action">Open beach directions</span>
+                  <div class="explore-card__body">
+                    <h3>Pet-friendly shoreline</h3>
+                    <p>Only 2 miles from camp for quick morning walks and evening breezes.</p>
+                    <span class="explore-card__action">Open beach directions</span>
+                  </div>
                   <figure class="explore-media">
                     <img
                       src="./assets/bay-st-louis-beach-replacement.jpg"
@@ -258,9 +259,11 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3>Restaurants, shops, and local charm</h3>
-                  <p>Easy access to Bay St. Louis favorites without a long drive.</p>
-                  <span class="explore-card__action">Open Old Town map</span>
+                  <div class="explore-card__body">
+                    <h3>Restaurants, shops, and local charm</h3>
+                    <p>Easy access to Bay St. Louis favorites without a long drive.</p>
+                    <span class="explore-card__action">Open Old Town map</span>
+                  </div>
                   <figure class="explore-media">
                     <img
                       src="./assets/bay-st-louis-downtown-replacement.jpg"
@@ -280,9 +283,11 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3>New Orleans in reach</h3>
-                  <p>About 55 miles away when you want a bigger-city adventure.</p>
-                  <span class="explore-card__action">Open Jackson Square map</span>
+                  <div class="explore-card__body">
+                    <h3>New Orleans in reach</h3>
+                    <p>About 55 miles away when you want a bigger-city adventure.</p>
+                    <span class="explore-card__action">Open Jackson Square map</span>
+                  </div>
                   <figure class="explore-media">
                     <img
                       src="./assets/jackson-square-wikimedia-cc-by-2.0.jpg"
@@ -461,10 +466,12 @@
                 <p class="eyebrow">Monthly Attractions Calendar</p>
                 <h3>Filter local picks by location.</h3>
                 <p class="calendar-shell__copy">
-                    The calendar defaults to the current month and refreshes from
-                    Coastal Mississippi, Shoofly Magazine, and the Hancock Chamber.
-                    Filter for Bay St. Louis, Waveland, or Gulfport or Biloxi, then
-                    click any active day to zoom in on that date's full lineup.
+                  The calendar defaults to the current month and refreshes from
+                  Coastal Mississippi, Shoofly Magazine, the Hancock Chamber,
+                  and official Gulf Coast anchor-event sites for major weeks like
+                  Jeepin' the Coast and Cruisin' the Coast. Filter for Bay St.
+                  Louis, Waveland, or Gulfport or Biloxi, then click any active
+                  day to zoom in on that date's full lineup.
                 </p>
               </div>
 

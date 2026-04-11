@@ -22,10 +22,18 @@ LOCAL_TZ = ZoneInfo("America/Chicago")
 TODAY = datetime.now(LOCAL_TZ).date()
 MAX_DATE = TODAY + timedelta(days=210)
 SOURCE_PRIORITY = {
+    "Cruisin' the Coast": 5,
+    "Jeepin' the Coast": 5,
     "Shoofly Magazine": 3,
     "Hancock Chamber": 2,
     "Coastal Mississippi": 1,
 }
+DATE_RANGE_PATTERN = re.compile(
+    r"\b(?P<start_month>January|February|March|April|May|June|July|August|September|October|November|December)\s+"
+    r"(?P<start_day>\d{1,2})\s*-\s*(?:(?P<end_month>January|February|March|April|May|June|July|August|September|October|November|December)\s+)?"
+    r"(?P<end_day>\d{1,2}),\s*(?P<year>\d{4})\b",
+    re.IGNORECASE,
+)
 SESSION = requests.Session()
 SESSION.headers.update(
     {
@@ -158,6 +166,154 @@ def request_text(url: str, *, timeout: int = 30) -> str:
     response = SESSION.get(url, timeout=timeout)
     response.raise_for_status()
     return response.text
+
+
+def extract_date_range(text: str) -> tuple[date, date] | None:
+    match = DATE_RANGE_PATTERN.search(clean_text(text))
+    if not match:
+        return None
+
+    start_month = match.group("start_month")
+    start_day = int(match.group("start_day"))
+    end_month = match.group("end_month") or start_month
+    end_day = int(match.group("end_day"))
+    year = int(match.group("year"))
+
+    start_day_value = date_parser.parse(f"{start_month} {start_day} {year}").date()
+    end_day_value = date_parser.parse(f"{end_month} {end_day} {year}").date()
+    return start_day_value, end_day_value
+
+
+def format_date_span(start_day: date, end_day: date) -> str:
+    start_label = start_day.strftime("%b %d").replace(" 0", " ")
+    end_label = end_day.strftime("%b %d").replace(" 0", " ")
+    return f"{start_label} - {end_label}, {end_day.year}"
+
+
+def build_span_items(
+    *,
+    title: str,
+    start_day: date,
+    end_day: date,
+    location: str,
+    description: str,
+    url: str,
+    source: str,
+    category: str,
+    time_label: str,
+) -> list[EventItem]:
+    items: list[EventItem] = []
+    current_day = start_day
+
+    while current_day <= end_day:
+        if in_window(current_day):
+            items.append(
+                EventItem(
+                    date=current_day.isoformat(),
+                    title=title,
+                    location=location,
+                    category=category,
+                    description=description,
+                    url=url,
+                    cta="View Event",
+                    source=source,
+                    timeLabel=time_label,
+                )
+            )
+        current_day += timedelta(days=1)
+
+    return items
+
+
+def scrape_jeepin_the_coast() -> tuple[list[EventItem], dict[str, Any]]:
+    source_name = "Jeepin' the Coast"
+    official_url = "https://jeepinthecoast.com/"
+    official_html = request_text(official_url)
+    official_text = BeautifulSoup(official_html, "html.parser").get_text(" ", strip=True)
+    parsed_range = extract_date_range(official_text)
+
+    if parsed_range is None:
+        return [], {
+            "name": source_name,
+            "status": "error",
+            "itemCount": 0,
+            "notes": "JeepinTheCoast.com did not expose a parsable annual date range on the public page.",
+        }
+
+    start_day, end_day = parsed_range
+    description = (
+        f"Major Gulf Coast Jeep festival with Bay St. Louis activity during the run. "
+        f"Official {start_day.year} dates: {format_date_span(start_day, end_day)}. "
+        "Long Beach Breeze coverage notes Bay St. Louis after-parties and the final Sunday meet-up."
+    )
+    items = build_span_items(
+        title="Jeepin' the Coast",
+        start_day=start_day,
+        end_day=end_day,
+        location="Bay St. Louis",
+        category="Festival",
+        description=description,
+        url=official_url,
+        source=source_name,
+        time_label="Multi-day event",
+    )
+
+    return items, {
+        "name": source_name,
+        "status": "ok",
+        "itemCount": len(items),
+        "notes": (
+            "Canonical dates pulled from JeepinTheCoast.com. Community reference to monitor: "
+            "https://www.longbeachbreeze.com/2025/05/14/jeepin-the-coast-set-for-may-28-to-june-1/ "
+            "and prior Long Beach Breeze coverage at "
+            "https://www.longbeachbreeze.com/2023/05/17/long-beach-revving-up-for-5th-annual-jeepin-the-coast/."
+        ),
+    }
+
+
+def scrape_cruisin_the_coast() -> tuple[list[EventItem], dict[str, Any]]:
+    source_name = "Cruisin' the Coast"
+    official_url = "https://www.cruisinthecoast.com/"
+    official_html = request_text(official_url)
+    official_text = BeautifulSoup(official_html, "html.parser").get_text(" ", strip=True)
+    parsed_range = extract_date_range(official_text)
+
+    if parsed_range is None:
+        return [], {
+            "name": source_name,
+            "status": "error",
+            "itemCount": 0,
+            "notes": "CruisinTheCoast.com did not expose a parsable annual date range on the public page.",
+        }
+
+    start_day, end_day = parsed_range
+    description = (
+        f"Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. "
+        f"Official {start_day.year} dates: {format_date_span(start_day, end_day)}. "
+        "The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window."
+    )
+    items = build_span_items(
+        title="Cruisin' the Coast",
+        start_day=start_day,
+        end_day=end_day,
+        location="Bay St. Louis",
+        category="Festival",
+        description=description,
+        url="https://www.cruisinthecoast.com/schedule/",
+        source=source_name,
+        time_label="Multi-day event",
+    )
+
+    return items, {
+        "name": source_name,
+        "status": "ok",
+        "itemCount": len(items),
+        "notes": (
+            "Canonical dates pulled from CruisinTheCoast.com. Community reference to monitor: "
+            "https://www.longbeachbreeze.com/2025/08/18/cruisin-the-coast-2025-is-just-around-the-corner/ "
+            "and the Long Beach Breeze search hub at https://www.longbeachbreeze.com/?s=Cruisin%27+the+Coast."
+        ),
+    }
 
 
 def scrape_coastal_mississippi() -> tuple[list[EventItem], dict[str, Any]]:
@@ -461,11 +617,17 @@ def main() -> None:
     source_reports: list[dict[str, Any]] = []
     all_items: list[EventItem] = []
 
-    for scraper in (scrape_shoofly, scrape_hancock_chamber, scrape_coastal_mississippi):
+    for scraper in (
+        scrape_jeepin_the_coast,
+        scrape_cruisin_the_coast,
+        scrape_shoofly,
+        scrape_hancock_chamber,
+        scrape_coastal_mississippi,
+    ):
         try:
             items, report = scraper()
-    write_payload_files(payload)
-    print(f"Wrote {len(unique_items)} events to {OUTPUT_PATH} and {EMBEDDED_OUTPUT_PATH}")
+        except Exception as exc:  # pragma: no cover - defensive logging path
+            report = {
                 "name": scraper.__name__,
                 "status": "error",
                 "itemCount": 0,
@@ -500,8 +662,8 @@ def main() -> None:
         "items": [item.__dict__ for item in unique_items],
     }
 
-    OUTPUT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-    print(f"Wrote {len(unique_items)} events to {OUTPUT_PATH}")
+    write_payload_files(payload)
+    print(f"Wrote {len(unique_items)} events to {OUTPUT_PATH} and {EMBEDDED_OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

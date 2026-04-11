@@ -353,14 +353,6 @@ a {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(250, 243, 234, 0.9));
 }
 
-.value-strip__number {
-  margin: 0 0 18px;
-  color: var(--sun);
-  font-size: 0.85rem;
-  font-weight: 800;
-  letter-spacing: 0.26em;
-}
-
 .value-strip h2 {
   font-size: 2rem;
   margin-bottom: 12px;
@@ -462,11 +454,20 @@ a {
   font-size: 1.25rem;
 }
 
-.explore-layout {
+.explore-head {
   display: grid;
-  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
   gap: 18px;
-  align-items: start;
+  align-items: end;
+  margin-bottom: 18px;
+}
+
+.explore__intro {
+  margin-bottom: 0;
+}
+
+.explore-layout {
+  display: block;
 }
 
 .explore-panel {
@@ -493,7 +494,15 @@ a {
 
 .explore-card__link {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
+  gap: 20px;
+  align-items: center;
+}
+
+.explore-card__body {
+  display: grid;
   gap: 12px;
+  align-content: start;
 }
 
 .explore-card__action {
@@ -1067,12 +1076,16 @@ a {
 
 @media (max-width: 1080px) {
   .hero,
-  .explore-layout,
   .attractions-hero,
   .contact-panel,
   .stay-grid,
   .amenities-grid,
   .value-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .explore-head,
+  .explore-card__link {
     grid-template-columns: 1fr;
   }
 
@@ -1143,6 +1156,10 @@ a {
   }
 
   .attraction-feature__actions .button {
+    width: auto;
+  }
+
+  .explore-panel__button {
     width: auto;
   }
 

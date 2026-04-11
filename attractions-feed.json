@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-04-10T23:10:51Z",
+  "generatedAt": "2026-04-11T03:07:04Z",
   "window": {
     "start": "2026-04-10",
     "end": "2026-11-06"
   },
   "sources": [
+    {
+      "name": "Jeepin' the Coast",
+      "status": "ok",
+      "itemCount": 5,
+      "notes": "Canonical dates pulled from JeepinTheCoast.com. Community reference to monitor: https://www.longbeachbreeze.com/2025/05/14/jeepin-the-coast-set-for-may-28-to-june-1/ and prior Long Beach Breeze coverage at https://www.longbeachbreeze.com/2023/05/17/long-beach-revving-up-for-5th-annual-jeepin-the-coast/."
+    },
+    {
+      "name": "Cruisin' the Coast",
+      "status": "ok",
+      "itemCount": 8,
+      "notes": "Canonical dates pulled from CruisinTheCoast.com. Community reference to monitor: https://www.longbeachbreeze.com/2025/08/18/cruisin-the-coast-2025-is-just-around-the-corner/ and the Long Beach Breeze search hub at https://www.longbeachbreeze.com/?s=Cruisin%27+the+Coast."
+    },
     {
       "name": "Shoofly Magazine",
       "status": "ok",
@@ -20,7 +32,7 @@
     {
       "name": "Coastal Mississippi",
       "status": "ok",
-      "itemCount": 351,
+      "itemCount": 349,
       "notes": "Pulled from the public Algolia listings index exposed on the events page."
     },
     {
@@ -37,28 +49,6 @@
     }
   ],
   "items": [
-    {
-      "date": "2026-04-10",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-10",
-      "title": "Stage Bar Live Entertainment",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
     {
       "date": "2026-04-10",
       "title": "Anjelah Johnson-Reyes | The Family Reunion Tour",
@@ -1953,6 +1943,17 @@
     },
     {
       "date": "2026-05-27",
+      "title": "Jeepin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Major Gulf Coast Jeep festival with Bay St. Louis activity during the run. Official 2026 dates: May 27 - May 31, 2026. Long Beach Breeze coverage notes Bay St. Louis after-parties and the final Sunday meet-up.",
+      "url": "https://jeepinthecoast.com/",
+      "cta": "View Event",
+      "source": "Jeepin' the Coast",
+      "timeLabel": "Multi-day event"
+    },
+    {
+      "date": "2026-05-27",
       "title": "Gulfport Harbor Farmer's Market",
       "location": "Gulfport/Biloxi",
       "category": "Festival",
@@ -1961,6 +1962,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Jeepin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Major Gulf Coast Jeep festival with Bay St. Louis activity during the run. Official 2026 dates: May 27 - May 31, 2026. Long Beach Breeze coverage notes Bay St. Louis after-parties and the final Sunday meet-up.",
+      "url": "https://jeepinthecoast.com/",
+      "cta": "View Event",
+      "source": "Jeepin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-05-28",
@@ -1986,6 +1998,17 @@
     },
     {
       "date": "2026-05-29",
+      "title": "Jeepin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Major Gulf Coast Jeep festival with Bay St. Louis activity during the run. Official 2026 dates: May 27 - May 31, 2026. Long Beach Breeze coverage notes Bay St. Louis after-parties and the final Sunday meet-up.",
+      "url": "https://jeepinthecoast.com/",
+      "cta": "View Event",
+      "source": "Jeepin' the Coast",
+      "timeLabel": "Multi-day event"
+    },
+    {
+      "date": "2026-05-29",
       "title": "Stage Bar Live Entertainment",
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
@@ -2005,6 +2028,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Jeepin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Major Gulf Coast Jeep festival with Bay St. Louis activity during the run. Official 2026 dates: May 27 - May 31, 2026. Long Beach Breeze coverage notes Bay St. Louis after-parties and the final Sunday meet-up.",
+      "url": "https://jeepinthecoast.com/",
+      "cta": "View Event",
+      "source": "Jeepin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-05-30",
@@ -2049,6 +2083,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Jeepin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Major Gulf Coast Jeep festival with Bay St. Louis activity during the run. Official 2026 dates: May 27 - May 31, 2026. Long Beach Breeze coverage notes Bay St. Louis after-parties and the final Sunday meet-up.",
+      "url": "https://jeepinthecoast.com/",
+      "cta": "View Event",
+      "source": "Jeepin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-06-01",
@@ -4142,6 +4187,17 @@
     },
     {
       "date": "2026-10-04",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
+    },
+    {
+      "date": "2026-10-04",
       "title": "Hollydeck Live Music",
       "location": "Bay St. Louis",
       "category": "Live Music",
@@ -4150,6 +4206,39 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-10-07",
@@ -4161,6 +4250,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-10-08",
@@ -4183,6 +4283,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-10-09",
@@ -4227,6 +4338,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-10-10",
@@ -4293,6 +4415,17 @@
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Cruisin' the Coast",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Weeklong classic-car festival with Bay St. Louis as an official venue during Cruisin' week. Official 2026 dates: Oct 4 - Oct 11, 2026. The official schedule includes Bay St. Louis venue days and Bay St. Louis-area entertainment during the event window.",
+      "url": "https://www.cruisinthecoast.com/schedule/",
+      "cta": "View Event",
+      "source": "Cruisin' the Coast",
+      "timeLabel": "Multi-day event"
     },
     {
       "date": "2026-10-11",
