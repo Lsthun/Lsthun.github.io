@@ -1,8 +1,8 @@
 window.__ATTRACTIONS_FEED__ = {
-  "generatedAt": "2026-04-11T03:07:04Z",
+  "generatedAt": "2026-04-11T11:26:23Z",
   "window": {
-    "start": "2026-04-10",
-    "end": "2026-11-06"
+    "start": "2026-04-11",
+    "end": "2026-11-07"
   },
   "sources": [
     {
@@ -32,7 +32,7 @@ window.__ATTRACTIONS_FEED__ = {
     {
       "name": "Coastal Mississippi",
       "status": "ok",
-      "itemCount": 349,
+      "itemCount": 347,
       "notes": "Pulled from the public Algolia listings index exposed on the events page."
     },
     {
@@ -49,72 +49,6 @@ window.__ATTRACTIONS_FEED__ = {
     }
   ],
   "items": [
-    {
-      "date": "2026-04-10",
-      "title": "Anjelah Johnson-Reyes | The Family Reunion Tour",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Get ready for an evening of nonstop laughter as Anjelah Johnson-Reyes brings The Family Reunion Tour to the Beau Rivage Theatre in Biloxi!Known for her viral \u201cNail Salon\u201d skit, her beloved Bon Qui Qui character, and multiple hit comedy specials, Anjelah delivers a performance full of sharp observations, relatable storytelling, and unforgettable character work.",
-      "url": "https://www.coastalmississippi.com/anjelah-johnson-reyes-the-family-reunion-tour-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-10",
-      "title": "Foghat",
-      "location": "Gulfport/Biloxi",
-      "category": "Live Music",
-      "description": "It is 2026, and after 55 years, Foghat is still going as strong as ever! Last year, they celebrated 50 years of \u201cSlow Ride,\u201d the timeless anthem that put them on the global map and has not let up since!This is a fully seated show, and you must be 21+ to attend. Doors open at 6:30 p.m. Showtime is 8 p.m.",
-      "url": "https://www.coastalmississippi.com/foghat/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-10",
-      "title": "Mardi Gras Night | Biloxi King Cakes vs Pensacola Wahoos",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "We are still celebrating Mardi Gras in April with our Mardi Gras Night as the players take the field in our Biloxi King Cakes uniforms! There will be post-game fireworks as well! Get your tickets HERE.",
-      "url": "https://www.coastalmississippi.com/mardi-gras-night-biloxi-king-cakes-vs-pensacola-wahoos/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-10",
-      "title": "Nirvani | A Nirvana Tribute Experience",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Experience the raw power, energy, and spirit of one of rock\u2019s most iconic bands with Nirvani \u2013 A Nirvana Tribute Experience. Known for their authentic sound, high\u2011intensity performance, and spot\u2011on recreations of Nirvana\u2019s most legendary moments, Nirvani delivers a show that transports audiences straight back to the height of the grunge era.Fans can expect a full\u2011throttle set featuring classics like \u201cSmells Like Teen Spirit,\u201d \u201cCome As You Are,\u201d \u201cLithium,\u201d \u201cHeart\u2011Shaped Box,\u201d and deeper cuts beloved by true Nirvana followers.Whether you grew up on 90s alt\u2011rock or are discovering the music anew, Nirvani brings a powerful, emotional, and unforgettable tribute to Kurt Cobain and the band that redefined a generation.",
-      "url": "https://www.coastalmississippi.com/nirvani-a-nirvana-tribute-experience/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-10",
-      "title": "Styx",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Styx hit its stride with guitarist/vocalist Tommy Shaw\u2019s first LP with the band, 1976\u2019s Crystal Ball, and then they became the first group to score four triple-platinum albums in a row: The Grand Illusion (1977), Pieces of Eight (1978), Cornerstone (1979), and Paradise Theater (1981). Over the ensuing decade, Styx weathered the shifting winds of public musical taste, reconvening for a highly successful 1996 Return to Paradise tour, which was expertly documented on both CD and DVD in 1997. With a little help from their many friends in Cleveland\u2019s Contemporary Youth Orchestra, One With Everything (2006) became a hybrid orchestral rock blend for the ages. And on The Grand Illusion / Pieces of Eight Live (2011), the band performed at its peak when tackling every track from a pair of their finest triple-platinum albums back to back. Not only that, but the band re-recorded two discs\u2019 worth of its classic material with finesse and muscle, aptly titled Regeneration Volume I & II (2011 & 2012). Observes Tommy, \u201cNow you have something you can take home with you and go, \u2018Yeah, that\u2019s the band I saw last night.\u2019\u201dAfter more than a decade together on the road, this incarnation of Styx is looking forward to performing as many shows as it can, as long as it can. \u201cIt all comes back to the chemistry,\u201d says bassist/vocalist Ricky Phillips. \u201cThe legacy of this band will be that it brought joy to millions of people,\u201d notes drummer Todd Sucherman. Observes keyboardist/vocalist Lawrence Gowan, \u201cWe\u2019ve always tried to explain why this is happening. It\u2019s obviously a multitude of factors, but the main one is that our show is really good! And if it\u2019s really good, they\u2019re going to come to see it again.\u201d Styx hopes it\u2019s a wave that never crests. \u201cEvery night, we go on that magic carpet ride together,\u201d observes original bassist Chuck Panozzo, who joins the band on tour as often as he can. \u201cMusic is this amazing force that comes from a higher place. I'm humbled for this band to have the great success that it has,\u201d says co-founding guitarist/vocalist James \u201cJY\u201d Young. \u201cWe just want to keep on doing this,\u201d asserts Tommy. \u201cWe want to let life take its course and let this music continue to be the soundtrack to it. And this band will continue to evolve as long as we live and play this music.\u201d The jig is up, the news is out: The Esprit de Styx is alive and well, and now it\u2019s time to see for yourself. Welcome to the Grand Evolution.",
-      "url": "https://www.coastalmississippi.com/styx/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-10",
-      "title": "The Last Luau: Lei'd To Rest Murder Mystery Dinner Show",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Aloha\u2026 and goodbye.What starts as a glamorous island luau ends in murder, mystery, and mayhem. Join us for an interactive tropical whodunnit filled with outrageous suspects, shocking secrets, and laugh-out-loud comedy.Can you solve the crime before the killer vanishes into paradise?So grab your leis, dress in your best island-coastal style, and get ready for a night of secrets, scandal, and sleuthing\u2014because even paradise has mysteries\u2026 and someone won\u2019t make it off the island. Tickets are $68.49. The show is rated PG-13. MENU:APPETIZERIsland Mango Salad - Salad with mango and nuts with a citrus dressingENTREE (Choice)Chicken Teriyaki, Sweet and Sour Pork Chop, or BBQ Glazed Salmon - All served with coconut rice and sweet potato hashDESSERT:Miniature Banana Splits - A sweet island finaleDinner includes soft drinks, tea, and coffee.Admission Includes:Cash BarCostume ContestThree Course MealNon Alcoholic DrinkCommemorative PhotoAudience ParticipationPrizes for Winning Sleuth",
-      "url": "https://www.coastalmississippi.com/the-last-luau-leid-to-rest-murder-mystery-dinner-show/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
     {
       "date": "2026-04-11",
       "title": "Art Without Walls Art Market | Spring for Art",
@@ -572,7 +506,7 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Aloha\u2026 and goodbye. What starts as a glamorous island luau ends in murder, mystery, and mayhem. Join us for an interactive tropical whodunnit filled with outrageous suspects, shocking secrets, and laugh-out-loud comedy. Can you solve the crime before the killer vanishes into paradise?So grab your leis, dress in your best island-coastal style, and get ready for a night of secrets, scandal, and sleuthing\u2014because even paradise has mysteries\u2026 and someone won\u2019t make it off the island. Tickets are $68.49. The show is rated PG-13. MENU:APPETIZERIsland Mango Salad - Salad with mango and nuts with a citrus dressingENTREE (Choice)Chicken Teriyaki, Sweet and Sour Pork Chop, or BBQ Glazed Salmon - All served with coconut rice and sweet potato hash DESSERT:Miniature Banana Splits - A sweet island finaleDinner includes soft drinks, tea, and coffee.Admission Includes:Cash BarCostume Contest Three Course Meal Non Alcoholic Drink Commemorative Photo Audience Participation Prizes for Winning Sleuths",
-      "url": "https://www.coastalmississippi.com/the-last-luau-leid-to-rest-murder-mystery-dinner-show1/",
+      "url": "https://www.coastalmississippi.com/the-last-luau-leid-to-rest-murder-mystery-dinner-show-2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
@@ -4797,6 +4731,50 @@ window.__ATTRACTIONS_FEED__ = {
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
       "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": ""
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": ""
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Stage Bar Live Entertainment",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
+      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": ""
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Fin & Zen Yoga",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 21, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
+      "url": "https://www.coastalmississippi.com/fin-zen-yoga-9/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": ""
+    },
+    {
+      "date": "2026-11-07",
+      "title": "The Stephens Bros With Acoustic Opening With JT McCaffrey",
+      "location": "Gulfport/Biloxi",
+      "category": "Live Music",
+      "description": "The Stephens Bros bring their signature sound and high\u2011energy performance to the stage for a night of live music you won\u2019t want to miss. Known for tight musicianship, dynamic vocals, and crowd\u2011pleasing sets, The Stephens Bros deliver a show that blends great songs with an engaging, feel\u2011good concert experience.Doors: 6 PM\u2022 JT McCaffrey (Acoustic): 7 PM\u20137:45 PM\u2022 The Stephens Bros: 8 PM\u201310 PMLearn more about JT McCaffrey at https://linktr.ee/jtmccaf?utm_source=linktree_profile_share",
+      "url": "https://www.coastalmississippi.com/the-stephens-bros-with-acoustic-opening-with-jt-mccaffrey/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
