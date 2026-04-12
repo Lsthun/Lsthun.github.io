@@ -83,7 +83,7 @@ a {
 }
 
 .brand__mark {
-  width: clamp(84px, 9vw, 96px);
+  width: clamp(116px, 12vw, 132px);
   aspect-ratio: 1;
   height: auto;
   flex: 0 0 auto;
@@ -1290,7 +1290,7 @@ a {
   }
 
   .brand__mark {
-    width: min(100%, 92px);
+    width: min(100%, 116px);
   }
 
   .hero h1,
