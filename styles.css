@@ -83,11 +83,15 @@ a {
 }
 
 .brand__mark {
-  width: clamp(180px, 22vw, 250px);
-  max-height: 88px;
+  width: clamp(84px, 9vw, 96px);
+  aspect-ratio: 1;
   height: auto;
   flex: 0 0 auto;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid var(--pine);
+  background: var(--white);
+  box-shadow: 0 10px 24px rgba(16, 42, 53, 0.12);
 }
 
 .site-nav {
@@ -1286,8 +1290,7 @@ a {
   }
 
   .brand__mark {
-    width: min(100%, 220px);
-    max-height: none;
+    width: min(100%, 92px);
   }
 
   .hero h1,
