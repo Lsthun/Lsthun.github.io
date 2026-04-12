@@ -1,8 +1,8 @@
 window.__ATTRACTIONS_FEED__ = {
-  "generatedAt": "2026-04-11T11:26:23Z",
+  "generatedAt": "2026-04-12T11:26:48Z",
   "window": {
-    "start": "2026-04-11",
-    "end": "2026-11-07"
+    "start": "2026-04-12",
+    "end": "2026-11-08"
   },
   "sources": [
     {
@@ -20,19 +20,19 @@ window.__ATTRACTIONS_FEED__ = {
     {
       "name": "Shoofly Magazine",
       "status": "ok",
-      "itemCount": 48,
+      "itemCount": 44,
       "notes": "Pulled from the public Tockify agenda page JSON-LD payload."
     },
     {
       "name": "Hancock Chamber",
       "status": "ok",
-      "itemCount": 35,
+      "itemCount": 30,
       "notes": "Scraped from GrowthZone event cards and detail pages."
     },
     {
       "name": "Coastal Mississippi",
       "status": "ok",
-      "itemCount": 347,
+      "itemCount": 338,
       "notes": "Pulled from the public Algolia listings index exposed on the events page."
     },
     {
@@ -49,193 +49,6 @@ window.__ATTRACTIONS_FEED__ = {
     }
   ],
   "items": [
-    {
-      "date": "2026-04-11",
-      "title": "Art Without Walls Art Market | Spring for Art",
-      "location": "Bay St. Louis",
-      "category": "Festival",
-      "description": "Spring for Art is in the air! Join us for Art Without Walls | Spring for Art on Saturday, April 11, from 10 a.m. to 2 p.m. at the Mamie Hillery Arts Center, home of The Arts Hancock County.Stroll through the sculpture garden and explore an open-air market filled with talented local artists. From paintings, mixed media, sculpture, and pottery to jewelry, fiber art, and more\u2014there\u2019s something to catch every eye!Enjoy DJs, live music, kids\u2019 activities, and a relaxed outdoor setting surrounded by creativity in bloom.Don\u2019t forget to grab your AWOW sticker and enjoy Depot Discounts at shops along Blaize Avenue as you explore the Depot Arts District. Bring your friends, bring the family, and celebrate the season with art! For more information, visit https://tinyurl.com/ArtWithOutWalls-2026.",
-      "url": "https://www.coastalmississippi.com/art-without-walls-art-market-spring-for-art/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Art Without Walls \u2013 Spring for Art",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Spring for Art is in the Air! \ud83c\udfa8 Join us for Art Without Walls \u2013 Spring for Art on Saturday, April 11 *10a-2p at the Mamie Hillery Arts Center, home of The Arts Hancock County. Stroll through the scul",
-      "url": "https://tockify.com/shooflymagazine/detail/4742/1775919600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "10:00 AM - 2:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Autism Acceptance Walk & Community Celebration",
-      "location": "Bay St. Louis",
-      "category": "Festival",
-      "description": "Join us for a full-day, family-friendly community celebration in honor of Autism Acceptance Month! This event is designed to be flexible, welcoming, and sensory-aware. Families are encouraged to come",
-      "url": "https://tockify.com/shooflymagazine/detail/4735/1775912400000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 4:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Bay St Louis Classic - 10K, 1K, and 1Mile",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "The BSL Classic is back \u2014 and this year we\u2019re throwing it all the way to the late 90s / early 2000s with a pop-punk/alt playlist straight out of your CD binder. Get ready to rock your run! The Bay Sai",
-      "url": "https://tockify.com/shooflymagazine/detail/4725/1775912400000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 11:00 AM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Ginger Billy",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Get ready for a night of nonstop laughter as comedian Ginger Billy delivers his signature wit and unforgettable storytelling. His sharp humor and lively stage presence promise a comedy experience that keeps the crowd smiling from start to finish.",
-      "url": "https://www.coastalmississippi.com/ginger-billy/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Hancock County Farmers Market",
-      "location": "Bay St. Louis",
-      "category": "Festival",
-      "description": "The Hancock County Farmers' Market is a weekly happening that keeps growing, with more vendors setting up all the time! If you're a vendor and want to know about selling at the market, call David Kenn",
-      "url": "https://tockify.com/shooflymagazine/detail/1164/1775912400000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 12:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Second Annual Pup Crawl- Friends of the Animal Shelter Hancock Co.",
-      "location": "Bay St. Louis",
-      "category": "Festival",
-      "description": "Donate 25 dollars to \"Friends\" and get a wristband that entitles you to Pup themed beverages at participating bars in Downtown Bay St. Louis. Bring your Pup and come enjoy the company of folks who support animal welfare in Hancock Co. Photo station ...",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/second-annual-pup-crawl-friends-of-the-animal-shelter-hancock-co-1688908?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "5:00 PM - 7:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Second Saturday",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "During Second Saturday each month in Old Town Bay St. Louis & the Depot District, you'll find cool deals, fresh meals and live music! Old Town stays lively all day, with many merchants and restaurants offering specials.",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609629?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Spring for Art Without Walls",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Original art, live music, and art activities for children. Stroll through a vibrant showcase of local artists and makers, featuring unique paintings, jewelry, pottery, fiber art, and more\u2014all handcrafted with heart.",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/spring-for-art-without-walls-1692821?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 2:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Stage Bar Live Entertainment",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "The Writing Room @ 100 Men Hall",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "The Writing Room at the 100 Men Hall is a place where writers gather in a storied place to write our stories. Author in residence, Ellen Morris Prewitt will lead the group. Ellen will share tips for using the concrete experience of place to unlock our individual stories. Come to one session or all sessions and write together in a supportive group. Writers of all levels welcome. Ellen was the Peter Taylor Fellow at the Kenyon College Summer Writing Program. She writes both fiction and nonfiction. Her short stories have twice been nominated for Pushcart Prizes; one of her essays was included in Sue Silverman's guide on writing memoir as an example of how to use metaphor. Ellen has conducted many writing workshops, including facilitating for eight years a weekly writing group of men and women living on the streets. Free, but please RSVP here .",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588548?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Bottle Babies Bash: Kitten & Puppy Shower",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Help us shower our tiniest survivors with love!HSSM is excited to invite the community to a Kitten & Puppy Shower\u2014a fun, educational event dedicated to supporting our most fragile arrivals. This family-friendly gathering is open to the public and takes place Saturday, April 11, from 1 to 3 p.m. at HSSM\u2019s Adoption Center.Spring brings an influx of newborn puppies and kittens who require specialized, round-the-clock care. This special shower is both a celebration and a call to action\u2014giving attendees a behind-the-scenes look at how neonatal animals are nurtured and how you can help give them the strongest possible start.Guests will learn the ins and outs of bottle-feeding puppies and kittens, along with essential foster neonatal care tips, through hands-on demonstrations led by our incredible foster heroes.What to ExpectInteractive games and prize drawingsA chance to win a gift basket filled with fun goodiesExtra raffle entry tickets for every donation broughtMost-Needed Donation ItemsPowdered and pre-made kitten formulaBottle-feeding kitsTube socks and riceSoft blanketsKitty litter and shallow litter boxesDiaper rash creamHypoallergenic baby wipesP\u00e2t\u00e9-style canned pet foodEvery donated item directly supports vulnerable puppies and kittens who depend on constant care, warmth, and nourishment to survive. Your generosity helps ensure these tiny lives receive the love and support they need during their earliest days.Join us for an afternoon of learning, giving, and celebrating the smallest paws that make the biggest impact!",
-      "url": "https://www.coastalmississippi.com/bottle-babies-bash-kitten-puppy-shower/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Fin & Zen Yoga",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 7, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-3/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Golf Night Hat Giveaway | Biloxi Shuckers vs Pensacola Wahoos",
-      "location": "Gulfport/Biloxi",
-      "category": "Family",
-      "description": "Welcome to Keesler Federal Park for Golf Night with a Golf Hat Giveaway presented by Keesler Federal Credit Union in honor of the Masters. Get your tickets NOW!",
-      "url": "https://www.coastalmississippi.com/golf-night-hat-giveaway-biloxi-shuckers-vs-pensacola-wahoos/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "Jeepin' on the Bayou 2026",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Cruise in for a cause!Join us Saturday, April 11, at 1 p.m. for Jeepin\u2019 on the Bayou, a day of fun in the sun in support of Autism Awareness Month.Enjoy live music and food/drink specials all day!More info to come\u2026For vendor and/or sponsorship info, please contact 228-669-9237 or email staceycaptainals@gmail.com.Proceeds benefit the MS Center for Autism and related developmental disabilities.",
-      "url": "https://www.coastalmississippi.com/jeepin-on-the-bayou-2026/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-11",
-      "title": "MS Gulf Coast Pickleball's Paddle for a Cause",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Welcome, MS Gulf Coast Pickleball's Paddle for a Cause Supporting the Discipleship 33 Ministries' Transitional Housing Project, presented by Southern Pickleball, hosted at Popps Ferry Park. We are excited to partner with MS Gulf Coast Pickleball and support Discipleship 33 Ministries, a transitional living ministry serving men and women. Please join us for a competitive and well-organized Southern Pickleball event.Special Tournament InformationEvent Schedule:Saturday, April 11 \u2013 Men\u2019s & Women\u2019s DoublesSunday, April 12 \u2013 Mixed DoublesPlay may begin as early as 8 a.m. each day.Specific start times for each event will be posted and emailed to players approximately one week prior to the tournament.Registration & FeesEntry Fee:$60 includes one event.Additional Events: $15 per eventThe last day to register and be guaranteed a free tournament shirt is March 29 at 11:55 p.m.Match Guarantee & BracketsSouthern Pickleball guarantees a minimum of four (4) matches per team per event.Tournament management reserves the right to combine brackets as needed to create playable divisions.If brackets are combined, awards will be based on the original bracket in which the player registered.Skill Levels include: 2.5, 3.0, 3.5, 4.0, 4.5, and 5.0+2.5 = 2.999 and below3.0 = 3.000 \u2013 3.4993.5 = 3.500 \u2013 3.9994.0 = 4.000 \u2013 4.4994.5 = 4.500 \u2013 4.999Age Groups15 & Over35 & Over50 & Over60 & Over70 & OverAge is determined by the players age on December 31, 2026.Teams MustPlay at the skill level of the higher-rated player, andPlay in the age group of the younger player.Ratings (DUPR)DUPR ratings will be used for all eventsAll matches will be reported to DUPRIt is each player\u2019s responsibility to verify match scores after the completion of each match and before their next match begins. Score corrections may not be possible once the next match has started, so players are strongly encouraged to check scores promptly.The Tournament Director reserves the right to move players up or down as deemed appropriate.After registration closes, all player ratings will be reviewed.Players whose updated DUPR rating (with 50% or higher reliability) exceeds the registered division will be moved to the appropriate higher bracket.Players with a DUPR reliability below 50% may appeal to play in a lower division.Players must initially register in the division allowed by their current DUPR rating.Appeals must be submitted via email to info@southernpickleball.com before registration closes. Both partners (if applicable) must agree to the appeal.Partner PolicyPlayers may register with a partner or select \u201cNeed a Partner.\u201dIf registering with a partner:\u2013 The selected partner must register within five (5) days of the first player\u2019s registration.\u2013 Failure to do so will result in the team being placed on the waitlist.\u2013 Once the partner registers, the team will automatically move to the active list if space is available.Registration is not guaranteed until both players are registered, and all fees are paid in full.Selecting \u201cNeed a Partner\u201d does not guarantee the tournament will find a partner.This feature is provided as a courtesy so players may connect with one another.Players without partners must withdraw according to the tournament\u2019s refund policy.Match PlayThere are no referees.All matches are self-monitored.",
-      "url": "https://www.coastalmississippi.com/ms-gulf-coast-pickleballs-paddle-for-a-cause/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
     {
       "date": "2026-04-12",
       "title": "100 Men Hall Blues Brunch Series With Johnny Sansone",
@@ -4775,6 +4588,17 @@ window.__ATTRACTIONS_FEED__ = {
       "category": "Live Music",
       "description": "The Stephens Bros bring their signature sound and high\u2011energy performance to the stage for a night of live music you won\u2019t want to miss. Known for tight musicianship, dynamic vocals, and crowd\u2011pleasing sets, The Stephens Bros deliver a show that blends great songs with an engaging, feel\u2011good concert experience.Doors: 6 PM\u2022 JT McCaffrey (Acoustic): 7 PM\u20137:45 PM\u2022 The Stephens Bros: 8 PM\u201310 PMLearn more about JT McCaffrey at https://linktr.ee/jtmccaf?utm_source=linktree_profile_share",
       "url": "https://www.coastalmississippi.com/the-stephens-bros-with-acoustic-opening-with-jt-mccaffrey/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": ""
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
       "timeLabel": ""
