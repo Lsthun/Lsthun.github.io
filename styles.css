@@ -90,7 +90,7 @@ a {
   object-fit: cover;
   border-radius: 12px;
   border: 2px solid var(--pine);
-  background: var(--white);
+  background: #fbf4eb;
   box-shadow: 0 10px 24px rgba(16, 42, 53, 0.12);
 }
 
@@ -1183,6 +1183,10 @@ a {
 .calendar-note {
   margin: 18px 0 0;
   color: rgba(16, 42, 53, 0.72);
+}
+
+.calendar-refresh-note.is-stale {
+  color: rgba(180, 93, 27, 0.98);
 }
 
 .contact-panel {

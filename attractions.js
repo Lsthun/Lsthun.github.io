@@ -5,6 +5,7 @@ const embeddedAttractionsFeed = window.__ATTRACTIONS_FEED__ && Array.isArray(win
 const weekdayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const descriptionLimit = 180;
 const mobileCalendarBreakpoint = window.matchMedia("(max-width: 760px)");
+const refreshStaleDays = 31;
 
 const locationSlugMap = {
   "Bay St. Louis": "bay-st-louis",
@@ -23,6 +24,15 @@ function formatMonthKey(date) {
 
 function formatDateInputValue(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
+
+function parseGeneratedAt(value) {
+  if (!value) {
+    return null;
+  }
+
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
 }
 
 function escapeHtml(value) {
@@ -143,6 +153,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const calendarFeed = document.getElementById("calendar-feed");
   const calendarFeedHeader = document.getElementById("calendar-feed-header");
   const calendarFeedTitle = document.getElementById("calendar-feed-title");
+  const calendarRefreshNote = document.getElementById("calendar-refresh-note");
   const zoomCopy = document.getElementById("calendar-zoom-copy");
   const clearDayButton = document.getElementById("calendar-clear-day");
   const weekPicker = document.getElementById("calendar-week-picker");
@@ -168,15 +179,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const feed = await loadAttractionsFeed();
   const items = normalizeItems(feed.items || []);
   const monthKeys = buildMonthKeys(items);
-
-  if (monthKeys.length === 0) {
-    calendarResults.hidden = false;
-    calendarFeed.innerHTML = '<div class="calendar-feed-empty"><p>No attractions are loaded yet.</p></div>';
-    return;
-  }
-
-  const firstAvailableDate = items[0].dateObject;
-  const lastAvailableDate = items[items.length - 1].dateObject;
   const today = new Date();
   const todayKey = formatMonthKey(today);
   let currentMonthIndex = monthKeys.includes(todayKey) ? monthKeys.indexOf(todayKey) : 0;
@@ -187,6 +189,43 @@ document.addEventListener("DOMContentLoaded", async () => {
   const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" });
   const dayFormatter = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
   const dayDetailFormatter = new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" });
+  const refreshFormatter = new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric" });
+
+  function renderRefreshStatus() {
+    if (!calendarRefreshNote) {
+      return;
+    }
+
+    const generatedAt = parseGeneratedAt(feed.generatedAt);
+    const windowEnd = feed.window && feed.window.end ? parseLocalDate(feed.window.end) : null;
+
+    if (!generatedAt) {
+      calendarRefreshNote.textContent = "Last refreshed date is unavailable for this feed.";
+      calendarRefreshNote.classList.add("is-stale");
+      return;
+    }
+
+    const ageInDays = Math.floor((Date.now() - generatedAt.getTime()) / 86400000);
+    const refreshLabel = refreshFormatter.format(generatedAt);
+    const coverageLabel = windowEnd ? ` Coverage currently runs through ${refreshFormatter.format(windowEnd)}.` : "";
+    const isStale = ageInDays >= refreshStaleDays;
+
+    calendarRefreshNote.textContent = isStale
+      ? `Last refreshed ${refreshLabel}. This feed is more than a month old and may need a rerun.${coverageLabel}`
+      : `Last refreshed ${refreshLabel}.${coverageLabel}`;
+    calendarRefreshNote.classList.toggle("is-stale", isStale);
+  }
+
+  renderRefreshStatus();
+
+  if (monthKeys.length === 0) {
+    calendarResults.hidden = false;
+    calendarFeed.innerHTML = '<div class="calendar-feed-empty"><p>No attractions are loaded yet.</p></div>';
+    return;
+  }
+
+  const firstAvailableDate = items[0].dateObject;
+  const lastAvailableDate = items[items.length - 1].dateObject;
 
   weekPicker.min = formatDateInputValue(firstAvailableDate);
   weekPicker.max = formatDateInputValue(lastAvailableDate);

@@ -22,7 +22,7 @@
         <a class="brand" href="#top" aria-label="Bay St. Louis Campground home">
           <img
             class="brand__mark"
-            src="./assets/bsl-campground-logo-circle.jpg"
+            src="./assets/bsl-campground-logo-circle-transparent.png"
             alt="Bay St. Louis Campground logo"
           />
         </a>
@@ -332,9 +332,9 @@
 
               <div class="calendar-feed" id="calendar-feed"></div>
 
-              <p class="calendar-note">
-                Events in this calendar are generated from local community sources and can
-                be refreshed automatically for GitHub Pages deployments.
+              <p class="calendar-note" id="calendar-note" aria-live="polite">
+                Events in this calendar are generated from local community sources.
+                <span id="calendar-refresh-note">Refresh details load with the calendar.</span>
               </p>
             </div>
           </div>
