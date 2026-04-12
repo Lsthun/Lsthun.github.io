@@ -192,6 +192,28 @@ a {
   margin-top: 28px;
 }
 
+.hero__sign {
+  display: grid;
+  gap: 12px;
+  width: min(100%, 340px);
+  margin: 28px 0 0;
+}
+
+.hero__sign img {
+  width: 100%;
+  border-radius: 26px;
+  border: 1px solid rgba(16, 42, 53, 0.08);
+  background: rgba(255, 253, 249, 0.88);
+  box-shadow: 0 22px 42px rgba(16, 42, 53, 0.16);
+}
+
+.hero__sign figcaption {
+  margin: 0;
+  color: rgba(16, 42, 53, 0.72);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -327,6 +349,29 @@ a {
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: 800;
+}
+
+.hero-card__directions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  margin-top: 16px;
+  padding: 0 18px;
+  border: 1px solid rgba(255, 253, 249, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.12);
+  color: var(--white);
+  font-size: 0.92rem;
+  font-weight: 800;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.hero-card__directions:hover,
+.hero-card__directions:focus-visible {
+  transform: translateY(-2px);
+  background: rgba(255, 253, 249, 0.18);
+  border-color: rgba(255, 253, 249, 0.34);
 }
 
 .hero-card__rates {
@@ -1255,6 +1300,10 @@ a {
   }
 
   .button {
+    width: 100%;
+  }
+
+  .hero__sign {
     width: 100%;
   }
 
