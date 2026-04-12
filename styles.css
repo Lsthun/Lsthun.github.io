@@ -67,7 +67,7 @@ a {
   padding: 18px 28px;
   background: rgba(255, 253, 249, 0.75);
   border: 1px solid rgba(16, 42, 53, 0.08);
-  border-radius: 999px;
+  border-radius: var(--radius-lg);
   backdrop-filter: blur(18px);
   position: sticky;
   top: 20px;
@@ -1257,7 +1257,7 @@ a {
   }
 
   .site-header {
-    border-radius: 28px;
+    border-radius: var(--radius-lg);
     padding: 18px;
     position: static;
     flex-direction: column;
