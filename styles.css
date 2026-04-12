@@ -64,7 +64,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 14px 24px;
+  padding: 18px 28px;
   background: rgba(255, 253, 249, 0.75);
   border: 1px solid rgba(16, 42, 53, 0.08);
   border-radius: 999px;
@@ -83,7 +83,7 @@ a {
 }
 
 .brand__mark {
-  width: clamp(116px, 12vw, 132px);
+  width: clamp(104px, 10vw, 120px);
   aspect-ratio: 1;
   height: auto;
   flex: 0 0 auto;
