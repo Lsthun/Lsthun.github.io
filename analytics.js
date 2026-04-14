@@ -1,29 +1,21 @@
 (function () {
   const GA4_MEASUREMENT_ID = "G-2LVK3VXT76";
-  const CONSENT_STORAGE_KEY = "bslcampground_cookie_consent";
-  const PRIVACY_POLICY_PATH = "./privacy-policy.html";
+  const PRIVACY_NOTICE_STORAGE_KEY = "privacy_notice_seen";
+  const PRIVACY_POLICY_PATH = "/privacy-policy/";
   let analyticsInitialized = false;
   let bannerElement = null;
 
-  function readConsent() {
+  function readNoticeState() {
     try {
-      return window.localStorage.getItem(CONSENT_STORAGE_KEY);
+      return window.localStorage.getItem(PRIVACY_NOTICE_STORAGE_KEY);
     } catch {
       return null;
     }
   }
 
-  function writeConsent(value) {
+  function writeNoticeState() {
     try {
-      window.localStorage.setItem(CONSENT_STORAGE_KEY, value);
-    } catch {
-      return;
-    }
-  }
-
-  function clearConsent() {
-    try {
-      window.localStorage.removeItem(CONSENT_STORAGE_KEY);
+      window.localStorage.setItem(PRIVACY_NOTICE_STORAGE_KEY, "true");
     } catch {
       return;
     }
@@ -160,38 +152,22 @@
     }
 
     bannerElement = document.createElement("div");
-    bannerElement.className = "cookie-banner";
+    bannerElement.className = "privacy-notice";
     bannerElement.hidden = true;
     bannerElement.innerHTML = `
-      <div class="cookie-banner__content" role="dialog" aria-live="polite" aria-label="Cookie notice">
-        <div class="cookie-banner__copy">
-          <p class="cookie-banner__eyebrow">Privacy Notice</p>
-          <p class="cookie-banner__title">We use Google Analytics to understand site traffic.</p>
-          <p class="cookie-banner__text">If you accept, we will measure page visits and clicks such as phone calls and directions requests. You can review details in our <a href="${PRIVACY_POLICY_PATH}">Privacy Policy</a>.</p>
-        </div>
-        <div class="cookie-banner__actions">
-          <button class="cookie-banner__button cookie-banner__button--ghost" type="button" data-cookie-decline>Decline</button>
-          <button class="cookie-banner__button cookie-banner__button--primary" type="button" data-cookie-accept>Accept</button>
-        </div>
+      <div class="privacy-notice__content" aria-live="polite" aria-label="Privacy notice">
+        <p class="privacy-notice__text">We use Google Analytics to understand how visitors use our site. By continuing, you agree to our <a href="${PRIVACY_POLICY_PATH}">Privacy Policy</a>.</p>
+        <button class="privacy-notice__button" type="button" data-notice-dismiss>Got it</button>
       </div>
     `;
 
     document.body.appendChild(bannerElement);
 
-    const acceptButton = bannerElement.querySelector("[data-cookie-accept]");
-    const declineButton = bannerElement.querySelector("[data-cookie-decline]");
+    const dismissButton = bannerElement.querySelector("[data-notice-dismiss]");
 
-    if (acceptButton) {
-      acceptButton.addEventListener("click", () => {
-        writeConsent("accepted");
-        hideBanner();
-        initializeAnalytics();
-      });
-    }
-
-    if (declineButton) {
-      declineButton.addEventListener("click", () => {
-        writeConsent("declined");
+    if (dismissButton) {
+      dismissButton.addEventListener("click", () => {
+        writeNoticeState();
         hideBanner();
       });
     }
@@ -220,33 +196,14 @@
     bannerElement.hidden = true;
   }
 
-  function bindPreferenceControls() {
-    const controls = document.querySelectorAll("[data-cookie-preferences]");
-
-    controls.forEach((control) => {
-      control.addEventListener("click", (event) => {
-        event.preventDefault();
-        clearConsent();
-        showBanner();
-      });
-    });
-  }
-
   function boot() {
-    bindPreferenceControls();
-
     if (!GA4_MEASUREMENT_ID) {
       return;
     }
 
-    const consent = readConsent();
+    initializeAnalytics();
 
-    if (consent === "accepted") {
-      initializeAnalytics();
-      return;
-    }
-
-    if (consent !== "declined") {
+    if (readNoticeState() !== "true") {
       showBanner();
     }
   }

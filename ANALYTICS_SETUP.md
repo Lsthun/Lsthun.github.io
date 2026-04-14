@@ -2,11 +2,12 @@
 
 This site is prepared for Google Analytics 4 tracking through `analytics.js`.
 
-The current implementation is consent-aware:
+The current implementation uses a lightweight privacy notice:
 
-- GA4 does not load until a visitor accepts the cookie banner.
-- The site includes a dedicated privacy policy page.
-- The site includes a Cookie Preferences control so visitors can reopen the banner.
+- GA4 loads normally for site measurement.
+- The site shows a small first-visit notice bar at the bottom of the screen.
+- The notice stores `privacy_notice_seen=true` in local storage after dismissal.
+- The site includes a dedicated privacy policy page at `/privacy-policy/`.
 
 ## 1. Finish GA4 setup
 
@@ -29,13 +30,13 @@ Recommended GA4 follow-up:
 3. Mark `directions_click` as a key event.
 4. Set your GA4 data retention period according to your preferred privacy posture.
 
-## Privacy policy and cookie notice
+## Privacy policy and privacy notice
 
 This site now includes:
 
-- `privacy-policy.html` for the public privacy notice
+- `/privacy-policy/` for the public privacy notice
 - a footer link to the Privacy Policy
-- a cookie consent banner that blocks GA4 until acceptance
+- a non-blocking privacy notice bar with a single acknowledgment button
 
 The privacy page includes:
 
