@@ -5,6 +5,7 @@ const embeddedAttractionsFeed = window.__ATTRACTIONS_FEED__ && Array.isArray(win
 const weekdayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const descriptionLimit = 180;
 const mobileCalendarBreakpoint = window.matchMedia("(max-width: 760px)");
+const reducedMotionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
 const refreshStaleDays = 31;
 
 const locationSlugMap = {
@@ -150,6 +151,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   const calendarGrid = document.getElementById("calendar-grid");
   const calendarAgenda = document.getElementById("calendar-agenda");
   const calendarResults = document.getElementById("calendar-results");
+  const calendarShell = calendarGrid ? calendarGrid.closest(".calendar-shell") : null;
+  const siteHeader = document.querySelector(".site-header");
   const calendarFeed = document.getElementById("calendar-feed");
   const calendarFeedHeader = document.getElementById("calendar-feed-header");
   const calendarFeedTitle = document.getElementById("calendar-feed-title");
@@ -508,6 +511,69 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderFeed();
   }
 
+  function getScrollTopOffset() {
+    if (mobileCalendarBreakpoint.matches) {
+      return 24;
+    }
+
+    if (!siteHeader) {
+      return 24;
+    }
+
+    const headerStyles = window.getComputedStyle(siteHeader);
+    const stickyTop = headerStyles.position === "sticky" ? Number.parseFloat(headerStyles.top) || 0 : 0;
+    return siteHeader.getBoundingClientRect().height + stickyTop + 24;
+  }
+
+  function scrollWindowTo(top) {
+    window.scrollTo({
+      top: Math.max(top, 0),
+      behavior: reducedMotionPreference.matches ? "auto" : "smooth"
+    });
+  }
+
+  function scrollElementIntoView(element, additionalGap = 0) {
+    if (!element) {
+      return;
+    }
+
+    window.requestAnimationFrame(() => {
+      const nextTop = window.scrollY + element.getBoundingClientRect().top - getScrollTopOffset() - additionalGap;
+      scrollWindowTo(nextTop);
+    });
+  }
+
+  function scrollResultsIntoView() {
+    if (!calendarResults || calendarResults.hidden) {
+      return;
+    }
+
+    scrollElementIntoView(calendarFeedTitle || calendarFeedHeader || calendarResults, mobileCalendarBreakpoint.matches ? 12 : 16);
+  }
+
+  function getDesktopWeekTarget(anchorDayKey = null) {
+    if (!calendarGrid) {
+      return calendarShell;
+    }
+
+    const fallbackDayKey = weekAnchorDate ? formatDateInputValue(weekAnchorDate) : null;
+    const dayKey = anchorDayKey || fallbackDayKey;
+    if (!dayKey) {
+      return calendarGrid;
+    }
+
+    return calendarGrid.querySelector(`[data-day-key="${dayKey}"]`) || calendarGrid;
+  }
+
+  function scrollCalendarIntoView(anchorDayKey = null) {
+    if (mobileCalendarBreakpoint.matches) {
+      scrollElementIntoView(calendarAgenda || calendarShell, 8);
+      return;
+    }
+
+    scrollElementIntoView(getDesktopWeekTarget(anchorDayKey), 56);
+  }
+
   function handleDaySelection(nextDayKey) {
     if (selectedDate === nextDayKey) {
       selectedDate = null;
@@ -525,6 +591,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     render();
+    scrollResultsIntoView();
   }
 
   navButtons.forEach((button) => {
@@ -576,8 +643,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   clearDayButton.addEventListener("click", () => {
+    const activeDayKey = selectedDate;
     selectedDate = null;
     render();
+    scrollCalendarIntoView(activeDayKey);
   });
 
   weekPicker.addEventListener("change", () => {
