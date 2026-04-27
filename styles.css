@@ -774,14 +774,24 @@ a {
 .calendar-controls {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
+  position: sticky;
+  top: 120px;
+  z-index: 4;
+  margin: 24px 0 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(16, 42, 53, 0.08);
+  border-radius: var(--radius-md);
+  background: rgba(247, 239, 228, 0.92);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 12px 28px rgba(16, 42, 53, 0.08);
 }
 
 .calendar-jump {
   display: grid;
   gap: 6px;
-  margin-left: auto;
 }
 
 .calendar-jump__label {
@@ -1175,6 +1185,14 @@ a {
   margin-top: 16px;
 }
 
+.calendar-feed-card__status {
+  margin: 0;
+  color: rgba(16, 42, 53, 0.72);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 .calendar-feed-empty {
   padding: 22px;
   border-radius: var(--radius-md);
@@ -1523,6 +1541,8 @@ a {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 100%;
+    top: 24px;
+    padding: 14px;
   }
 
   .calendar-month-label {

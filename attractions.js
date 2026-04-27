@@ -62,11 +62,24 @@ function truncateText(value, maxLength = descriptionLimit) {
 }
 
 function buildSourceLabel(item) {
+  if (item.cta && item.cta !== "View Event") {
+    return item.cta;
+  }
+
   if (item.source) {
     return `View on ${item.source}`;
   }
 
   return item.cta || "Open";
+}
+
+function buildFeedActionMarkup(item) {
+  if (item.hasLiveLink !== false && item.url) {
+    return `<a class="attraction-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(buildSourceLabel(item))}</a>`;
+  }
+
+  const statusMessage = item.linkNote || "Source event page is unavailable right now.";
+  return `<p class="calendar-feed-card__status">${escapeHtml(statusMessage)}</p>`;
 }
 
 function buildMonthKeys(items) {
@@ -181,8 +194,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const feed = await loadAttractionsFeed();
   const items = normalizeItems(feed.items || []);
-  const monthKeys = buildMonthKeys(items);
   const today = new Date();
+  const todayDate = parseLocalDate(formatDateInputValue(today));
+  const upcomingItems = items.filter((item) => item.dateObject >= todayDate);
+  const monthKeys = buildMonthKeys(upcomingItems);
   const todayKey = formatMonthKey(today);
   let currentMonthIndex = monthKeys.includes(todayKey) ? monthKeys.indexOf(todayKey) : 0;
   let activeLocation = "All";
@@ -223,12 +238,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if (monthKeys.length === 0) {
     calendarResults.hidden = false;
-    calendarFeed.innerHTML = '<div class="calendar-feed-empty"><p>No attractions are loaded yet.</p></div>';
+    calendarFeed.innerHTML = '<div class="calendar-feed-empty"><p>No upcoming attractions are loaded yet.</p></div>';
     return;
   }
 
-  const firstAvailableDate = items[0].dateObject;
-  const lastAvailableDate = items[items.length - 1].dateObject;
+  const firstAvailableDate = upcomingItems[0].dateObject;
+  const lastAvailableDate = upcomingItems[upcomingItems.length - 1].dateObject;
 
   weekPicker.min = formatDateInputValue(firstAvailableDate);
   weekPicker.max = formatDateInputValue(lastAvailableDate);
@@ -238,12 +253,23 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function getLocationItems() {
-    return items.filter((item) => activeLocation === "All" || item.location === activeLocation);
+    return upcomingItems.filter((item) => activeLocation === "All" || item.location === activeLocation);
   }
 
   function getMonthItems() {
     const activeMonthKey = getActiveMonthKey();
     return getLocationItems().filter((item) => formatMonthKey(item.dateObject) === activeMonthKey);
+  }
+
+  function getMonthDisplayStart() {
+    const activeMonthKey = getActiveMonthKey();
+    const monthBounds = getMonthBounds(activeMonthKey);
+
+    if (activeMonthKey !== todayKey) {
+      return monthBounds.first;
+    }
+
+    return clampDate(todayDate, monthBounds.first, monthBounds.last);
   }
 
   function getVisibleItems() {
@@ -301,7 +327,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       weekAnchorDate = parseLocalDate(selectedDate);
     } else if (!weekAnchorDate || formatMonthKey(weekAnchorDate) !== activeMonthKey) {
       const fallbackDate = monthItems.length > 0 ? monthItems[0].dateObject : monthBounds.first;
-      const preferredDate = formatMonthKey(today) === activeMonthKey ? today : fallbackDate;
+      const preferredDate = formatMonthKey(today) === activeMonthKey ? todayDate : fallbackDate;
       weekAnchorDate = clampDate(preferredDate, monthBounds.first, monthBounds.last);
     } else {
       weekAnchorDate = clampDate(weekAnchorDate, monthBounds.first, monthBounds.last);
@@ -326,8 +352,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function renderGrid() {
     const [year, month] = getActiveMonthKey().split("-").map(Number);
-    const firstDay = new Date(year, month - 1, 1);
     const lastDay = new Date(year, month, 0);
+    const visibleStart = getMonthDisplayStart();
     const monthItems = getMonthItems();
     const itemsByDay = getItemsByDay(monthItems);
 
@@ -335,10 +361,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       .map((label) => `<div class="calendar-grid__label">${label}</div>`)
       .join("");
 
-    const blanksMarkup = Array.from({ length: firstDay.getDay() }, () => '<div class="calendar-grid__blank" aria-hidden="true"></div>').join("");
+    const blanksMarkup = Array.from({ length: visibleStart.getDay() }, () => '<div class="calendar-grid__blank" aria-hidden="true"></div>').join("");
 
-    const daysMarkup = Array.from({ length: lastDay.getDate() }, (_, index) => {
-      const dayNumber = index + 1;
+    const daysMarkup = Array.from({ length: lastDay.getDate() - visibleStart.getDate() + 1 }, (_, index) => {
+      const dayNumber = visibleStart.getDate() + index;
       const dayItems = itemsByDay.get(dayNumber) || [];
       const dayKey = `${getActiveMonthKey()}-${String(dayNumber).padStart(2, "0")}`;
       const isToday =
@@ -492,7 +518,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <h4>${escapeHtml(item.title)}</h4>
             <p class="calendar-feed-card__description">${escapeHtml(truncateText(item.description))}</p>
             <div class="calendar-feed-card__actions">
-              <a class="attraction-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(buildSourceLabel(item))}</a>
+              ${buildFeedActionMarkup(item)}
             </div>
           </article>
         `

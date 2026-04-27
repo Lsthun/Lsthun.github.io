@@ -21,6 +21,8 @@ EMBEDDED_OUTPUT_PATH = ROOT / "attractions-feed.js"
 LOCAL_TZ = ZoneInfo("America/Chicago")
 TODAY = datetime.now(LOCAL_TZ).date()
 MAX_DATE = TODAY + timedelta(days=210)
+COASTAL_MISSISSIPPI_EVENTS_URL = "https://www.coastalmississippi.com/events/"
+COASTAL_MISSISSIPPI_LINK_NOTE = "Coastal Mississippi's event page is unavailable right now."
 SOURCE_PRIORITY = {
     "Cruisin' the Coast": 5,
     "Jeepin' the Coast": 5,
@@ -56,6 +58,8 @@ class EventItem:
     cta: str
     source: str
     timeLabel: str = ""
+    hasLiveLink: bool = True
+    linkNote: str = ""
 
     def dedupe_key(self) -> tuple[str, str, str]:
         normalized_title = re.sub(r"[^a-z0-9]+", " ", self.title.lower()).strip()
@@ -166,6 +170,51 @@ def request_text(url: str, *, timeout: int = 30) -> str:
     response = SESSION.get(url, timeout=timeout)
     response.raise_for_status()
     return response.text
+
+
+def normalize_public_url(url: str | None) -> str:
+    normalized = clean_text(url)
+    return requests.utils.requote_uri(normalized) if normalized else ""
+
+
+def build_coastal_mississippi_detail_url(uri: str | None) -> str:
+    normalized = clean_text(uri)
+    if not normalized:
+        return COASTAL_MISSISSIPPI_EVENTS_URL
+
+    if normalized.startswith(("http://", "https://")):
+        return normalize_public_url(normalized)
+
+    if normalized.startswith("/events/"):
+        return normalize_public_url(urljoin("https://www.coastalmississippi.com", normalized))
+
+    return normalize_public_url(urljoin(COASTAL_MISSISSIPPI_EVENTS_URL, normalized.lstrip("/")))
+
+
+def url_is_available(url: str, availability_cache: dict[str, bool], *, timeout: int = 20) -> bool:
+    if not url:
+        return False
+
+    cached = availability_cache.get(url)
+    if cached is not None:
+        return cached
+
+    response: requests.Response | None = None
+    try:
+        response = SESSION.head(url, timeout=timeout, allow_redirects=True)
+        if response.status_code in {403, 405}:
+            response.close()
+            response = SESSION.get(url, timeout=timeout, allow_redirects=True, stream=True)
+
+        is_available = 200 <= response.status_code < 400
+    except requests.RequestException:
+        is_available = False
+    finally:
+        if response is not None:
+            response.close()
+
+    availability_cache[url] = is_available
+    return is_available
 
 
 def extract_date_range(text: str) -> tuple[date, date] | None:
@@ -332,6 +381,7 @@ def scrape_coastal_mississippi() -> tuple[list[EventItem], dict[str, Any]]:
     algolia_url = f"https://{app_id.lower()}-dsn.algolia.net/1/indexes/{index_name}/query"
 
     items: list[EventItem] = []
+    url_availability: dict[str, bool] = {}
     page = 0
     total_pages = 1
 
@@ -370,9 +420,13 @@ def scrape_coastal_mississippi() -> tuple[list[EventItem], dict[str, Any]]:
             if not title or not is_public_event(title, description):
                 continue
 
-            detail_url = urljoin("https://www.coastalmississippi.com", hit.get("uri") or "/events/")
+            detail_url = build_coastal_mississippi_detail_url(hit.get("uri"))
             raw_categories = hit.get("eventCategories") or []
             category = infer_category(title, description, raw_categories[0] if raw_categories else "")
+            has_live_link = url_is_available(detail_url, url_availability)
+            item_url = detail_url if has_live_link else COASTAL_MISSISSIPPI_EVENTS_URL
+            item_cta = "View Event" if has_live_link else "Browse Coastal Mississippi events"
+            link_note = "" if has_live_link else COASTAL_MISSISSIPPI_LINK_NOTE
 
             items.append(
                 EventItem(
@@ -381,20 +435,27 @@ def scrape_coastal_mississippi() -> tuple[list[EventItem], dict[str, Any]]:
                     location=location,
                     category=category,
                     description=description,
-                    url=detail_url,
-                    cta="View Event",
+                    url=item_url,
+                    cta=item_cta,
                     source=source_name,
                     timeLabel="" if hit.get("isAllDay") else format_time_label(start, end),
+                    hasLiveLink=has_live_link,
+                    linkNote=link_note,
                 )
             )
 
         page += 1
 
+    broken_url_count = sum(1 for is_available in url_availability.values() if not is_available)
+
     return items, {
         "name": source_name,
         "status": "ok",
         "itemCount": len(items),
-        "notes": "Pulled from the public Algolia listings index exposed on the events page.",
+        "notes": (
+            "Pulled from the public Algolia listings index exposed on the events page. "
+            f"Validated {len(url_availability)} linked detail pages; {broken_url_count} fell back to the main events listing."
+        ),
     }
 
 

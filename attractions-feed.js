@@ -1,8 +1,8 @@
 window.__ATTRACTIONS_FEED__ = {
-  "generatedAt": "2026-04-12T11:26:48Z",
+  "generatedAt": "2026-04-26T20:34:03Z",
   "window": {
-    "start": "2026-04-12",
-    "end": "2026-11-08"
+    "start": "2026-04-26",
+    "end": "2026-11-22"
   },
   "sources": [
     {
@@ -20,20 +20,20 @@ window.__ATTRACTIONS_FEED__ = {
     {
       "name": "Shoofly Magazine",
       "status": "ok",
-      "itemCount": 44,
+      "itemCount": 27,
       "notes": "Pulled from the public Tockify agenda page JSON-LD payload."
     },
     {
       "name": "Hancock Chamber",
       "status": "ok",
-      "itemCount": 30,
+      "itemCount": 38,
       "notes": "Scraped from GrowthZone event cards and detail pages."
     },
     {
       "name": "Coastal Mississippi",
       "status": "ok",
-      "itemCount": 338,
-      "notes": "Pulled from the public Algolia listings index exposed on the events page."
+      "itemCount": 367,
+      "notes": "Pulled from the public Algolia listings index exposed on the events page. Validated 150 linked detail pages; 0 fell back to the main events listing."
     },
     {
       "name": "Old Town Merchants Association",
@@ -50,677 +50,6 @@ window.__ATTRACTIONS_FEED__ = {
   ],
   "items": [
     {
-      "date": "2026-04-12",
-      "title": "100 Men Hall Blues Brunch Series With Johnny Sansone",
-      "location": "Bay St. Louis",
-      "category": "Dining",
-      "description": "The 100 Men Hall hosts its Second Sunday BLUES BRUNCH series, featuring the best of blues music and the finest in dining all served in a historical setting! On April 12th, Johnny Sansone Band includin",
-      "url": "https://tockify.com/shooflymagazine/detail/4713/1776009600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "11:00 AM - 1:00 PM"
-    },
-    {
-      "date": "2026-04-12",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-12",
-      "title": "Intro to Chair Seat Weaving with Jo Rusin",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Intro to Chair Seat Weaving with Jo Rusin Have you ever wanted to learn the art of caning a chair or restore a chair with your own hands? Now\u2019s your chance to learn a timeless craft in a fun, supporti",
-      "url": "https://tockify.com/shooflymagazine/detail/4739/1776018600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "1:30 PM - 3:30 PM"
-    },
-    {
-      "date": "2026-04-12",
-      "title": "Croc Charm Giveaway Family Sunday | Biloxi Shuckers vs Pensacola Wahoos",
-      "location": "Gulfport/Biloxi",
-      "category": "Family",
-      "description": "Celebrate the first Family Sunday of the season with a Shuckers-themed Croc charm pack for the first 500 fans under 14 years old, presented by Keesler Federal Credit Union. Every Sunday is Family Sunday at Keesler Federal Park. Enjoy catching on the field, player autographs, and more! Get your tickets HERE!",
-      "url": "https://www.coastalmississippi.com/croc-charm-giveaway-family-sunday-biloxi-shuckers-vs-pensacola-wahoos/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-13",
-      "title": "BSL Historic Preservation Commission Meetings",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "Applications being reviewed must be turned in by the fourth Monday of the preceding month. The public is welcome to attend these meetings. For agendas, click here. For the design guidelines, the ordin",
-      "url": "https://tockify.com/shooflymagazine/detail/1004/1776099600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "12:00 PM - 1:00 PM"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Storytelling \u2013 The Art of Crafting & Telling a Great Story with Honey Parker",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Storytelling \u2013 The Art of Crafting & Telling a Great Story with Honey Parker A story well told can captivate, inspire, foster understanding, and bring people together. Whether you\u2019re preparing for our",
-      "url": "https://tockify.com/shooflymagazine/detail/4660/1776119400000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:00 PM"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Hospitality Days",
-      "location": "Gulfport/Biloxi",
-      "category": "Free Admission",
-      "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are! That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Junior Auxiliary of Hancock County New Member Induction",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "Junior Auxiliary of Hancock County welcomes new members.",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/junior-auxiliary-of-hancock-county-new-member-induction-1640404?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "5:00 PM - 8:00 PM"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Aqua Tots",
-      "location": "Gulfport/Biloxi",
-      "category": "Family",
-      "description": "Spend the morning with your child exploring Mississippi\u2019s amazing aquatic environments. Learn what animals need to grow and live, and how they survive in different habitats through hands-on activities, games, and stories.Aqua Tots Program Includes:Exploration of one of our habitatsFun, educational activities, games, and storiesA take-home craftYour ticket will allow you to stay in the park all day after the event ends.Program Duration: 8:45 a.m. to 10 a.m.Check-in begins at 8:30 a.m. and ends at 8:45 a.m.Ages: 3 to 5 years oldCost:Child: $15 General Admission/$10 Annual Passholders/Pre-K PassholdersAdult: $20 General Admission /$15 Annual Passholders. Annual passholders wanting to book can reach out to their Annual Pass Con-SEA-eirge at annualpassholder@msaquarium.org to sign up and redeem their special Annual Passholder price.",
-      "url": "https://www.coastalmississippi.com/aqua-tots-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Wednesdays at the Depot",
-      "location": "Bay St. Louis",
-      "category": "Dining",
-      "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented regional artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Weekly MS Gulf Coast Run-'N'-Chug",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Weekly 5k running club that meets every Wednesday night! We start at the Ugly Pirate Bar and run through town. All paces welcome!",
-      "url": "https://tockify.com/shooflymagazine/detail/2417/1776295800000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "6:30 PM - 9:00 PM"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Gulfport Harbor Farmer's Market",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-15",
-      "title": "MS Writers Guild Coastal Chapter meeting",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "The Coastal Chapter of the Mississippi Writers Guild, formally the Gulf Coast Chapter, meets 5:30pm-7:30pm on the third Wednesday of every month at the Gulfport Arts Center, 1300 24th Ave. on the east",
-      "url": "https://tockify.com/shooflymagazine/detail/2564/1776292200000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:30 PM"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Fraud Prevention with Hancock Whitney",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "In an era of increasingly sophisticated scams and cyber threats, the Hancock Chamber of Commerce and Hancock Whitney are urging local businesses and residents to take proactive steps to safeguard their financial and personal information by attending an upcoming Fraud Prevention Seminar. The seminar will be held on Thursday, April 16, 2026, at the Hancock Chamber Business Resource Center, located at 300 South Second Street in Bay St. Louis. Doors open at 7:30 a.m. with a complimentary breakfast sponsored by Hancock Whitney, and the program will run from 8:00 a.m. to 9:00 a.m. The session will feature keynote speaker Cindy Osmer, Senior Vice President of the Treasury Management Department at Hancock Whitney . Osmer will provide expert insights into the latest fraud trends and deliver practical strategies designed to help attendees protect their businesses, employees, and personal assets. \u201cFraud is no longer a distant threat\u2014it is happening every day to businesses of all sizes and individuals across our communities,\u201d said Tish Williams, Executive Director of the Hancock Chamber. \u201cThis seminar is designed to equip attendees with the knowledge and tools they need to recognize risks, prevent losses, and respond effectively if targeted.\u201d Attendees will gain valuable guidance on: \u2022 Identifying common and emerging fraud schemes; \u2022 Strengthening internal controls and financial safeguards \u2022 Protecting sensitive business and personal information \u2022 Training employees to recognize and prevent fraud attempts With financial fraud on the rise nationwide, this seminar offers a timely opportunity for both business owners and individuals to stay informed and prepared.",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/fraud-prevention-with-hancock-whitney-1692063?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "7:30 AM - 9:00 AM"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Rumble on the Gulf",
-      "location": "Bay St. Louis",
-      "category": "Outdoors",
-      "description": "Rev your engines! Join us from 5-9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music,",
-      "url": "https://tockify.com/shooflymagazine/detail/4679/1776376800000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "5:00 PM - 9:00 PM"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Rumble on the Gulf | Beachside Rally",
-      "location": "Bay St. Louis",
-      "category": "Dining",
-      "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Pop Evil | What Remains Tour w/ Kamenar & Sierra Pilot",
-      "location": "Gulfport/Biloxi",
-      "category": "Live Music",
-      "description": "Rock powerhouses Pop Evil bring their explosive live show to the stage on the What Remains Tour, delivering a night packed with anthemic hits, massive riffs, and the high\u2011energy intensity the band is known for.With a catalog that blends hard rock grit and radio\u2011ready hooks, Pop Evil will perform fan favorites along with new material that showcases their signature blend of melody and muscle.Supporting the tour are Kamenar, known for their dynamic twin\u2011frontman energy and modern hard\u2011rock edge, and Sierra Plot, delivering a powerful and emotive alternative\u2011rock performance that rounds out a stacked lineup.Expect a full night of adrenaline\u2011charged music, unforgettable moments, and a lineup built for rock fans of every era.",
-      "url": "https://www.coastalmississippi.com/pop-evil-what-remains-tour-w-kamenar-sierra-pilot/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Book Club for Adults at Waveland Branch",
-      "location": "Waveland",
-      "category": "Community",
-      "description": "Come to the book club on the porch! Every 3rd Thursday of the month.",
-      "url": "https://tockify.com/shooflymagazine/detail/182/1776366000000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "2:00 PM - 3:00 PM"
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Stage Bar Live Entertainment",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Crawfish Music Festival",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Experience three days of live music, delicious food, and Coast entertainment at the Crawfish Music Festival!Enjoy performances from a variety of artists throughout the weekend, and don\u2019t miss Saturday\u2019s Crawfish Cook\u2011Off, where teams compete to serve up the Coast\u2019s best crawfish.Whether you\u2019re drawn by the concerts, the cuisine, or the festive atmosphere, there\u2019s something for everyone to enjoy. Tickets start at $25, making it one of the most fun and affordable weekend events on the Coast!Great music. Fresh crawfish. Unforgettable memories.",
-      "url": "https://www.coastalmississippi.com/crawfish-music-festival/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Depot District at Dusk",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-17",
-      "title": "LeAnn Rimes",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Join Grammy\u2011winning powerhouse LeAnn Rimes for an unforgettable night of music as she takes the stage at the Beau Rivage Theatre in Biloxi! Celebrated for her soaring vocals and heartfelt storytelling, LeAnn continues to captivate audiences with the same brilliance that made her a star at just thirteen years old.",
-      "url": "https://www.coastalmississippi.com/leann-rimes-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Sons of Legion",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "Born from a chance encounter between two musicians from opposite coasts, Sons of Legion (S\u00d8L) is the embodiment of serendipity in sound. This dynamic duo chose to walk the same musical path, creating a unique blend that defies geographical boundaries and genre constraints.At its core, Sons of Legion is a powerhouse of rock 'n' soul, seamlessly fusing the raw, unbridled energy of rock with the deep, emotive currents of blues and the timeless allure of soul. Their sound is a delicate balance of rugged grit and sophisticated class, evoking memories of rock's greatest legends while carving out a distinct identity all their own.Known for their electrifying performances and thought-provoking lyrics, Sons of Legion has built a reputation that resonates far beyond their Nashville roots. Their music speaks to the heart and ignites the spirit, with tracks like \"Brand New Day,\" \"Power,\" and \"Firestarter\" serving as testaments to their songwriting prowess.The band's impact extends well beyond the stage. With over 2 million monthly listeners on Spotify, Sons of Legion has found its way into the mainstream consciousness. Their music has become the soundtrack to pivotal moments, featured on ESPN broadcasts, Dodge Ram commercials, Netflix productions, and NBC programming.As Sons of Legion continues to evolve and push boundaries, they remain true to their ethos of authenticity and musical integrity. Each note, each lyric, each performance is a reflection of their journey - two paths converged, creating a musical force that continues to inspire and captivate audiences worldwide.",
-      "url": "https://www.coastalmississippi.com/sons-of-legion/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-17",
-      "title": "The Last Luau: Lei'd To Rest Murder Mystery Dinner Show",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Aloha\u2026 and goodbye. What starts as a glamorous island luau ends in murder, mystery, and mayhem. Join us for an interactive tropical whodunnit filled with outrageous suspects, shocking secrets, and laugh-out-loud comedy. Can you solve the crime before the killer vanishes into paradise?So grab your leis, dress in your best island-coastal style, and get ready for a night of secrets, scandal, and sleuthing\u2014because even paradise has mysteries\u2026 and someone won\u2019t make it off the island. Tickets are $68.49. The show is rated PG-13. MENU:APPETIZERIsland Mango Salad - Salad with mango and nuts with a citrus dressingENTREE (Choice)Chicken Teriyaki, Sweet and Sour Pork Chop, or BBQ Glazed Salmon - All served with coconut rice and sweet potato hash DESSERT:Miniature Banana Splits - A sweet island finaleDinner includes soft drinks, tea, and coffee.Admission Includes:Cash BarCostume Contest Three Course Meal Non Alcoholic Drink Commemorative Photo Audience Participation Prizes for Winning Sleuths",
-      "url": "https://www.coastalmississippi.com/the-last-luau-leid-to-rest-murder-mystery-dinner-show-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Community Shred Day",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "Have old papers that you need to discard, but want to protect your information? Then we have the event for you! Join The Peoples Bank on Saturday, April 18 for 9am-1pm to get rid of your documents securely.",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/community-shred-day-1697902?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "9:00 AM - 1:00 PM"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Hancock County Farmers Market",
-      "location": "Bay St. Louis",
-      "category": "Festival",
-      "description": "The Hancock County Farmers' Market is a weekly happening that keeps growing, with more vendors setting up all the time! If you're a vendor and want to know about selling at the market, call David Kenn",
-      "url": "https://tockify.com/shooflymagazine/detail/1164/1776517200000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 12:00 PM"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Hollydeck Seafood Boil",
-      "location": "Bay St. Louis",
-      "category": "Dining",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck for fresh boiled seafood plates, sides, and fixin's along with live entertainment. Get your plate while supplies last.Saturday, April 18 | 11 a.m. to 5 p.m.Sunday, April 19 | 11 a.m. to 5 p.m.",
-      "url": "https://www.coastalmississippi.com/hollydeck-seafood-boil/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Inaugural Flower Festival",
-      "location": "Bay St. Louis",
-      "category": "Dining",
-      "description": "The First Annual Flower Festival brings together art, wellness, music, and local food for an unforgettable spring celebration.This is a chance to slow down, breathe deep, and reconnect with nature and community. Whether you're picking flowers with your family, walking our trails, or listening to live music under century-old oaks, you'll find your own perfect way to celebrate spring at La Terre.This is a family-friendly event with activities for all ages. Classes, workshops, and u-picks will be available for purchase on-site. The 5k and farm-to-table dinner will require pre-registration.Fee: $10 per car covers parking and admission for all in the vehicle for that day \u2014 it pays to carpool!Partners: Walter Anderson Museum of Art (WAMA) and The Arts, Hancock CountyWe'd love to have you participate! We have sponsorship opportunities, and vendor registration is open. \u200bFestival Highlights Here are some festival highlights, with a full schedule coming soon. Nature & Wellness \u2013U-Pick Flower Fields - Create your own hand-picked bouquet to take home Active Adventures - 5K \"Run a Country Mile\" and 1-Mile Fun Run put on by Bay St Louis Running Club (separate registration will be coming soon) Walks- Guided trail walks and bird watching Art in Nature - Plein air painting areas and classes for artists of all levels (class/workshop fees may apply) Sunset Wellness- Yoga and sound bath as the day winds down (by donation) Flowers & Farming \u2013Floral Design Workshops - Learn from expert designers using farm-fresh blooms and foraged materials Farm Tours - Explore our 500 acres and discover how we grow Native Plant Identification - Educational presentations on Mississippi's native flora Plant Sale - Take home your favorites to grow Food & Flavor \u2013Edible Flower Demonstrations - Local chefs show you how to incorporate flowers into your cooking.Farm-to-Table Dinner - An intimate dining experience in our gardens (separate ticketing required) Food Trucks & Coffee - Regional favorites and local roasters Arts, Crafts & Music \u2013Artist Vendor Market - Discover handmade crafts and original art from regional makers. Budding Young Artists - Kids (8-18) art show and sale Music Under the Oaks - Enjoy performances throughout the weekend under the oaks",
-      "url": "https://www.coastalmississippi.com/inaugural-flower-festival/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Miniature Matchbox Shrines with Brittany Heskett of Papermoonies",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "Miniature Matchbox Shrines with Brittany Heskett of Papermoonies Saturday, April 18 *10:30a - 1:30p Create two tiny shrines\u2014palm-sized keepsakes to hold your memories, wishes, or sacred symbols. Using",
-      "url": "https://tockify.com/shooflymagazine/detail/4616/1776526200000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "10:30 AM - 1:30 PM"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Stage Bar Live Entertainment",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "America 250! Beethoven & Blue Jeans With Spencer Myer",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Celebrate America\u2019s 250th anniversary with an unforgettable evening of music as the Mississippi Gulf Coast Symphony presents America 250! Beethoven & Blue Jeans with Spencer Myer!This special performance takes place on Saturday, April 18, 2026, at 7:30 p.m. at the Immersive Media Performing Arts Center (iMPAC) in Gulfport, Mississippi.Join the Symphony for a relaxed, come\u2011as\u2011you\u2011are concert experience where classical brilliance meets laid\u2011back charm. Featuring acclaimed pianist Spencer Myer, the program showcases the power and timeless beauty of Beethoven\u2019s music while embracing a fun, approachable atmosphere perfect for both devoted symphony lovers and first\u2011time attendees. With its blend of patriotic spirit, masterful performance, and inviting tone, Beethoven & Blue Jeans stands out as a highlight of the Symphony\u2019s season, bringing the community together to honor America\u2019s milestone year through music that inspires, uplifts, and unites.If you have further questions, you may call iMPAC\u2019s Box Office at (601) 292-7121, Monday \u2013 Friday from 9 a.m. to 6 p.m., or (228) 896-2541, or call the Symphony office at (228) 896-4276 or email info@gulfcoastsymphony.net.",
-      "url": "https://www.coastalmississippi.com/america-250-beethoven-blue-jeans-with-spencer-myer/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Pink Heart Funds Ribbon Walk 2026",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "The Ribbon Walk is a 5K or 1 Mile Walk/Run to support children and adults with all types of cancer. All proceeds from the event will help Pink Heart Funds support local cancer patients.Registration opens at 6:30 a.m.!The Run will begin at 7:30 a.m., followed by an awards ceremony at 8:45 a.m.The Walk will begin at 9 a.m.",
-      "url": "https://www.coastalmississippi.com/pink-heart-funds-ribbon-walk-2026/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Waveland Crawfish Cook Off",
-      "location": "Waveland",
-      "category": "Community",
-      "description": "The Waveland Crawfish Cook-Off is BACK! This annual fundraiser for the Hancock resource Center, supports essential services for vulnerable populations in Hancock County. Get your team together and get",
-      "url": "https://tockify.com/shooflymagazine/detail/4601/1776528000000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "11:00 AM - 5:00 PM"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Waveland Crawfish Cook-off to Benefit the Hancock Resource Center",
-      "location": "Waveland",
-      "category": "Family",
-      "description": "Teams will compete for The Best Crawfish and other awards. The event will be held on Coleman Avenue in Waveland from 11 a.m. to 5 p.m., or when the crawfish runs out! Tickets at the gate $35 (early bird $25). Kids 10-12 $10. Kids under 10 are free. Click here for additional details .",
-      "url": "https://business.hancockchamber.org/community-calendar/Details/waveland-crawfish-cook-off-to-benefit-the-hancock-resource-center-1405346?sourceTypeId=Website",
-      "cta": "View Event",
-      "source": "Hancock Chamber",
-      "timeLabel": "11:00 AM - 5:00 PM"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Waveland Crawfish Cookoff",
-      "location": "Waveland",
-      "category": "Dining",
-      "description": "The Waveland Crawfish Cookoff is back for the 18th year!Teams will compete for \"The Best Crawfish\" and many other awards. The event will be held on Coleman Ave in Waveland.",
-      "url": "https://www.coastalmississippi.com/waveland-crawfish-cookoff/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-19",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-19",
-      "title": "Drag Brunch",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Join us for an unforgettable morning of glamour, incredible talent, and delicious food at our Drag Show & Three\u2011Course Brunch. Tickets are $60 per person, and while the menu is crafted fresh and finalized just before the show, you can always expect a beautifully curated dining experience.Doors open at 10:30 a.m., giving you time to settle in, socialize, and get comfortable before the show kicks off at 11:30 a.m. Our performers bring energy, joy, and sparkle to the room, and they always appreciate cash tips. We keep a limited amount of change on hand for your convenience.Your ticket includes the full three\u2011course brunch, the drag show entertainment, and tax and gratuity for the food. Beverages\u2014both alcoholic and non-alcoholic\u2014are available for purchase and will include their own tax and gratuity.To ensure that groups are seated together, we strongly encourage guests to purchase all tickets for their table in a single transaction. If that isn\u2019t possible, simply email us at info@biloxiwhitepillars.com with the names of everyone in your party so we can arrange seating accordingly. Without this information, we cannot guarantee group seating. Please note we do not issue physical tickets; just have your order confirmation ready to show at the door. All ticket sales are final and non-refundable.Thank you for supporting White Pillars and our incredible local drag entertainers!",
-      "url": "https://www.coastalmississippi.com/drag-brunch-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Board of Supervisors Meeting",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "The Board of Supervisors meet twice a month on the first and third Mondays with exceptions for holidays. Find schedule and meeting agendas here: hancockcountyms.iqm2.com/Citizens/Default.aspx",
-      "url": "https://tockify.com/shooflymagazine/detail/1334/1776693600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "9:00 AM - 10:00 AM"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Storytelling \u2013 The Art of Crafting & Telling a Great Story with Honey Parker",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Storytelling \u2013 The Art of Crafting & Telling a Great Story with Honey Parker A story well told can captivate, inspire, foster understanding, and bring people together. Whether you\u2019re preparing for our",
-      "url": "https://tockify.com/shooflymagazine/detail/4660/1776724200000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:00 PM"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Lunchbox Comedy Presents: Josh Watts, D-ROCC, Patty Dwyer, Derek Stewart",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Join us 4/20 at The Sanctuary for a night of elevated laughs with some of the funniest voices from the South and beyond!D-ROCC (Baton Rouge) \u2013 Baton Rouge\u2019s own rising stand-up powerhouse, D-Roc has been blazing comedy stages across Louisiana and lighting up crowds at venues like The Silly Rabbit Comedy Club. Known for his sharp wit, raw energy, and crowd-engaging style, D-Roc is a local favorite turning everyday chaos into straight heat.Derek Stewart (Florida) \u2013 A Marine Corps veteran turned professional funny man, Derek brings life lessons straight from the military, parenthood, and everyday absurdity. With a decade of service under his belt and stage experience opening for touring pros nationwide, Derek\u2019s brand of witty, observational comedy hits hard and keeps audiences guessing what he\u2019ll roast next.Patty Dwyer (Mississippi) \u2013 Gulf Coast\u2019s own comic force, Patty blends life, humor, and chaotic good vibes into a set that\u2019s equal parts relatable and unpredictable. A podcast favorite and humorist with roots in story-driven comedy, Patty brings that Southern charm with a twist that\u2019ll have you laughing and nodding (sometimes at the same time).Headliner: Josh Watts (Louisiana) \u2013 Baton Rouge native and Northshore Comedy co-founder, Josh Watts is the guy your cousin quotes on Facebook. He\u2019s shared stages with Sean Patton, Joe DeRosa, Emo Phillips, and even Jake \u201cThe Snake\u201d Roberts. Josh was featured in Comedy Central\u2019s Hart of the City New Orleans showcase, was runner-up on Baton Rouge\u2019s Got Talent in 2019, and has appeared in Amazon Prime specials, bringing his blunt dad perspective and sharp wit to audiences everywhere.",
-      "url": "https://www.coastalmississippi.com/lunchbox-comedy-presents-josh-watts-d-rocc-patty-dwyer-derek-stewart/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-21",
-      "title": "BSL City Council Mtg.",
-      "location": "Bay St. Louis",
-      "category": "Community",
-      "description": "Please contact the city for most recent meeting information. The Bay Saint Louis City Council meets twice a month for regular meetings. The meetings are on the first Tuesday after the first Monday of",
-      "url": "https://tockify.com/shooflymagazine/detail/1556/1776810600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:30 PM"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Weekly MS Gulf Coast Run-'N'-Chug",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Weekly 5k running club that meets every Wednesday night! We start at the Ugly Pirate Bar and run through town. All paces welcome!",
-      "url": "https://tockify.com/shooflymagazine/detail/2417/1776900600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "6:30 PM - 9:00 PM"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Gulfport Harbor Farmer's Market",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Homeschool Days",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Mississippi Aquarium welcomes homeschool families and groups to visit, explore, and participate in hands-on educational activities. Our themed programs are designed for students of all ages and are the perfect complement to any science curriculum.What Should Students Expect?After check-in, students will meet with one of the Aquarium's educators who will introduce the week's topic. Students will then partake in hands-on, educational activity stations, supervised by an educator. Supplemental materials will be available to guide learning during the activity. There will be an opportunity to meet one of our animal ambassadors and tour the Aquarium at your leisure.Important InformationYour Homeschool Day Admission Ticket is only good for the day printed on the ticket. (Click on the attachment to view your tickets.)Parking is available both on the street and in the CTA parking garage.CTA charges a fee to park in their garage, Address: 1401 20th Ave, Gulfport, MS 39501Street parking is available; be aware of the 1-hour parking signageNo refunds, no rainchecksAnnual Pass Holders do not receive a discount on Homeschool Day Tickets.Your homeschool day ticket will allow you to stay in the park all day after the event ends.Homeschool Days Program Time8:45 AM - 10 AMCheck-in Time8:40 AM - 9 AMProgram CostAdvanced Purchase:Student pk-12 | $18.50Adult | $20At the window (day of):Student pk-12 | $26.95Adult | $31.95",
-      "url": "https://www.coastalmississippi.com/homeschool-days-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Rumble on the Gulf",
-      "location": "Bay St. Louis",
-      "category": "Outdoors",
-      "description": "Rev your engines! Join us from 5-9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music,",
-      "url": "https://tockify.com/shooflymagazine/detail/4680/1776981600000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "5:00 PM - 9:00 PM"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Rumble on the Gulf | Beachside Rally",
-      "location": "Bay St. Louis",
-      "category": "Dining",
-      "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Stage Bar Live Entertainment",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-24",
-      "title": "2nd Annual Budtender Awards 2026",
-      "location": "Gulfport/Biloxi",
-      "category": "Live Music",
-      "description": "Get ready for an unforgettable night celebrating Mississippi\u2019s cannabis industry. The Mississippi Budtender Awards & Competition Show brings together industry professionals, educators, advocates, and patients for a night of competition, collaboration, and recognition.This isn\u2019t your typical sit-back-and-watch event\u2014it\u2019s an interactive, high-energy experience where the spotlight shines on the budtenders who shape our industry every day.Cheer on the nominees\u2014voted by the industry during our pre-event nomination and voting phases.Feel the excitement as the best of the best battle it out on stage in live competitions.Enjoy craft cocktails, vibrant energy, and beats from our live DJ.Whether you're here to support your favorite budtender, network with industry leaders, or just experience the pulse of Mississippi\u2019s growing cannabis community, this is the event you don\u2019t want to miss!",
-      "url": "https://www.coastalmississippi.com/2nd-annual-budtender-awards-2026/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Hancock County Farmers Market",
-      "location": "Bay St. Louis",
-      "category": "Festival",
-      "description": "The Hancock County Farmers' Market is a weekly happening that keeps growing, with more vendors setting up all the time! If you're a vendor and want to know about selling at the market, call David Kenn",
-      "url": "https://tockify.com/shooflymagazine/detail/1164/1777122000000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 12:00 PM"
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Hollydeck Live Music",
-      "location": "Bay St. Louis",
-      "category": "Live Music",
-      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Spring into Stained Glass \u2013 Garden Stake Class with Laurali & Gail",
-      "location": "Bay St. Louis",
-      "category": "Outdoors",
-      "description": "Spring into Stained Glass \u2013 Garden Stake Class with Laurali & Gail Celebrate the season by creating your own handcrafted stained glass garden stake! Join us Saturday, April 25 *11a\u20134p Register here: h",
-      "url": "https://tockify.com/shooflymagazine/detail/4640/1777132800000",
-      "cta": "View Event",
-      "source": "Shoofly Magazine",
-      "timeLabel": "11:00 AM - 4:00 PM"
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Stage Bar Live Entertainment",
-      "location": "Bay St. Louis",
-      "category": "Arts & Culture",
-      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "2026 Gulf Coast Dragon Boat Festival",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "Get ready to paddle for a purpose at the 2026 Gulf Coast Dragon Boat Festival presented by United Way of South Mississippi! This exciting community event brings together local teams, friends, families, and businesses for a weekend of friendly competition, fun, and fundraising \u2014 and you\u2019re invited!Dragon boating is a unique kind of boat racing. A dragon boat team consists of 20 paddlers sitting two abreast, a cox who steers the dragon boat from the rear, and a drummer who sits at the front. The boat itself is 46 feet long and will go as fast as you can paddle! The team of paddlers works in unison to propel the boat forward from a standing start, aiming to reach the finish line in the fastest time.The day begins at 8 a.m. at the Harrah's Gulf Coast Great Lawn.All proceeds from the Gulf Coast Dragon Boat Festival directly benefit United Way of South Mississippi, whose purpose is to support early childhood education and literacy, access to health care, financial stability, youth opportunity, and community resiliency for individuals and families in Hancock, Harrison, Pearl River, and Stone counties in South Mississippi.",
-      "url": "https://www.coastalmississippi.com/2026-gulf-coast-dragon-boat-festival/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Babyface",
-      "location": "Gulfport/Biloxi",
-      "category": "Arts & Culture",
-      "description": "Experience an unforgettable night of smooth R&B as Babyface takes the stage at the Beau Rivage Theatre in Biloxi! The legendary singer, songwriter, and producer brings his signature soulful sound and timeless hits to the Gulf Coast for one special evening.Known for classics like \u201cWhip Appeal\u201d and \u201cEvery Time I Close My Eyes,\u201d Babyface delivers a show filled with lush vocals, heartfelt storytelling, and the romantic energy that has defined his award\u2011winning career. Fans can expect a night of beautifully arranged favorites, emotional ballads, and the polished musicality that only Babyface can bring.",
-      "url": "https://www.coastalmississippi.com/babyface-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Chandyfest 2026",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "Chandyfest is expected to be more fun than ever! We have some new and exciting changes to the entertainment lineup this year. There will be amazing music, including a headlining performance by the Shine Soul band, as well as sets by the Morgan Tyler band, Katie Jones, and Andrew Fulton. We are hosting our 3rd Annual Crawfish Cooking Contest! We have an overflowing list of vendors with unique finds, and multiple food trucks! We will have activities for the whole family, a day filled with great fun, including new beer releases and incredible food. We are also partnering with the Red Fish World Championship, which will present winners during the event and showcase boats and other fishing accessories.",
-      "url": "https://www.coastalmississippi.com/chandyfest-2026/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Community Beach Clean Up",
-      "location": "Gulfport/Biloxi",
-      "category": "Family",
-      "description": "In collaboration with the MSU Extension Office's MS Coastal Cleanup Program, Mississippi Aquarium hosts beach cleanups at Jones Park beach throughout the year! Over the years, Mississippi Aquarium beach clean-ups have collected over 100 pounds of trash, including more than 500 fireworks! The Mississippi Coastal Cleanup Program provides all the supplies necessary for the beach cleanup (gloves, trash bags, etc.).Please bring your own:Sun Protection (hat, sunscreen, sunglasses)Close-toed shoesRefillable water bottleBucket to collect trashThese Beach cleanups are located on Gulfport Beach across from MSAQ. Check-in is located left of the large anchor and pavilion in Jones Park.Questions? Email volunteer@msaquarium.orgThose that register in advance to help out crew, have a chance to win a MSAQ Prize Pack including tickets!",
-      "url": "https://www.coastalmississippi.com/community-beach-clean-up/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "FUN-damentals of Model Railroading | Workshop Series",
-      "location": "Gulfport/Biloxi",
-      "category": "Festival",
-      "description": "Join us for the FUN-damentals of Model Railroading Workshop Series, held on the last Saturday of each month and led by the Mississippi Coast Model Railroad Club.This is a fully hands-on workshop for ages 10 and up, focused on the real basics of model railroading. Builders work directly with materials, tools, and techniques used by experienced hobbyists. Class topics rotate and may include:Building structure kits from Bar Mills Scale Model WorksScenery and terrain basicsAdding finishing detailsSkill-building techniques that grow month to monthFamily perks:Families may enjoy the museum at 10% off admission during class. A special pizza option is available and delivered right to the museum.Safety Notice:This workshop involves the use of sharp tools, hot glue, and other hobby equipment. Participants must follow the instructor's directions at all times. Adult supervision is recommended.Important:Pre-registration requiredWalk-ins are not guaranteedVery limited spots availableDue to limited seating, builders and one chaperone per builder are allowed in the class area.For the full class schedule and details, visit TrainTastic.com.",
-      "url": "https://www.coastalmississippi.com/fun-damentals-of-model-railroading-workshop-series-2/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
-      "date": "2026-04-25",
-      "title": "MS Gulf Coast Cannabis Festival",
-      "location": "Gulfport/Biloxi",
-      "category": "Dining",
-      "description": "MSCF's 5th Annual event is being organized by Mississippi locals to celebrate the power of plant medicine and educate the public about related science, policy, criminal justice, and social equity issues.We will have retail vendors, information/services vendors, food trucks, a full entertainment lineup, informational sessions such as the Business of Cannabis, the Economics of Cannabis, Federal and State Cannabis Policies, the Science of Cannabis, Medicinal Uses of Cannabis, Patient Registration, Veterans Outreach, Voter Registration, Cooking with Cannabis, Women in Cannabis, and much more. The attendees will walk away with a better understanding of the powerful properties of the cannabis plant, related science, policy, criminal justice issues, social equity issues, business and employment opportunities, and patient care services, including how to get your medical card.VIP Tickets are available: relax in an exclusive VIP area with catered food and drinks, and enjoy the best views of the festivities. Must be 21+ to attend.",
-      "url": "https://www.coastalmississippi.com/ms-gulf-coast-cannabis-festival/",
-      "cta": "View Event",
-      "source": "Coastal Mississippi",
-      "timeLabel": ""
-    },
-    {
       "date": "2026-04-26",
       "title": "FAN*FEST 2026",
       "location": "Bay St. Louis",
@@ -729,7 +58,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/fan-fest-2026-1654096?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 5:00 PM"
+      "timeLabel": "10:00 AM - 5:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-26",
@@ -737,10 +68,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "FAN-FEST is a free, family-friendly pop culture celebration held annually on the last weekend in April. The event features more than 30 exhibitors, free gaming, cosplay, kids\u2019 crafts, food and refreshments, and engaging educational programs. Attendees can explore comics, art, cosplay, and creative works, enjoy presentations and workshops, and play video or tabletop games with fellow fans. FAN-FEST also includes a costume exhibition and judging contest, along with an art contest open to Hancock County residents and HCLS library card holders ages 12 and older.",
-      "url": "https://www.coastalmississippi.com/hcls-fan-fest-2026/",
+      "url": "https://www.coastalmississippi.com/events/hcls-fan-fest-2026/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-26",
@@ -751,7 +84,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4733/1777215600000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "10:00 AM - 5:00 PM"
+      "timeLabel": "10:00 AM - 5:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-26",
@@ -759,10 +94,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-04-26",
+      "title": "The Little Mermaid",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Come be a part of our world! Spend an evening with Ariel and friends as Gulfport High School Admiral Theatre presents The Little Mermaid. Performances are April 23 - 26 and May 1 - 3 at the GHS Little Theatre. Tickets are $15 for adults, $10 for students ages 5-18, and free for faculty. Buy now at ghslittlemermaid.com or at the door. For questions or more information, email boostersghstheatre@gmail.com.",
+      "url": "https://www.coastalmississippi.com/events/the-little-mermaid-3/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-27",
@@ -773,7 +123,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4660/1777329000000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:00 PM"
+      "timeLabel": "5:30 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-28",
@@ -784,7 +136,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1009/1777406400000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "3:00 PM - 3:00 PM"
+      "timeLabel": "3:00 PM - 3:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-29",
@@ -795,7 +149,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/2417/1777505400000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "6:30 PM - 9:00 PM"
+      "timeLabel": "6:30 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-29",
@@ -803,10 +159,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-30",
@@ -817,7 +175,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4681/1777586400000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:00 PM - 9:00 PM"
+      "timeLabel": "5:00 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-04-30",
@@ -825,10 +185,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-04-30",
+      "title": "SUNSET BEACH YOGA",
+      "location": "Bay St. Louis",
+      "category": "Outdoors",
+      "description": "Sunset, fresh sea air, ocean sounds, big sky! Add gentle yoga stretching and mindful breathing! Infuse yourself with positive ions! Sleep better, feel refreshed! Bring a beach towel! Donation $10-20.",
+      "url": "https://tockify.com/shooflymagazine/detail/4752/1777588200000",
+      "cta": "View Event",
+      "source": "Shoofly Magazine",
+      "timeLabel": "5:30 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-01",
@@ -836,10 +211,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-01",
@@ -850,7 +227,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4736/1777654800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "12:00 PM - 3:00 PM"
+      "timeLabel": "12:00 PM - 3:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-01",
@@ -858,10 +237,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-01",
@@ -869,10 +250,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "We invite everyone to come out to this lively, fun event from 6 p.m. to 9 p.m. in Downtown Biloxi! Admission is free, but donations are welcome! We feature live music, food trucks, art vendors, and great ice-cold refreshments! Biloxi Main Street will feature 5 First Friday events this year: March, April, May, June, and September. We will host an America 250 Celebration on the Biloxi Town Green on July 4, titled \u201cRed, White & Biloxi.\u201d Stay tuned for details on this!For more information, call 228-435-6339 or visit the Downtown Main Street Biloxi Facebook page, or www.mainstreetbiloxi.com.",
-      "url": "https://www.coastalmississippi.com/first-friday-block-party-3/",
+      "url": "https://www.coastalmississippi.com/events/first-friday-block-party-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Matt Fraser",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Matt Fraser is America\u2019s Top Psychic Medium and star of the hit television series on E! Entertainment.His sold-out live events, television appearances, and spiritual teachings have brought healing, hope, and laughter to a global audience of fans and followers. From heartfelt emotional readings to stunning revelations, Matt Fraser has audiences on the edge of their seats with his outrageous personality and unique approach to mediumship.His readings lead guests through a rollercoaster of emotions, from laughter to crying, turning skeptics into believers with stunning details. His dynamic readings frequently include names, dates, and locations he couldn\u2019t possibly know, only adding to his long-established reputation. Matt\u2019s uncanny abilities and extreme accuracy have enabled him to reach millions worldwide, from A-list celebrities and influencers to everyday people seeking to connect with those they have lost. A New York Times bestselling author and a psychic phenomenon, Matt has caught the attention of major media outlets across the nation, including USA Today, People Magazine, CBS Radio, and countless others. He has also been a sought-after guest on popular television shows such as The Real Housewives, Botched, The Kelly Clarkson Show, and many more.",
+      "url": "https://www.coastalmississippi.com/events/matt-fraser/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-01",
+      "title": "The Little Mermaid",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Come be a part of our world! Spend an evening with Ariel and friends as Gulfport High School Admiral Theatre presents The Little Mermaid. Performances are April 23 - 26 and May 1 - 3 at the GHS Little Theatre. Tickets are $15 for adults, $10 for students ages 5-18, and free for faculty. Buy now at ghslittlemermaid.com or at the door. For questions or more information, email boostersghstheatre@gmail.com.",
+      "url": "https://www.coastalmississippi.com/events/the-little-mermaid-6/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-02",
@@ -883,7 +292,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/3rd-annual-wake-the-coast-1696507?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "5:00 PM - 10:00 PM"
+      "timeLabel": "5:00 PM - 10:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-02",
@@ -894,7 +305,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1164/1777726800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 12:00 PM"
+      "timeLabel": "8:00 AM - 12:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-02",
@@ -902,10 +315,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Kentucky Derby Watch Party",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Join Anthony\u2019s Ristorante for our Kentucky Derby Watch Party on Saturday, May 2nd from 2\u20136 PM. \u2728 Raffle for a 2026 Derby Collector\u2019s Cup \ud83d\udc52 \u201cRun for the Bonnets\u201d Hat Contest \ud83d\udcfa Screens in every room \ud83c\udf7d Themed food & signature cocktails \ud83e\udd43 Mint Juleps ...",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/kentucky-derby-watch-party-1718212?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "2:00 PM - 6:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-02",
@@ -913,10 +341,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-02",
@@ -924,10 +354,77 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a night of sharp wit, bold humor, and effortless storytelling as Kathleen Madigan brings her wildly popular Day Drinking Tour to the Beau Rivage Theatre in Biloxi! With more than three decades of stand\u2011up experience, multiple hit specials, and a loyal fan base, Madigan remains one of comedy\u2019s most consistent and refreshing voices. Her laid\u2011back delivery and pointed observations keep audiences laughing from start to finish.Catch her live on Saturday, May 2, 2026, at 8 p.m., where she\u2019ll take the stage with new material, signature snark, and plenty of stories delivered with her unmistakable comedic charm.",
-      "url": "https://www.coastalmississippi.com/kathleen-madigan-the-day-drinking-tour-2/",
+      "url": "https://www.coastalmississippi.com/events/kathleen-madigan-the-day-drinking-tour-2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Peacock Island Community ArtsFest",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "Enjoy a family\u2011friendly celebration of local creativity on the waterfront at Peacock Island, featuring artists, musicians, and makers from across the Mississippi Gulf Coast. Held on the campus of St. Mark\u2019s Episcopal Church & Community Arts Center, the festival offers art displays, live entertainment, interactive activities, and a relaxed Coastal atmosphere that celebrates community and the arts. Proceeds benefit St. Mark\u2019s Community Arts Center programs.",
+      "url": "https://www.coastalmississippi.com/events/peacock-island-community-artsfest/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Princess & Pirate Fest",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "Princess & Pirate Fest, hosted by Storybook Birthdays, invites families to step into a world of magic and adventure at this high\u2011energy, kid\u2011focused event for ages 2\u201310. Children enjoy a full day of fun with bounce houses, arts and crafts, interactive games, fairytale theater, safe sword fighting, sing\u2011alongs, and an exciting treasure hunt\u2014led by fairytale princesses and swashbuckling pirates! Admission is $25 per child (wristband required for activities), and parents attend free. Explore the Vendor Village with family\u2011friendly shops, grab a bite from Flippin\u2019 Hibachi Catering, and come dressed as your favorite princess or pirate to make magical memories together!",
+      "url": "https://www.coastalmississippi.com/events/princess-pirate-fest/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Samantha Fish & The Texas Headhunters Paper Doll World Tour",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "One of the most formidable guitarists of her generation, Samantha Fish brings her own unmatched brand of bravado, bringing both mind-blowing power and extraordinary emotion to everything she creates. Since first introducing the world to her larger-than-life talent, the multi-award-winning festival headliner has built a triumphant career whose latest milestones include earning a Grammy nomination for Death Wish Blues (her 2023 collaboration with rocker Jesse Dayton) and opening for The Rolling Stones on their final 2024 U.S. tour date. On her new album Paper Doll, Fish offers up nine powerhouse songs that hit with an unstoppable force, each delivered with an exquisite dose of illuminating insight, soul-soothing empathy, and\u2014above all\u2014newly heightened clarity of vision. \u201cIt\u2019s taken me years to find my voice in a studio setting, finally,\u201d Fish admits. \u201cBut with this record, I took everything I had and slammed it right on the table.\u201dA potent balance of catharsis and introspection, boldness and vulnerability, Paper Doll opens on the sublimely moody riffs of \u201cI\u2019m Done Runnin\u2019\u201d\u2014an exhilarating statement of self-reliance, expressed with unshakable self-possession (from the bridge: \u201cWhen I look in the mirror, staring at the unknown/The world\u2019s not getting clearer, but I like where I\u2019m goin\u2019\u201d). \u201cIt\u2019s about pushing forward even when life knocks you down, because you know what you want,\u201d Fish explains. One of several songs partly composed with her longtime co-writer Jim McCormick (a multi-platinum hitmaker whose credits also include Luke Bryan and Tim McGraw), \u201cI\u2019m Done Runnin\u2019\u201d draws much of its impact from Fish\u2019s deepened confidence in her vocal prowess. \u201cSinging live onstage is one thing, but learning how to bring that energy into the studio is a whole different beast,\u201d she points out.Arguably her most accomplished work to date, Paper Doll emerged from Fish\u2019s deliberate embracing of the ineffable musical gifts she\u2019s cultivated almost her entire life. \u201cWhen we started working on this record, I asked myself, \u2018What are my superpowers?\u2019 I wanted to lean into my strengths in a way I never completely had before, to make a big guitar album with some epic performances and really sing my ass off,\u201d she says. \u201cI ended up pouring so much emotion into all the songs, and I hope they help people feel fired up and ready to take on anything that comes their way. I\u2019d love for this record to be somebody\u2019s jet fuel.\u201dTEXAS HEADHUNTERSIan Moore, Johnny Moeller, and Jesse Dayton\u2014three of Texas\u2019 fiercest fretmen\u2014join forces at last as Texas Headhunters, a band born from deep roots, old friendships, and a shared reverence for the raw, swaggering spirit of Texas blues. Their self-titled debut isn\u2019t a nostalgia trip. It\u2019s a declaration. Cut over five days at Willie Nelson\u2019s Pedernales Studio, Texas Headhunters deals 12 tracks of grit, groove, and gut-level truth. No smoke, no mirrors\u2014just seasoned musicians in a room, plugged in and turned up. The chemistry is real. The result is mind-blowing.",
+      "url": "https://www.coastalmississippi.com/events/samantha-fish-the-texas-headhunters-paper-doll-world-tour/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Spring Voices: Reflections of the Human Spirit",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Spring Voices: Reflections of the Human Spirit explores the emotional depth of music as a human necessity. Music mirrors the way we experience life. At times, we come together in collective moments of unity. At other times, we turn inward, reflecting quietly on who we are and what we feel. And ultimately, we seek renewal, joy, love, and meaning. Opening with ceremonial brilliance and our homage to the 250th birthday of America, Leonard Bernstein's Fanfare for the Inauguration of John F. Kennedy, as well as the dramatic sweep of Hector Berlioz's Hungarian March, speak to our shared identity and outward expression. At its emotional core, Gustav Mahler's Ich bin der Welt abhanden gekommen (I am lost to the world) is an intimate meditation on introspection and inner peace, offering a powerful contrast of vulnerability and stillness. Placed in the middle of our program, this piece connects music and human emotions. If listened to attentively, it offers a unique experience for every listener. Finally, our program culminates with Symphony No. 8 by Anton\u00edn Dvo\u0159\u00e1k. This symphony is a radiant celebration of life, nature, and human joy, embodying the spirit of renewal at the heart of spring. Together, these works form a compelling reflection of the human spirit and the love of music. More importantly, it invites audiences to an evening of depth, beauty, and shared expression.PROGRAM:Fanfare for the Inauguration of John F. Kennedy\u2026\u2026\u2026\u2026\u2026.\u2026\u2026\u2026Leonard BernsteinHungarian March from \u201cLa Damnation de Faust\u201d\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\u2026\u2026.Hector BerliozIch bin der welt abhanden gekommen (I am lost to the world)\u2026\u2026Gustav MahlerintermissionSymphony No. 8 in G Major, Op. 88\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.Antonin Dvo\u0159\u00e1kMvt I: Allegro con brioMvt II: AdagioMvt III: Allegretto grazioso - Molto vivaceMvt IV: Allegro ma non troppo",
+      "url": "https://www.coastalmississippi.com/events/spring-voices-reflections-of-the-human-spirit/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-02",
+      "title": "The Little Mermaid",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Come be a part of our world! Spend an evening with Ariel and friends as Gulfport High School Admiral Theatre presents The Little Mermaid. Performances are April 23 - 26 and May 1 - 3 at the GHS Little Theatre. Tickets are $15 for adults, $10 for students ages 5-18, and free for faculty. Buy now at ghslittlemermaid.com or at the door. For questions or more information, email boostersghstheatre@gmail.com.",
+      "url": "https://www.coastalmississippi.com/events/the-little-mermaid-5/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-03",
@@ -935,10 +432,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-03",
+      "title": "Muttley Mayhem",
+      "location": "Gulfport/Biloxi",
+      "category": "Dining",
+      "description": "HSSM\u2019s Muttley Krewe from the 2nd Street Social Club presents the Inaugural Muttley Mayhem! Join us on Sunday, May 3 (#maydayformutts) from 1 to 3 p.m. for a celebration packed with live local music, delicious food, cold brews, and plenty of fun for you and your pups.This isn\u2019t just a party, it\u2019s a chance to make a real difference for the 330 pets currently in HSSM\u2019s care who are waiting for love, safety, and second chances. Every $10 donation helps provide food, medical care, and shelter for animals who need it most. (And don\u2019t forget, kids and fur kids get in free!)We\u2019re also doing a casting call for all HSSM alums on this day! If you\u2019ve ever adopted from us, we want you there! Bring your adopted pets and be part of something special as we capture aerial videography for HSSM\u2019s 75th anniversary video at the event! Whether you\u2019re coming for the music, the mission, or to soak up the fun with fellow animal lovers, Muttley Mayhem is going to be the place to be!",
+      "url": "https://www.coastalmississippi.com/events/muttley-mayhem/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-03",
+      "title": "The Little Mermaid",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Come be a part of our world! Spend an evening with Ariel and friends as Gulfport High School Admiral Theatre presents The Little Mermaid. Performances are April 23 - 26 and May 1 - 3 at the GHS Little Theatre. Tickets are $15 for adults, $10 for students ages 5-18, and free for faculty. Buy now at ghslittlemermaid.com or at the door. For questions or more information, email boostersghstheatre@gmail.com.",
+      "url": "https://www.coastalmississippi.com/events/the-little-mermaid-4/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-04",
@@ -949,7 +474,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1334/1777903200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "9:00 AM - 10:00 AM"
+      "timeLabel": "9:00 AM - 10:00 AM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-04",
@@ -960,7 +487,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4660/1777933800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:00 PM"
+      "timeLabel": "5:30 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-05",
@@ -971,7 +500,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1556/1778020200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:30 PM"
+      "timeLabel": "5:30 PM - 7:30 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-05",
@@ -979,10 +510,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Family",
       "description": "Spend the morning with your child exploring Mississippi\u2019s amazing aquatic environments. Learn what animals need to grow and live, and how they survive in different habitats through hands-on activities, games, and stories.Aqua Tots Program Includes:Exploration of one of our habitatsFun, educational activities, games, and storiesA take-home craftYour ticket will allow you to stay in the park all day after the event ends.Program Duration: 8:45 a.m. to 10 a.m.Check-in begins at 8:30 a.m. and ends at 8:45 a.m.Ages: 3 to 5 years oldCost:Child: $15 General Admission/$10 Annual Passholders/Pre-K PassholdersAdult: $20 General Admission /$15 Annual Passholders. Annual passholders wanting to book can reach out to their Annual Pass Con-SEA-eirge at annualpassholder@msaquarium.org to sign up and redeem their special Annual Passholder price.",
-      "url": "https://www.coastalmississippi.com/aqua-tots-3/",
+      "url": "https://www.coastalmississippi.com/events/aqua-tots-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-06",
@@ -993,7 +526,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/2417/1778110200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "6:30 PM - 9:00 PM"
+      "timeLabel": "6:30 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-06",
@@ -1001,10 +536,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-07",
@@ -1015,7 +552,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4650/1778164200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "9:30 AM - 12:00 PM"
+      "timeLabel": "9:30 AM - 12:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-07",
@@ -1026,7 +565,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4682/1778191200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:00 PM - 9:00 PM"
+      "timeLabel": "5:00 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-07",
@@ -1034,10 +575,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Pre-Party Crescendo: Emo Orchestra | Advance Ticket Giveaway",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "On May 7 and May 14 from 5 p.m. to 8 p.m., in LUX Lounge, Beau Rivage will be offering a chance to win exclusive autographed swag from The Spill Canvas, VIP tickets, and a pre-show meet-and-greet with conductor Evans Rogers for the May 15 performance. Enjoy these entertaining nights leading up to this one-of-a-kind performance and embrace the nostalgia of Emo Orchestra.THE SHOWEmo Orchestra, known for transforming alternative hits into cinematic arrangements using a full, live orchestra, will present a unique show with The Spill Canvas at Beau Rivage Theatre on May 15. The show merges nostalgia, emotional storytelling, and orchestral grandeur, featuring a mix of fan-favorite songs and reimagined classics from across the emo genre. \u201cA 13-piece orchestra adds a whole new element to the concert experience,\u201d said Ben Mensch, creator and producer of the Emo Orchestra show, \u201cit will be led by British conductor and composer Evan Rogers.\u201d \u201cFans will hear songs such as 'The Middle' by Jimmy Eat World, 'I\u2019m Not Okay' by My Chemical Romance, and 'Thanks for the Memories' by Fall Out Boy, and more in a way they never have before,\u201d said Mench. \u201cThe Spill Canvas brings a raw emotional honesty that pairs perfectly with the scale and beauty of the orchestral arrangements. This tour is shaping up to be our most immersive and dynamic one yet.\u201dBeau Rivage Theatre doors open at 7 p.m., showtime is at 8 p.m. Tickets are $30, $40, $50 and $60 plus tax and service charge, and may be purchased at Beau Rivage Shows & Concerts or by calling 888.566.7469. AFTER PARTYThe night of the show, LUX Lounge will also host \u201cMidnight Crescendo,\u201d a one-night immersive lounge experience from 6 p.m. to 12 a.m. The evening will feature dramatic d\u00e9cor and interactive guest elements, including a photo spot, \u201cwrite your last lyric\u201d wall, \u201cpick your fate\u201d cards, and a Polaroid station with branded frames.The evening will also include a curated music progression from the Opening Movement, the Overture, Intermission Flow, the Crescendo, and the Decrescendo to embrace the mood for the Emo Orchestra and The Spill Canvas performance.During this unique candlelight atmosphere, signature cocktails will be available, including The Crescendo made with blackberry gin, lavender and shimmer; the Minor Key Mule, a vodka, lime and ginger beer concoction with a black rim; Eclipse Espresso Martini, a dark chocolate espresso drink; the Nocturne Negroni, a black amaro, gin and rosemary cocktail; and the Fallen Strings Shot, made with raspberry, tequila and citrus foam.",
+      "url": "https://www.coastalmississippi.com/events/pre-party-crescendo-emo-orchestra-advance-ticket-giveaway/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-07",
@@ -1045,10 +601,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Mississippi Seafood Marketing is once again teaming up with the Gulfport Chamber of Commerce for its annual tasting event, Taste, Rattle & Roll!This year, we\u2019re proud to host the 15th Annual Mississippi Seafood Cook-Off, where top chefs from across the state will compete for the coveted seafood crown. Attendees can savor delicious bites from over 30 of Gulfport\u2019s finest restaurants while enjoying an evening under the stars at Jones Park, surrounded by the lively ambiance of its dancing fountains.Must be 21 or older to attend.",
-      "url": "https://www.coastalmississippi.com/taste-rattle-roll-mississippi-seafood-cook-off/",
+      "url": "https://www.coastalmississippi.com/events/taste-rattle-roll-mississippi-seafood-cook-off/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-08",
@@ -1056,10 +614,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-08",
@@ -1070,7 +630,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4719/1778281200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "6:00 PM - 9:00 PM"
+      "timeLabel": "6:00 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-08",
@@ -1078,10 +640,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-08",
+      "title": "2026 Mississippi Gulf Coast Historical & Cultural Exposition",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Built in 1904, Union Station remains one of the city\u2019s treasured original landmarks and provides the perfect setting for this celebration of local heritage.Join us on May 8-9, 2026, from 9 a.m. to 3 p.m., for the 2026 Mississippi Gulf Coast Historical & Cultural Exposition at \u201cthe Depot\u201d in Gulfport. This prolific and comprehensive exposition will feature more than 20 unique Coastal historical exhibitors from across the Mississippi Gulf Coast, each sharing rare photographs, fascinating artifacts, and insights into the region\u2019s growth, culture, and development over the years.Special attractions on Saturday, May 9, include an exclusive all-day vintage vehicle display presented by the Antique Auto and Engine Club of Mississippi, offering visitors a chance to experience a remarkable collection of classic automobiles. Families can also enjoy a live visit from Mississippi Aquarium penguins from 1 p.m. to 3 p.m. The Harrison County Mobile Library will also be on-site throughout the day on Saturday.This free, family-friendly event is open to the public and designed for guests of all ages. Attendees can enjoy complimentary Coke products, exciting door prizes, and participate in the fun-filled Passport Adventure experience.The 2026 Mississippi Gulf Coast Historical and Cultural Exposition is truly where Coast, Culture, and History Meet!",
+      "url": "https://www.coastalmississippi.com/events/2026-mississippi-gulf-coast-historical-cultural-exposition/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-08",
@@ -1089,10 +666,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Blues in the bloodstream. Soul in the voice. Fire in the room.Armani Smith continues to carry Mississippi blues into rooms built for legends \u2014 performing at Jazz Fest and French Quarter Fest. And sharing bills with Grammy-winning and nominated artists like Bobby Rush, Eric Gales, Castro Coleman, and Jamal Roberts.",
-      "url": "https://www.coastalmississippi.com/armani-smith/",
+      "url": "https://www.coastalmississippi.com/events/armani-smith/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Barrier Island Cleanup Initiative | Ship Island",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "It\u2019s that time of year again! Mississippi State University is teaming up with the National Park Service for monthly cleanups on our beautiful Barrier Islands, and we need your help!During these hands-on events, volunteers will spend 4-5 hours collecting and documenting trash along a designated section of the shoreline. You can meet us at the cleanup site or hop on a chartered shuttle for a scenic ride to and from the location!Shuttle Locations:Petit Bois cleanups \u2013 Shuttle from Pascagoula Point Boat Launch - 645 Beach Blvd. Pascagoula, MS 39567All other cleanups \u2013 Shuttle from Point Cadet Marina -119 Beach Blvd. Biloxi, MS 39530 (behind the Golden Nugget Casino)If you choose to meet at the site, the exact coordinates will be sent before the event. Must be 18+ to participate.Choose a date and location that works for you, and sign up today! With your help, we aim to clean all 68 miles of Barrier Island shoreline in just three years!ARRIVAL SCHEDULE:Volunteers will meet at the Point Cadet Marina at 8:30 a.m. and will return to the boat launch by 1 p.m. Transportation to the island will be provided by Charter-for-hire boat captains. Boats will depart by 9 a.m. Volunteers must be on board at 9 a.m.WHAT TO EXPECT: There are no facilities on the island. Please use the restroom before getting on the boat.The boat ride is approximately 30 minutes. Cleanup supplies and water will be provided by the event staff.BYO (bring your own): refillable water bottle, snacks, closed-toe shoes, sun protection (hat, sunglasses, sunscreen), and any necessary and/or emergency medications if applicable.We will likely get wet during the event, so a towel or change of clothes might be helpful for your ride home.IMPORTANT:Must be 18+ or older This is a physically intensive marine debris removal event, so make sure you're prepared by drinking lots of water and eating healthy meals the night before and the morning of the cleanup!Should be experienced in outdoor activities, including prolonged heat and sun exposure with no shadeMust be comfortable in and around water and know basic water safetyWill be wading through at least waist-deep water at times and will need to climb in and out of boats that may not have a ladder, as there are no boat docks on the islandsMust be able to lift 25-50 pounds on a consistent basisNo weapons/alcohol allowedPlease record data on the provided data sheet for any debris you pick up! Without data, there is no documentation of all our hard work to help preserve our islands.",
+      "url": "https://www.coastalmississippi.com/events/barrier-island-cleanup-initiative-ship-island/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-08",
@@ -1100,10 +692,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Outdoors",
       "description": "Legendary rock band Chicago returns to the Beau Rivage stage for a powerful night of classic hits, signature horn-driven sound, and decades of musical mastery! With more than 100 million records sold and a well\u2011earned place in the Rock & Roll Hall of Fame, Chicago continues to captivate audiences with the timeless energy that has defined their career for over five decades.Fans will be treated to iconic favorites like \u201cSaturday in the Park,\u201d \u201c25 or 6 to 4,\u201d \u201cIf You Leave Me Now,\u201d and \u201cYou\u2019re the Inspiration,\u201d along with selections from across their extensive catalog. Their live performances remain electric, blending rock, jazz, and soul with exceptional musicianship and unforgettable brass arrangements.Show Dates & Times:Friday, May 8, 2026 \u2013 8 PMSaturday, May 9, 2026 \u2013 8 PMSunday, May 10, 2026 \u2013 8 PMWhether you\u2019re a lifelong fan or discovering their music for the first time, Chicago\u2019s live show promises a night of nostalgia, musicianship, and pure classic\u2011rock magic at one of the Gulf Coast\u2019s premier venues!",
-      "url": "https://www.coastalmississippi.com/chicago-2/",
+      "url": "https://www.coastalmississippi.com/events/chicago-2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Get The Led Out: A Celebration of \"The Mighty Zep\"",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "From the bombastic and epic to the folky and mystical, Get The Led Out (GTLO) has captured the essence of Led Zeppelin's recorded music and brought it to the concert stage. The Philadelphia-based group consists of six veteran musicians, intent on delivering Led Zeppelin live, like you\u2019ve never heard before. Utilizing the multi-instrumentalists at their disposal, GTLO recreates the songs in all their depth and glory, with studio overdubs that Zeppelin themselves never performed. When you hear three guitars on the album...GTLO delivers three guitarists on stage. No wigs or fake English accents, GTLO brings what the audience wants...a high-energy Zeppelin concert with an honest, heart-thumping intensity.Doors open at 6:30 p.m. Showtime is 8 p.m. This is a fully seated show, and you must be 21+ to attend.",
+      "url": "https://www.coastalmississippi.com/events/get-the-led-out-a-celebration-of-the-mighty-zep/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1114,7 +721,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1164/1778331600000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 12:00 PM"
+      "timeLabel": "8:00 AM - 12:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1122,10 +731,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1136,7 +747,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609630?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1144,10 +757,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Join the fun at the 2026 Shop to Win Passport Event this May at the Second Saturday in the Bay! Grab a passport at your favorite shop and collect stamps from participating merchants throughout Historic Old Town. Enter your completed passport in a raffle to win a two-night stay in the Bay, golf cart rental, gift certificates for food and drink, and more!Enjoy a day of browsing all the quaint boutiques and art galleries while stopping to taste some delectable flavors at the wide variety of restaurants and watering holes you will find in Bay St. Louis. It truly is a place apart!",
-      "url": "https://www.coastalmississippi.com/second-saturday-in-the-bay-2026-shop-to-win-passport-event/",
+      "url": "https://www.coastalmississippi.com/events/second-saturday-in-the-bay-2026-shop-to-win-passport-event/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1155,10 +770,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1169,7 +786,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588549?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1177,10 +796,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Celebrate creativity on the Coast at the 9th Annual Biloxi Lighthouse Artisan Festival, set against the iconic backdrop of the Biloxi Lighthouse! This free, family-friendly event brings together talented local artisans showcasing unique, handcrafted goods you won\u2019t find anywhere else\u2014from art and jewelry to home d\u00e9cor and gifts.Enjoy lighthouse tours, savor delicious bites from popular food trucks, and spend the day discovering one-of-a-kind treasures while supporting Mississippi makers. Whether you\u2019re shopping for something special or simply soaking in the Coastal atmosphere, this beloved annual festival offers something for everyone!",
-      "url": "https://www.coastalmississippi.com/9th-annual-biloxi-lighthouse-artisan-festival/",
+      "url": "https://www.coastalmississippi.com/events/9th-annual-biloxi-lighthouse-artisan-festival/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-09",
+      "title": "CPR Fest With Staind",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "CPR Fest rocks the Mississippi Coast Coliseum with headliner Staind and a full slate of national rock and alternative metal acts, performing from mid\u2011day into the evening. This outdoor, rain\u2011or\u2011shine event is standing\u2011room general admission with limited chair seating available; tickets are required for all attendees.",
+      "url": "https://www.coastalmississippi.com/events/cpr-fest-with-staind/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-09",
@@ -1188,10 +822,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Combat Sports Pro Wrestling brings an action\u2011packed live event for fans of all ages! Experience the excitement, athleticism, and hard\u2011hitting action as competitors collide in the ring for an unforgettable night of professional wrestling entertainment.This event is ALL AGES, making it a perfect outing for families and wrestling fans of every generation. Children ages 8 and under get in FREE with an adult ticket, so bring the whole crew and enjoy the thrills together.Event Schedule:Doors open: 6 PMBell time: 7 PMGet ready for high\u2011energy matches, larger\u2011than\u2011life characters, and nonstop action from start to finish.",
-      "url": "https://www.coastalmississippi.com/combat-sports-pro-wrestling/",
+      "url": "https://www.coastalmississippi.com/events/combat-sports-pro-wrestling/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Meet the Author: Shelisskia V. Melton",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "Meet the Author: Shelisskia V. Melton at a special book signing for Health and Faith: A Guideline to Godly Health and Living. Discover how faith, nutrition, and healthy lifestyle choices work together to promote healing, vitality, and overall wellness. Learn how proper nutrients and God\u2011centered living can support healthier bodies and brighter futures!",
+      "url": "https://www.coastalmississippi.com/events/meet-the-author-shelisskia-v-melton/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-09",
+      "title": "The Violin Speaks",
+      "location": "Gulfport/Biloxi",
+      "category": "Live Music",
+      "description": "Let the violin take center stage. Join the Mississippi Gulf Coast Symphony at iMPAC for The Violin Speaks, an expressive and unforgettable evening of music led by the power and poetry of the violin\u2014showcasing its passion, beauty, and virtuosity while bringing classical music to life.",
+      "url": "https://www.coastalmississippi.com/events/the-violin-speaks/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-10",
@@ -1202,7 +864,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4714/1778428800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "11:00 AM - 1:00 PM"
+      "timeLabel": "11:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-10",
@@ -1210,10 +874,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-11",
@@ -1224,7 +890,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1004/1778518800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "12:00 PM - 1:00 PM"
+      "timeLabel": "12:00 PM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-11",
@@ -1232,10 +900,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days1/",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-13",
@@ -1246,7 +916,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/2513/1778711400000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:00 PM"
+      "timeLabel": "5:30 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-13",
@@ -1257,7 +929,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/2417/1778715000000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "6:30 PM - 9:00 PM"
+      "timeLabel": "6:30 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-13",
@@ -1265,10 +939,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-13",
@@ -1276,10 +952,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Mississippi Aquarium welcomes homeschool families and groups to visit, explore, and participate in hands-on educational activities. Our themed programs are designed for students of all ages and are the perfect complement to any science curriculum.What Should Students Expect?After check-in, students will meet with one of the Aquarium's educators who will introduce the week's topic. Students will then partake in hands-on, educational activity stations, supervised by an educator. Supplemental materials will be available to guide learning during the activity. There will be an opportunity to meet one of our animal ambassadors and tour the Aquarium at your leisure.Important InformationYour Homeschool Day Admission Ticket is only good for the day printed on the ticket. (Click on the attachment to view your tickets.)Parking is available both on the street and in the CTA parking garage.CTA charges a fee to park in their garage, Address: 1401 20th Ave, Gulfport, MS 39501Street parking is available; be aware of the 1-hour parking signageNo refunds, no rainchecksAnnual Pass Holders do not receive a discount on Homeschool Day Tickets.Your homeschool day ticket will allow you to stay in the park all day after the event ends.Homeschool Days Program Time8:45 AM - 10 AMCheck-in Time8:40 AM - 9 AMProgram CostAdvanced Purchase:Student pk-12 | $18.50Adult | $20At the window (day of):Student pk-12 | $26.95Adult | $31.95",
-      "url": "https://www.coastalmississippi.com/homeschool-days-3/",
+      "url": "https://www.coastalmississippi.com/events/homeschool-days-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-14",
@@ -1290,7 +968,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/bay-waveland-garden-club-meeting-1415804?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "9:30 AM - 12:00 PM"
+      "timeLabel": "9:30 AM - 12:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-14",
@@ -1301,7 +981,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4683/1778796000000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:00 PM - 9:00 PM"
+      "timeLabel": "5:00 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-14",
@@ -1309,10 +991,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-14",
@@ -1320,10 +1004,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Outdoors",
       "description": "Ride. Rock. Revel. Join us for Bikin' the Beach! Come for the live music, stunt shows, and contests.Pre-registration is now open at www.bikinthebeach.com. More information can be found on our site, including vendor registration, bike registration, event schedule, and more!",
-      "url": "https://www.coastalmississippi.com/bikin-the-beach/",
+      "url": "https://www.coastalmississippi.com/events/bikin-the-beach/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-14",
@@ -1331,10 +1017,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Experience the magic of Germany\u2019s Great Bavarian Circus, a beloved family tradition founded by Max and Monika Spindler and now carried forward by the next generation of performers. This unforgettable, two\u2011hour show delivers nonstop excitement for audiences of all ages.From breathtaking aerial acrobatics high above the crowd to champion juggling and lively, family\u2011friendly comedy, every moment is packed with skill, humor, and heart. Authentic Bavarian charm meets world\u2011class circus artistry in a performance that will captivate children and adults alike.Don\u2019t miss this spectacular celebration of tradition, talent, and timeless entertainment.",
-      "url": "https://www.coastalmississippi.com/germanys-great-bavarian-circus/",
+      "url": "https://www.coastalmississippi.com/events/germanys-great-bavarian-circus/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Pre-Party Crescendo: Emo Orchestra | Advance Ticket Giveaway",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "On May 7 and May 14 from 5 p.m. to 8 p.m., in LUX Lounge, Beau Rivage will be offering a chance to win exclusive autographed swag from The Spill Canvas, VIP tickets, and a pre-show meet-and-greet with conductor Evans Rogers for the May 15 performance. Enjoy these entertaining nights leading up to this one-of-a-kind performance and embrace the nostalgia of Emo Orchestra.THE SHOWEmo Orchestra, known for transforming alternative hits into cinematic arrangements using a full, live orchestra, will present a unique show with The Spill Canvas at Beau Rivage Theatre on May 15. The show merges nostalgia, emotional storytelling, and orchestral grandeur, featuring a mix of fan-favorite songs and reimagined classics from across the emo genre. \u201cA 13-piece orchestra adds a whole new element to the concert experience,\u201d said Ben Mensch, creator and producer of the Emo Orchestra show, \u201cit will be led by British conductor and composer Evan Rogers.\u201d \u201cFans will hear songs such as 'The Middle' by Jimmy Eat World, 'I\u2019m Not Okay' by My Chemical Romance, and 'Thanks for the Memories' by Fall Out Boy, and more in a way they never have before,\u201d said Mench. \u201cThe Spill Canvas brings a raw emotional honesty that pairs perfectly with the scale and beauty of the orchestral arrangements. This tour is shaping up to be our most immersive and dynamic one yet.\u201dBeau Rivage Theatre doors open at 7 p.m., showtime is at 8 p.m. Tickets are $30, $40, $50 and $60 plus tax and service charge, and may be purchased at Beau Rivage Shows & Concerts or by calling 888.566.7469. AFTER PARTYThe night of the show, LUX Lounge will also host \u201cMidnight Crescendo,\u201d a one-night immersive lounge experience from 6 p.m. to 12 a.m. The evening will feature dramatic d\u00e9cor and interactive guest elements, including a photo spot, \u201cwrite your last lyric\u201d wall, \u201cpick your fate\u201d cards, and a Polaroid station with branded frames.The evening will also include a curated music progression from the Opening Movement, the Overture, Intermission Flow, the Crescendo, and the Decrescendo to embrace the mood for the Emo Orchestra and The Spill Canvas performance.During this unique candlelight atmosphere, signature cocktails will be available, including The Crescendo made with blackberry gin, lavender and shimmer; the Minor Key Mule, a vodka, lime and ginger beer concoction with a black rim; Eclipse Espresso Martini, a dark chocolate espresso drink; the Nocturne Negroni, a black amaro, gin and rosemary cocktail; and the Fallen Strings Shot, made with raspberry, tequila and citrus foam.",
+      "url": "https://www.coastalmississippi.com/events/pre-party-crescendo-emo-orchestra-advance-ticket-giveaway1/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-14",
@@ -1342,10 +1043,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/vintage-flamingo-market/",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-15",
+      "title": "11th Annual Pirate Day in the Bay",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "*Most events are free!* pub crawl tickets and vendor information will ONLY be available at www.mkotsh.com Set sail for a two-day celebration filled with a jolly pub crawl, a children\u2019s walkin\u2019 parade, a merry golf cart parade, live entertainment, friendly vendors, fun costume contests, and plenty more pirate delights fer the whole crew! Pub Crawl & Treasure Hunt This Friday night signature event is all that you want it to be. With pubs all around town participating, see if you and your krewe can track down the treasure and find your X marking the spot before anyone else! Pub Crawl starts at 5pm. To register early, just click here ! You do need a wristband to participate. Costume Contest With Categories for the Swabbies (aka Kids) and Sea Dogs (Adults). The Kids Costume Contest starts at 12pm at Pirate Central on the 16th. The Adults Costume Contest starts at 1pm at Pirate Central on the 16th. To Pre-register, just click here Lil\u2019 Buccanner\u2019s Parade We love our kids, and want to include them in all the fun we can. So,,, we have given them their very own PARADE! Starting at 11am, we will parade down Main Street towards the Beach and all the way to Pirate Central where they will be greeted and welcomed for the Lil\u2019 Buccanner\u2019s Costume Contest! Live Music Part of our fun is dancing the day and night away at Pirate Central! Lots always going on, but on Friday and Saturday from 7-11pm you can find us shimmying away on the dancefloor at Pirate Central. Bands will be announced shortly! Fireworks The Grand Finale to our invasion is the spectacular fireworks display that is our crowning glory. Scurry down to the beach to watch the colorful explosions over the Bay. Cannon or pyrotechnic? You decide for yourself! Saturday night @ 9pm",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/11th-annual-pirate-day-in-the-bay-1711453?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1353,10 +1069,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1364,10 +1082,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us for the ultimate tribute to Freddie Mercury and Queen. This show delivers an electrifying live experience packed with iconic hits like \"Bohemian Rhapsody,\" \"We Will Rock You,\" and \"Somebody to Love.\" Don't miss your chance to relive the magic of Queen. It's a night of legendary music you won't forget!",
-      "url": "https://www.coastalmississippi.com/killer-queen-a-tribute-to-queen/",
+      "url": "https://www.coastalmississippi.com/events/killer-queen-a-tribute-to-queen/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1375,10 +1095,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Festival",
       "description": "ARRRR ye ready to join \u201cThe Band of Pirates\u201d for a weekend of swashbuckling fun?The 11th Annual Pirate Day in the Bay is set to draw families, friends, and of course\u2026 pirates from near and far! This exciting fundraising event for Hancock County is hosted by the Mystic Krewe of the Seahorse and kicks off at 4 p.m. on Friday, May 15. The fun continues all day Saturday, May 16, from 10 a.m. to 11 p.m.On both days, festivities flow from Pirate Central at the corner of S. Beach Blvd. and Court St. in Bay St. Louis. Craft vendors will be open throughout the weekend, so come ready to shop and support small businesses!Expect lively parades, age-divided costume contests, live music each evening, and an explosive fireworks show to light up the Bay, to name a few exciting events! More details will roll in as the date approaches, but go ahead and mark those calendars now \u2014 this is one event you don\u2019t want to miss. Additional information will be listed on www.mkotsh.com.And don\u2019t worry\u2026 you definitely won\u2019t be out of place if you show up dressed as a pirate. In fact, we highly encourage it! Most activities are free, so gather your crew and join the adventure.",
-      "url": "https://www.coastalmississippi.com/pirate-day-in-the-bay/",
+      "url": "https://www.coastalmississippi.com/events/pirate-day-in-the-bay/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1389,7 +1111,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4641/1778878800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "May 15 4:00 PM - May 16 11:00 AM"
+      "timeLabel": "May 15 4:00 PM - May 16 11:00 AM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1397,10 +1121,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1408,10 +1134,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1419,10 +1147,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for an immersive, emotionally charged night as Emo Orchestra and The Spill Canvas bring their 2026 North American Tour to the Beau Rivage Theatre in Biloxi!This unique concert experience blends the raw intensity of emo music with the dramatic power of a full symphony orchestra\u2014delivering nostalgic anthems in a completely reimagined way.Performing on Friday, May 15, 2026, at 8 p.m., the show features orchestral arrangements of beloved emo classics from bands like My Chemical Romance and Panic! at the Disco, alongside live performances from The Spill Canvas, known for hits like \u201cAll Over You\u201d and \u201cAll Hail the Heartbreaker.\u201d The result is a sweeping, cinematic sound that transforms fan\u2011favorite tracks into a full\u2011scale sonic experience.",
-      "url": "https://www.coastalmississippi.com/emo-orchestra-with-the-spill-canvas/",
+      "url": "https://www.coastalmississippi.com/events/emo-orchestra-with-the-spill-canvas/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-15",
@@ -1430,10 +1160,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Join us for an exclusive opportunity to meet with heavy metal legend Dee Snider at the Hard Rock Cafe in Biloxi, Mississippi!He will be available to take pictures, sign autographs, and whatever else you can talk him into! Don't miss out on this rare chance to hang out up close and personal with one of the original Godfather's of heavy metal and rock 'n\u2019 roll. There are a limited number of spots available, so make your reservation now! Bring your memorabilia to get it autographed.This exclusive one-on-one opportunity to meet and mingle with lead singer Dee Snider is brought to you by Rocavaka\u2014the Vaka that rocks\u2014along with their partners, The Sanctuary Biloxi and the Hard Rock Cafe Biloxi.Ticket Prices:Meet & Greet: $100VIP Platinum Meet & Greet: $150",
-      "url": "https://www.coastalmississippi.com/meet-greet-with-dee-snider-godfather-of-heavy-metal/",
+      "url": "https://www.coastalmississippi.com/events/meet-greet-with-dee-snider-godfather-of-heavy-metal/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Midnight Crescendo | Official Emo Orchestra After Party",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "LUX Lounge presents Midnight Crescendo\u2014where emo nostalgia meets orchestral elegance for an unforgettable, one-night immersive lounge experience. The evening will feature dramatic d\u00e9cor and interactive guest elements, including a photo spot, \u201cwrite your last lyric\u201d wall, \u201cpick your fate\u201d cards, and a Polaroid station with branded frames.The evening will also include a curated music progression from the Opening Movement, the Overture, Intermission Flow, the Crescendo, and the Decrescendo to embrace the mood for the Emo Orchestra and The Spill Canvas performance.During this unique candlelight atmosphere, signature cocktails will be available, including The Crescendo made with blackberry gin, lavender and shimmer; the Minor Key Mule, a vodka, lime and ginger beer concoction with a black rim; Eclipse Espresso Martini, a dark chocolate espresso drink; the Nocturne Negroni, a black amaro, gin and rosemary cocktail; and the Fallen Strings Shot, made with raspberry, tequila and citrus foam.Some nights don\u2019t end. They echo!DON'T FORGET YOUR SHOW TICKETSEmo Orchestra, known for transforming alternative hits into cinematic arrangements using a full, live orchestra, will present a unique show with The Spill Canvas at Beau Rivage Theatre on May 15. The show merges nostalgia, emotional storytelling, and orchestral grandeur, featuring a mix of fan-favorite songs and reimagined classics from across the emo genre. \u201cA 13-piece orchestra adds a whole new element to the concert experience,\u201d said Ben Mensch, creator and producer of the Emo Orchestra show, \u201cit will be led by British conductor and composer Evan Rogers.\u201d \u201cFans will hear songs such as 'The Middle' by Jimmy Eat World, 'I\u2019m Not Okay' by My Chemical Romance, and 'Thanks for the Memories' by Fall Out Boy, and more in a way they never have before,\u201d said Mench. \u201cThe Spill Canvas brings a raw emotional honesty that pairs perfectly with the scale and beauty of the orchestral arrangements. This tour is shaping up to be our most immersive and dynamic one yet.\u201dBeau Rivage Theatre doors open at 7 p.m., showtime is at 8 p.m. Tickets are $30, $40, $50 and $60 plus tax and service charge, and may be purchased at Beau Rivage Shows & Concerts or by calling 888.566.7469.",
+      "url": "https://www.coastalmississippi.com/events/midnight-crescendo-official-emo-orchestra-after-party/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-16",
@@ -1444,7 +1189,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1164/1778936400000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "8:00 AM - 12:00 PM"
+      "timeLabel": "8:00 AM - 12:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-16",
@@ -1452,10 +1199,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-16",
@@ -1463,10 +1212,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-16",
@@ -1477,7 +1228,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4582/1778943600000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "May 16 10:00 AM - May 17 3:30 PM"
+      "timeLabel": "May 16 10:00 AM - May 17 3:30 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Billy Creel Memorial Gulf Coast Wooden & Classic Boat Show",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "The Billy Creel Memorial Gulf Coast Wooden & Classic Boat Show returns with a weekend celebration of maritime heritage, featuring schooner sails every hour, a marine flea market, antique boat tours, live demonstrations, exhibits, crafts, and delicious shrimp and fish plates. The show takes place Saturday from 10 a.m. to 6 p.m. and Sunday from 10 a.m. to 5 p.m. Admission is $8 for adults, $3 for students (13\u201318), and free for children 12 and under.",
+      "url": "https://www.coastalmississippi.com/events/billy-creel-memorial-gulf-coast-wooden-classic-boat-show/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-16",
@@ -1485,10 +1251,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 7, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-4/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-4/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Thomas Day!",
+      "location": "Gulfport/Biloxi",
+      "category": "Classes, Programs, & Lectures",
+      "description": "All aboard for a Thomas Day at TrainTastic! Join us Saturday from 10 a.m. to 5 p.m. for a fun\u2011filled celebration of Thomas & Friends featuring a themed scavenger hunt, a special \u201cMEGA FAN\u201d train layout by Elijah Jackson, real Thomas memorabilia, All Aboard Bingo with prizes, games, crafts, and more! Costumes welcome. The event is included with general admission.",
+      "url": "https://www.coastalmississippi.com/events/thomas-day/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-17",
@@ -1496,10 +1277,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-17",
@@ -1510,18 +1293,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/4743/1779055200000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:00 PM - 6:30 PM"
+      "timeLabel": "5:00 PM - 6:30 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-17",
       "title": "Story Slam: Adventures in Dating!",
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
-      "description": "Story Slam is Back! \ud83c\udfa4Get ready for an evening of real stories, real laughs, and real connection at The Arts Hancock County!May Story Slam Theme: Adventures in Dating!May 17 *5:00\u20136:30pFREE Community Event \u2013 No tickets needed!Story Slam has quickly become one of The Bay\u2019s favorite gatherings\u2014and for good reason. It\u2019s live storytelling at its best: funny, heartfelt, a little unpredictable, and always memorable. Think poetry slam\u2026 without the rhyming.Want to tell a story? Here\u2019s how it works:\u2022 You get 5 minutes\u2022 It must be your story\u2022 Tell it\u2014don\u2019t read it (no notes!)\u2022 Stick to the theme: Adventures in Dating\u2022 Limited to 10 storytellers (sign up if you want to share)Reg to slam today! https://tinyurl.com/MayStorySlamNot telling a story? Come enjoy the show! Bring your favorite beverage and snacks, settle in, and be part of a night that brings people together one story at a time. Whether you take the mic or just listen, you\u2019ll leave feeling a little more connected.Come early\u2014recent Slams have been standing-room only!Note: Some stories may include adult content.See you there!",
-      "url": "https://www.coastalmississippi.com/story-slam-adventures-in-dating/",
+      "description": "Story Slam returns to The Arts, Hancock County for an entertaining evening of live storytelling centered on the theme \"Adventures in Dating.\" Join the community on May 17, from 5 to 6:30 p.m., for real stories that are funny, heartfelt, and unpredictable. This free event invites audiences to listen, connect, and enjoy a lively night of stories told straight from the heart. Some stories may include adult content.",
+      "url": "https://www.coastalmississippi.com/events/story-slam-adventures-in-dating/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-17",
@@ -1529,10 +1316,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Spend a day painting en plein air on Horn Island, a protected national wilderness and one of the most inspiring landscapes on the Mississippi Gulf Coast. This Sunday outing is a self-directed plein air experience designed for artists who want uninterrupted time to observe, explore, and paint in a truly wild setting.Participants will travel to the island by charter boat and spend the day working independently or alongside fellow artists, responding to the island\u2019s shifting light, wind, and terrain. From wide horizons and dunes to maritime forest and shoreline, Horn Island offers endless visual inspiration for painters working from direct observation.This ticket does not include formal instruction. While Ellen Langford will be present on the island as part of the weekend experience, this option is intended for artists who are comfortable working independently and simply wish to share the setting and energy of a group painting day in a remarkable place.Includes:Round-trip boat transportation to Horn IslandA full day of self-directed plein air paintingTime and space to explore and paint within a national wilderness refugePlease Note:No demonstrations or instruction are included with this ticketSpace is limited due to boat capacityAll visitors must follow Leave No Trace principles while on the islandThis experience is ideal for artists seeking quiet immersion, creative focus, and a deep connection to the landscape \u2014 guided not by instruction, but by place.",
-      "url": "https://www.coastalmississippi.com/horn-island-plein-air-day-trip/",
+      "url": "https://www.coastalmississippi.com/events/horn-island-plein-air-day-trip/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-18",
@@ -1543,7 +1332,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1334/1779112800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "9:00 AM - 10:00 AM"
+      "timeLabel": "9:00 AM - 10:00 AM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-19",
@@ -1554,18 +1345,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://tockify.com/shooflymagazine/detail/1556/1779229800000",
       "cta": "View Event",
       "source": "Shoofly Magazine",
-      "timeLabel": "5:30 PM - 7:30 PM"
+      "timeLabel": "5:30 PM - 7:30 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-20",
-      "title": "The Weaving Workshop with Cecelia Hopes",
+      "title": "The Weaving Workshop With Cecelia Hopes",
       "location": "Bay St. Louis",
       "category": "Dining",
-      "description": "Join us for \"The Weaving Workshop with Cecelia Hopes\" and unravel the rich tapestry of history while weaving your own contemporary masterpiece.Wed. May 20, 10a - 1p *Ages 16+View Class Details - https://tinyurl.com/WeavingWorkshop-CeceliaHopesWelcome to \"The Weaving Workshop!\" In this 3-hour hands-on workshop, you\u2019ll embark on a journey through time, learning the fundamentals of weaving from warp to weft. You\u2019ll discover the fascinating origins of this ancient craft and explore how it became intricately intertwined with family life, enduring across millennia. Guided by instructor Cecelia Hopes, you'll master the intricacies of warping a frame loom, the plain weave technique, crafting fringe, and get to experiment with shapes, textures, and patterns. Ultimately, you\u2019ll remove your creation from the loom, transforming the woven piece into a stunning wall hanging. Whether you're a beginner eager to explore the world of fiber arts or a seasoned artist looking to expand your creative horizons, Cecelia's weaving workshops offer a welcoming space where inspiration and artistic vision come to life. What students will learn in this class:\u00b7 Warping a frame loom\u00b7 Plain weave technique, plus others\u00b7 Crafting fringe\u00b7 Experimentation with shapes, textures & patterns\u00b7 The history of weavingInstructor will provide: All supplies \u00b7 Loom\u00b7 Fiber\u00b7 Tools\u00b7 Students take home all materials and instruction handouts to continue their newfound weaving skills. About your instructor: With a diverse background spanning from graphic design to fine arts, Cecelia Hopes brings a wealth of creative expertise to her role as a weaving workshop instructor. Inspired by her own journey through various mediums, including fiber art, clay, and watercolor, Cecelia's approach to teaching weaving is infused with a deep appreciation for texture, color, composition, and history. Her lifelong passion for artistic expression is infectious.",
-      "url": "https://www.coastalmississippi.com/the-weaving-workshop-with-cecelia-hopes/",
+      "description": "Interested in weaving, but unsure how to turn threads into finished art?Welcome to The Weaving Workshop! This 3-hour, hands-on experience introduces the fundamentals of weaving\u2014from warp to weft\u2014while offering a brief look at the history of this enduring craft.You\u2019ll discover the fascinating origins of this ancient craft and explore how it became intricately intertwined with family life, enduring across millennia.Guided by instructor Cecelia Hopes, you'll master the intricacies of warping a frame loom, the plain weave technique, and crafting fringe, and you'll get to experiment with shapes, textures, and patterns. Ultimately, you\u2019ll remove your creation from the loom, transforming it into a stunning wall hanging.Whether you're a beginner eager to explore the world of fiber arts or a seasoned artist looking to expand your creative horizons, Cecelia's weaving workshops offer a welcoming space where inspiration flourishes, and artistic visions come to life. Join us for \"The Weaving Workshop\" and unravel the rich tapestry of history while weaving your own contemporary masterpiece.What students will learn in this class:\u00b7 Warping a frame loom\u00b7 Plain weave technique, plus others\u00b7 Crafting fringe\u00b7 Experimentation with shapes, textures & patterns\u00b7 The history of weavingThe instructor will provide: All supplies\u00b7 Loom\u00b7 Fiber\u00b7 Tools\u00b7 Students take home all materials and instruction handouts to continue their newfound weaving skills.",
+      "url": "https://www.coastalmississippi.com/events/the-weaving-workshop-with-cecelia-hopes/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-20",
@@ -1573,10 +1368,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot1/",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Carry The Load | Memorial May Community Event",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "Join Carry The Load for its Memorial May Community Event! Americans will come together to celebrate and honor those who sacrificed for our nation and our freedom. Walk alongside your community to honor our military, first responders, and their families as we share stories, show gratitude, and reflect on their service and sacrifice. Register today and \"Carry The Load\" with us!EVENT SCHEDULE:9:30 a.m. \u2013 Gather at the front entrance of the Armed Forces Retirement Home10 a.m. \u2013 Welcome 10:20 a.m. \u2013 Begin the 1-mile walking loop around the campus10:50 a.m. \u2013 Walk concludes11 a.m.: Post-walk hangout with refreshments11:30 a.m. \u2013 Event ends",
+      "url": "https://www.coastalmississippi.com/events/carry-the-load-memorial-may-community-event-1/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-20",
@@ -1584,10 +1394,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-21",
@@ -1598,7 +1410,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/friends-of-the-animal-shelter-hancock-co-1693385?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "6:00 PM - 7:00 PM"
+      "timeLabel": "6:00 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-21",
@@ -1606,10 +1420,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Gulf Coast Business Council - State of the Coast Economy",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "This annual gathering brings together business leaders, elected officials, entrepreneurs, and community stakeholders for an important conversation about the economic momentum, challenges, and opportunities shaping Coastal Mississippi. This year\u2019s symposium is especially meaningful as we celebrate 20 years of Gulf Coast Business Council leadership in advancing regional solutions, strengthening collaboration, and championing the long-term prosperity of our Coast. The morning will feature insights from key leaders, updates on major regional initiatives, and a look ahead at what\u2019s next for our economy and communities. It\u2019s an opportunity to connect with fellow leaders, gain valuable perspective, and be part of the conversations helping guide the future of Coastal Mississippi. Purchase tickets here Thank you to our sponsors for helping make this important event possible: Title Sponsor: Mississippi Power Breakfast Sponsor: Ingalls Shipbuilding - A Division of HII Flagship Sponsor: Hancock Whitney",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/gulf-coast-business-council-state-of-the-coast-economy-1719002?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "8:00 AM - 10:00 AM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-22",
@@ -1617,10 +1446,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-22",
@@ -1628,10 +1459,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-22",
+      "title": "43rd Annual Mississippi Gulf Coast Memorial Day Blowout",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "The 43rd Annual Mississippi Gulf Coast Memorial Day Blowout returns to Gulfport Dragway with a full\u2011throttle biker rally and party atmosphere!This high\u2011energy event features motorcycle drag racing and street wars, burnout contests, bike shows, field events, vendor booths, motorcycle gear, and live entertainment. Multiple racing classes offer 100 percent payback, with Friday and Saturday Test\u2011n\u2011Tune sessions kicking things off. Gates open at noon on Friday, May 22. Please check with the event host for full schedules and details.",
+      "url": "https://www.coastalmississippi.com/events/43rd-annual-mississippi-gulf-coast-memorial-day-blowout/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Island Fights 97",
+      "location": "Gulfport/Biloxi",
+      "category": "Live Music",
+      "description": "Island Fights is bringing an action-packed night of professional MMA to Hard Rock Biloxi! Fans can expect a stacked card featuring elite talent, including several UFC prospects. Doors open 6:30 p.m. Showtime 8 p.m.Must be 21 years or older",
+      "url": "https://www.coastalmississippi.com/events/island-fights-97/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-22",
@@ -1639,10 +1498,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Join us at The Sanctuary for Lunchbox Comedy Presents: All Headliners!Carrey Bee (New Orleans, LA) - A Gulf Coast comedy legend with 20+ years on stage \u2014 featured on BET\u2019s Comic View, hosted Amateur Night at the Apollo, and opened for Sinbad, Cedric the Entertainer, Jim Gaffigan, B.B. King, and Patti LaBelle.Mike Eaton (Austin, TX) - Former Austin Roast Battle Champion featured at Skankfest, SXSW Comedy, Nashville Comedy Festival, and opened for national acts like Louis C.K. and Whitney Cummings. Host of the Highly Social podcast.Caroline Picard (Lafayette, Louisiana) - The Cajun Queen of Comedy \u2014 Grammy-entered album, Carnival Cruise Line favorite, multi-time USO tour performer, and featured on SiriusXM, Pandora, and National Lampoon Radio.Roderick McDaniel (Texas) - Texas comedy veteran and Austin staple with multiple albums and his 2024 special I\u2019m Here to Warn You. Sharp, seasoned, and crowd-tested.Redbean (Marrero, LA \u2013 Gulf Coast) - A Louisiana comedy stalwart and host at Comedy Gumbeaux stages throughout the region. RedBean has 10+ years on stage, performs regularly across New Orleans and Baton Rouge venues, and is known for crowd work and seasoned headliner energy. He\u2019s appeared at local shows with comics like Carry Bee and been featured in events like Bad Boy RedBean headlining showcases at Silly Rabbit Comedy Club and other Louisiana rooms. Carson Taylor (Mobile, AL) - Seasoned road comic and producer of Whipper Snapper Comedy, touring clubs nationwide with polished sets and strong closing chops.Jessica Pawlish (Jacksonville, FL) - Performing as JPAW, she\u2019s worked major Florida clubs and opened for acts like John Henton, B. Simone, Chris Cope, and Sarah Hester, bringing high-energy headline sets across the Southeast.",
-      "url": "https://www.coastalmississippi.com/lunchbox-comedy-presents-all-headliners/",
+      "url": "https://www.coastalmississippi.com/events/lunchbox-comedy-presents-all-headliners/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-22",
+      "title": "St. Clare Seafood Festival",
+      "location": "Waveland",
+      "category": "Dining",
+      "description": "St Clare Seafood Festival is held annually on Memorial Day Weekend. Featuring Jeepin' by the Beach Bash, classic cars, live music, great food, rides and craft vendors. Friday 5-10pm Saturday 11am-10pm Sunday 12-10pm",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/st-clare-seafood-festival-1709131?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "12:00 AM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-23",
@@ -1650,10 +1524,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Sculpt Your Own Planter Mandrake With Molly Shea",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Just in time for summer, learn how to sculpt your own decorative mandrake that is equal parts functional and delightfully weird!In this hands-on ceramics class, students will create whimsical mandrake planter companions designed to nestle into potted plants and help direct water straight down to the roots. These sculptural helpers are especially useful for potted trees or plants with dense foliage, where watering can be a challenge.Each mandrake is hand-built from terra cotta clay and brought to life through expressive facial features, root-like limbs, and textured surfaces. Students will also underglaze the bloom for a pop of color before pieces are fired.Each student will create one (potentially two) mandrake sculptures during class. Finished pieces will be kiln-fired after the workshop and available for pickup two weeks later at The Arts, Hancock County.This class is suitable for beginners and experienced makers alike and is perfect for anyone looking to create something playful, practical, and unique for their home or garden.Supply Fee: $15 (paid to instructor day of class). Class appropriate for 15+, or accompanied by a parent for little ones.",
+      "url": "https://www.coastalmississippi.com/events/sculpt-your-own-planter-mandrake-with-molly-shea-3/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-23",
@@ -1661,10 +1550,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-23",
@@ -1672,10 +1563,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Experience a night of dancing to your favorite 80's hits at Club Hollywood. With specialty cocktails and costumes that dazzle, the dance floor will be packed! The show is loaded with the visual enormity and glam that encompassed the essence of the decade's music scene.",
-      "url": "https://www.coastalmississippi.com/the-molly-ringwalds/",
+      "url": "https://www.coastalmississippi.com/events/the-molly-ringwalds/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Happy Together Tour 2026",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "2026 will mark the 17th year of the highly successful, hit\u2011filled summer package, the \u201cHappy Together\u201d Tour. This touring sensation has crisscrossed the nation for more than a decade and a half, delighting audiences with a show packed full of chart\u2011topping hits from the 1960s and 1970s\u2014an undeniable 60\u2011plus Billboard Top 40 smashes. The tour once again welcomes The Association, The Troggs, Chicago lead singer Jason Scheff (1985\u20132016), Gary Puckett, Ron Dante from The Archies and The Turtles, The Vogues, and The Cowsills.Joining the \u201cHappy Together\u201d Tour 2026 are The Association, who enjoyed massive radio success in the 1960s with No. 1 hits such as \u201cCherish,\u201d \u201cWindy,\u201d \u201cNever My Love,\u201d and \u201cAlong Comes Mary.\u201d This iconic vocal group was a staple of radio airwaves throughout the decade.We are proud to debut for the first time on the \u201cHappy Together\u201d Tour: The Troggs. They bring their signature English beat along with their solid\u2011gold hits, including the U.S. chart\u2011topper \u201cWild Thing,\u201d \u201cWith a Girl Like You,\u201d and \u201cLove Is All Around.\u201d Each sold more than one million copies and was awarded a gold disc. \u201cWild Thing\u201d is ranked No. 257 on Rolling Stone magazine\u2019s list of the 500 Greatest Songs of All Time and was a major influence on garage rock and punk rock.Making his first appearance on the \u201cHappy Together\u201d Tour is Chicago lead singer (1985\u20132016) Jason Scheff, performing chart\u2011topping hits such as \u201c25 or 6 to 4,\u201d \u201cJust You and Me,\u201d \u201cIf You Leave Me Now,\u201d and \u201cFeeling Stronger Every Day.\u201d In mid\u20111985, the 23\u2011year\u2011old Scheff joined the multiplatinum band Chicago. His lead vocals debuted on the 1986 remake of \u201c25 or 6 to 4,\u201d followed by the hit \u201cWill You Still Love Me?\u201d Jason remained Chicago\u2019s lead singer for more than three decades.We are thrilled to have Gary Puckett back on the \u201cHappy Together\u201d Tour. Gary\u2019s trademark voice will once again deliver beloved hits including \u201cYoung Girl,\u201d \u201cOver You,\u201d \u201cWoman, Woman,\u201d \u201cThis Girl Is a Woman Now,\u201d \u201cLady Willpower,\u201d \u201cDon\u2019t Give In to Him,\u201d and more.Ron Dante was the lead singer of The Archies, best known for their No. 1 hit of 1969, \u201cSugar, Sugar.\u201d Other Archie's hits include \u201cBang\u2011Shang\u2011A\u2011Lang\u201d and \u201cJingle Jangle.\u201d Ron also had a top\u201110 hit in the summer of 1969 with \u201cTracy\u201d and famously served as the lead singer of The Turtles from 2018 through 2025. He will once again lead the audience and fellow artists into the tour\u2019s signature finale with the theme song \u201cHappy Together.\u201dThe Vogues are universally acknowledged for their harmony\u2011driven, soaring pop sound. They achieved numerous Top 10 hits with songs such as \u201cFive O\u2019Clock World,\u201d \u201cYou\u2019re the One,\u201d \u201cMy Special Angel,\u201d and \u201cTurn Around, Look at Me.\u201d Vocally incredible and awe\u2011inspiring, The Vogues continue to captivate audiences.Rounding out the bill are The Cowsills, the harmonious singing family\u2014two brothers and a sister\u2014who inspired the hit 1960s television show The Partridge Family. They are sure to delight audiences with classics including \u201cHair,\u201d \u201cIndian Lake,\u201d \u201cThe Rain, the Park & Other Things (I Love the Flower Girl),\u201d \u201cLove, American Style,\u201d and more.The tour has played more than 50 shows each year, and the \u201cHappy Together\u201d Tour 2026 will be no exception!",
+      "url": "https://www.coastalmississippi.com/events/happy-together-tour-2026/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-24",
@@ -1683,10 +1589,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Jeepin' by the Beach Bash!",
+      "location": "Waveland",
+      "category": "Dining",
+      "description": "Bring your Jeep, your friends, and your festival spirit - where off-road meets ocean breeze. St. Clare Seafood Festival Jeep Show. $20 entry fee Top awards, live music, delicious seafood & craft vendors. Always cool breezes by the beach.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/jeepin-by-the-beach-bash-1709127?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "1:00 PM - 4:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-27",
@@ -1697,7 +1618,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://jeepinthecoast.com/",
       "cta": "View Event",
       "source": "Jeepin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-27",
@@ -1705,10 +1628,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-28",
@@ -1719,7 +1644,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://jeepinthecoast.com/",
       "cta": "View Event",
       "source": "Jeepin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-28",
@@ -1727,10 +1654,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Creating With Wall Spackle - Samantha Hallenus",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Creating with Wall Spackle with Samantha Hallenus invites participants to explore texture and movement in abstract painting using wall spackle and acrylic paint. In this hands\u2011on class, students will create a richly textured 12\" x 12\" canvas featuring a magnolia within the outline of Louisiana or Mississippi, using tools like palette knives and sponge brushes. All materials are provided. The class takes place on Friday, May 29, from 4 to 5:30 p.m., with limited spots available.",
+      "url": "https://www.coastalmississippi.com/events/creating-with-wall-spackle-samantha-hallenus/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-29",
@@ -1738,10 +1680,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-29",
@@ -1752,7 +1696,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://jeepinthecoast.com/",
       "cta": "View Event",
       "source": "Jeepin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-29",
@@ -1760,10 +1706,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-29",
+      "title": "The Last Luau: Lei'd To Rest Murder Mystery Dinner Show",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Aloha\u2026 and goodbye.What starts as a glamorous island luau ends in murder, mystery, and mayhem. Join us for an interactive tropical whodunnit filled with outrageous suspects, shocking secrets, and laugh-out-loud comedy. Can you solve the crime before the killer vanishes into paradise? So grab your leis, dress in your best island-coastal style, and get ready for a night of secrets, scandal, and sleuthing\u2014because even paradise has mysteries\u2026 and someone won\u2019t make it off the island!PG-13MENU:ISLAND STARTERCrisp mixed greens drizzled with a Vinaigrette DressingENTREE - Guest's Choice of:Luau Entree \u2013 Hawaiin-Style Teriyaki ChickenCreamy Island Macaroni Bake made with the perfect blend of cheeses and baked to golden perfection. Roasted root vegetables are seasoned to perfection and roasted to crispy perfection. Vegetarian Island Plate \u2013A double portion Creamy Island Macaroni Bake made with the perfect blend of cheeses and baked to golden perfection. Roasted root vegetables are seasoned to perfection and roasted to crispy perfection. SWEET FINALESunset Orange Pineapple CakeA bright tropical dessert kissed with citrus and island sweetnessThe meal includes sweet and unsweet tea.Admission Includes:Cash BarCostume Contest Three Course MealCommemorative PhotoPrizes for Winning Sleuths",
+      "url": "https://www.coastalmississippi.com/events/the-last-luau-leid-to-rest-murder-mystery-dinner-show-3/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Hinder",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Hinder brings their hard\u2011hitting rock sound to Hard Rock Live on Friday, May 29!Known for chart\u2011topping hits and nearly two decades of rock success, the multi\u2011platinum band delivers an energetic live show fueled by fan favorites and music from their latest release. Doors open at 6:30 p.m., with the show starting at 8 p.m. Standing\u2011room floor with seated balcony available. This is a 21+ event.",
+      "url": "https://www.coastalmississippi.com/events/hinder/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-30",
@@ -1771,10 +1745,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-30",
@@ -1785,18 +1761,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://jeepinthecoast.com/",
       "cta": "View Event",
       "source": "Jeepin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-30",
-      "title": "Kids Snowball Painting Class with Samantha Hallenus",
+      "title": "Kids Snowball Painting Class With Samantha Hallenus",
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
-      "description": "Kids Snowball Painting Class with Samantha HallenusBeat the heat with a cool creative project!In this fun, hands-on painting class, young artists will create an acrylic painting of either a playful trio of snowballs or an adorable snowball kawaii character. Students will explore texture, learn color basics using the color wheel, and practice layering paint to build their artwork. Saturday, May 30 *10\u201311:30aAges 5\u201310 (Children 7 & under must be accompanied by an adult)All supplies includedhttps://tinyurl.com/KidsSnowballPainting-Samantha Students will leave with a summer-ready masterpiece to take home and enjoy. Parents and grandparents are encouraged to stay and share in the creative fun, and adults who want to paint are welcome too\u2014just be sure to register! About the InstructorSamantha Hallenus is a beloved art educator with nearly two decades of teaching experience in Jefferson Parish, Louisiana. She has worked with youth since 2009, holds a Bachelor\u2019s degree from the University of New Orleans, and brings professional exhibition and watercolor training into every class she teaches.",
-      "url": "https://www.coastalmississippi.com/kids-snowball-painting-class-with-samantha-hallenus/",
+      "description": "Kids Snowball Painting Class with Samantha Hallenus offers young artists a fun, hands\u2011on way to explore acrylic painting while staying cool!Participants will create a playful snowball\u2011themed artwork while learning about texture, color basics, and paint layering. The class takes place Saturday, May 30, from 10 to 11:30 a.m. and is designed for ages 5\u201310, with all supplies included. Children age 7 and under must be accompanied by an adult.",
+      "url": "https://www.coastalmississippi.com/events/kids-snowball-painting-class-with-samantha-hallenus/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-30",
@@ -1804,10 +1784,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-05-30",
+      "title": "The Bay Fest",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Bay Fest celebrates the creativity and flavor of the Gulf Coast with a lively street fair in Old Town Bay St. Louis. Stroll the streets to shop handmade art, sample food and cocktails from local and regional vendors, and enjoy live music in a vibrant community setting.A portion of event proceeds benefits local charities, including BYOBikes.",
+      "url": "https://www.coastalmississippi.com/events/the-bay-fest/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-30",
@@ -1815,10 +1810,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Join us for the FUN-damentals of Model Railroading Workshop Series, held on the last Saturday of each month and led by the Mississippi Coast Model Railroad Club.This is a fully hands-on workshop for ages 10 and up, focused on the real basics of model railroading. Builders work directly with materials, tools, and techniques used by experienced hobbyists. Class topics rotate and may include:Building structure kits from Bar Mills Scale Model WorksScenery and terrain basicsAdding finishing detailsSkill-building techniques that grow month to monthFamily perks:Families may enjoy the museum at 10% off admission during class. A special pizza option is available and delivered right to the museum.Safety Notice:This workshop involves the use of sharp tools, hot glue, and other hobby equipment. Participants must follow the instructor's directions at all times. Adult supervision is recommended.Important:Pre-registration requiredWalk-ins are not guaranteedVery limited spots availableDue to limited seating, builders and one chaperone per builder are allowed in the class area.For the full class schedule and details, visit TrainTastic.com.",
-      "url": "https://www.coastalmississippi.com/fun-damentals-of-model-railroading-workshop-series-3/",
+      "url": "https://www.coastalmississippi.com/events/fun-damentals-of-model-railroading-workshop-series-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-31",
@@ -1826,10 +1823,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-05-31",
@@ -1840,7 +1839,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://jeepinthecoast.com/",
       "cta": "View Event",
       "source": "Jeepin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-01",
@@ -1848,10 +1849,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence? Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience.Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Mississippi Gulf Coast Billfish Classic",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "The Mississippi Gulf Coast Billfish Classic returns as one of the most prestigious sport\u2011fishing tournaments in the southern United States. Now in its 28th year, this premier event features elite teams of 6\u20138 anglers competing for multi\u2011million\u2011dollar payouts while pursuing the Gulf of America\u2019s most prized pelagic species. Known for record\u2011breaking offshore action and an electric atmosphere, events and festivities are centered around the Gold Nugget Casino & Hotel in Biloxi, MS.Don\u2019t miss the MGCBC Boat Parade on Thursday, June 4, beginning at 10 a.m., plus exciting gaming, entertainment, and world\u2011class competition throughout the tournament!",
+      "url": "https://www.coastalmississippi.com/events/mississippi-gulf-coast-billfish-classic1/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-02",
@@ -1859,10 +1875,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "Dance, Kid, Dance Act II!Get ready for an electrifying night at the MS Coast Coliseum! Shinedown takes the stage on June 2, joined by special guests Coheed and Cambria and Black Stone Cherry for an unforgettable rock experience.Tickets are on sale now. Grab yours before they\u2019re gone!",
-      "url": "https://www.coastalmississippi.com/shinedown/",
+      "url": "https://www.coastalmississippi.com/events/shinedown/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-03",
@@ -1870,10 +1888,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-04",
@@ -1881,10 +1901,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-05",
@@ -1892,10 +1914,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-05",
@@ -1903,10 +1927,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-05",
@@ -1914,10 +1940,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "We invite everyone to come out to this lively, fun event from 6 p.m. to 9 p.m. in Downtown Biloxi! Admission is free, but donations are welcome! We feature live music, food trucks, art vendors, and great ice-cold refreshments! Biloxi Main Street will feature 5 First Friday events this year: March, April, May, June, and September. We will host an America 250 Celebration on the Biloxi Town Green on July 4, titled \u201cRed, White & Biloxi.\u201d Stay tuned for details on this!For more information, call 228-435-6339 or visit the Downtown Main Street Biloxi Facebook page, or www.mainstreetbiloxi.com.",
-      "url": "https://www.coastalmississippi.com/first-friday-block-party-4/",
+      "url": "https://www.coastalmississippi.com/events/first-friday-block-party-4/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-05",
@@ -1925,10 +1953,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Riverdance, the global phenomenon that transformed Irish dance and captivated millions, returns to the Beau Rivage Theatre in Biloxi for its 30th Anniversary Tour. This revitalized production brings new energy, stunning choreography, and breathtaking talent while honoring the iconic spirit that made Riverdance a worldwide sensation.Audiences will be swept away by the powerful blend of traditional Irish music, rhythmic precision, and vibrant storytelling. Featuring a world-class cast and live musicians, Riverdance 30 delivers an unforgettable theatrical experience that celebrates the evolution of this legendary production.Showtimes:June 5 - 7 p.m.June 6 - 2:00 p.m. and 7 p.m.June 7 - 2 p.m.",
-      "url": "https://www.coastalmississippi.com/riverdance/",
+      "url": "https://www.coastalmississippi.com/events/riverdance/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-06",
@@ -1936,10 +1966,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-06",
@@ -1947,10 +1979,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Turn Magazines into Masterpieces!Join us for Magazine Paper Collage: Making Realistic Images with artist Kathy Fejes and discover how to create striking, lifelike artwork using nothing but colorful magazine pages.Saturday, June 6 *10a - 1pAges 12+In this approachable workshop, you\u2019ll learn how to \u201cpaint\u201d with paper\u2014transforming a simple drawing into a vibrant, layered image by focusing on color, texture, and value.No drawing experience needed!Bring an 8\" x 10\" photo (portrait, landscape, or favorite subject) or choose from provided images and jump right in.Get details & REG today - https://tinyurl.com/MagazinePaperCollageYou\u2019ll learn how to:\u2022 Break down an image into shapes, light, and color\u2022 Transfer your design onto canvas\u2022 Select and cut magazine pieces with intention\u2022 Build layers to create depth and realism\u2022 Finish and seal your collageAll core materials are provided\u2014just bring your creativity (and magazines if you\u2019d like)!Perfect for adults, teens, and creative families looking to make something unique together.Spots are limited\u2014reserve yours today!",
-      "url": "https://www.coastalmississippi.com/magazine-paper-collage-making-realistic-images/",
+      "url": "https://www.coastalmississippi.com/events/magazine-paper-collage-making-realistic-images/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-06",
@@ -1958,10 +1992,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-06",
@@ -1969,10 +2005,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Three Dog Night, a legendary band now in its fifth decade boasts remarkable achievements in popular music from 1969 to 1974. During these years, no other group garnered more top 10 hits, sold more records, or filled more concert seats than Three Dog Night. Their timeless hits, such as \"Mama Told Me (Not To Come),\" \"Joy to the World,\" \"Black and White,\" \"Shambala,\" and \"One,\" continue to resonate in pop culture through radio airplay, TV commercials, and major motion pictures.",
-      "url": "https://www.coastalmississippi.com/three-dog-night/",
+      "url": "https://www.coastalmississippi.com/events/three-dog-night/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-07",
@@ -1980,10 +2018,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-07",
@@ -1991,10 +2031,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 7, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-5/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-5/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-10",
@@ -2002,10 +2044,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-11",
@@ -2013,10 +2057,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-11",
@@ -2024,10 +2070,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "The greatest fairy tale never told is coming this Summer!Everyone's favorite ogre is back in the hilarious stage spectacle based on the Oscar-winning, smash hit film. Shrek The Musical is a Tony Award-winning fairy tale adventure featuring all-new songs by Jeanine Tesori (Thoroughly Modern Millie; Caroline, or Change) and a sidesplitting book by David Lindsay-Abaire. Shrek The Musical brings all the beloved characters you know from the film to life on stage and proves there's more to the story than meets the ear. So, get out of the swamp and into the theatre to join Shrek, Donkey, and Princess Fiona on an adventure bigger than Lord Farquaad! This high-energy, family-friendly production proves that when we open our hearts, we create bonds that can overcome even the biggest challenges.Book & Lyrics by David Lindsay-Abaire and Music by Jeanine Tesori. Originally produced on Broadway by Dreamworks Theatricals and Neal Street Productions. Original Production Directed by Jason Moore and Rob Ashford. Produced through a special arrangement with Music Theatre International (MTI).Produced & directed by Jeb K. Rand (of Rand Productions), producer of Footloose the Musical, Elf the Musical, Grease the Musical, and most recently A Christmas Story the Musical at Beau Rivage.Production ScheduleJune 11 - July 2, Dark Mondays7 PM Performances | June 11 - 12, June 16 - 19, June 23 - 26, June 28, June 30 - July 22 PM & 7 PM Performances | June 13 - 14, June 20 - 21, June 27 VIP Experience available for an additional $30. Call 1.888.567.6667 for details.",
-      "url": "https://www.coastalmississippi.com/shrek-the-musical-2/",
+      "url": "https://www.coastalmississippi.com/events/shrek-the-musical-2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-11",
@@ -2035,10 +2083,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/vintage-flamingo-market/",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-12",
@@ -2046,10 +2096,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-12",
@@ -2057,10 +2109,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Ashley McBryde Live In Concert",
+      "location": "Gulfport/Biloxi",
+      "category": "Live Music",
+      "description": "Ashley McBryde is scheduled to perform at Studio A within the IP Casino Resort Spa in Biloxi on Friday, June 12, 2026.",
+      "url": "https://www.coastalmississippi.com/events/ashley-mcbryde-live-in-concert/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-13",
@@ -2068,10 +2135,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-13",
@@ -2082,7 +2151,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609631?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-13",
@@ -2090,10 +2161,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-13",
@@ -2104,7 +2177,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588550?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-13",
+      "title": "Barrier Island Cleanup Initiative | Petit Bois",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "It\u2019s that time of year again! Mississippi State University is teaming up with the National Park Service for monthly cleanups on our beautiful Barrier Islands, and we need your help!During these hands-on events, volunteers will spend 4-5 hours collecting and documenting trash along a designated section of the shoreline. You can meet us at the cleanup site or hop on a chartered shuttle for a scenic ride to and from the location!Shuttle Locations:Petit Bois cleanups \u2013 Shuttle from Pascagoula Point Boat Launch - 645 Beach Blvd. Pascagoula, MS 39567All other cleanups \u2013 Shuttle from Point Cadet Marina -119 Beach Blvd. Biloxi, MS 39530 (behind the Golden Nugget Casino)If you choose to meet at the site, the exact coordinates will be sent before the event. Must be 18+ to participate.Choose a date and location that works for you, and sign up today! With your help, we aim to clean all 68 miles of Barrier Island shoreline in just three years!ARRIVAL SCHEDULE:Volunteers will meet at the Point Cadet Marina at 8:30 a.m. and will return to the boat launch by 1 p.m. Transportation to the island will be provided by Charter-for-hire boat captains. Boats will depart by 9 a.m. Volunteers must be on board at 9 a.m.WHAT TO EXPECT: The boat ride is approximately 30 minutes. Cleanup supplies and water will be provided by the event staff.BYO (bring your own): refillable water bottle, snacks, closed-toe shoes, sun protection (hat, sunglasses, sunscreen), and any necessary and/or emergency medications if applicable.We will likely get wet during the event, so a towel or change of clothes might be helpful for your ride home.IMPORTANT:Must be 18+ or older This is a physically intensive marine debris removal event, so make sure you're prepared by drinking lots of water and eating healthy meals the night before and the morning of the cleanup!Should be experienced in outdoor activities, including prolonged heat and sun exposure with no shadeMust be comfortable in and around water and know basic water safetyWill be wading through at least waist-deep water at times and will need to climb in and out of boats that may not have a ladder, as there are no boat docks on the islandsMust be able to lift 25-50 pounds on a consistent basisNo weapons/alcohol allowedPlease record data on the provided data sheet for any debris you pick up! Without data, there is no documentation of all our hard work to help preserve our islands.",
+      "url": "https://www.coastalmississippi.com/events/barrier-island-cleanup-initiative-petit-bois/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-13",
@@ -2112,10 +2200,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "Lansdowne brings their Wish You Well Tour to The Sanctuary for an unforgettable night of live music! Known for emotional storytelling, rich harmonies, and a powerful stage presence, Lansdowne delivers a concert experience that connects deeply with fans. The Wish You Well Tour highlights fan\u2011favorite songs along with new material, creating an intimate yet dynamic show that blends raw emotion with high\u2011energy performance. Whether you\u2019re a longtime fan or discovering Lansdowne for the first time, this show promises a memorable night out.",
-      "url": "https://www.coastalmississippi.com/lansdowne-wish-you-well-tour/",
+      "url": "https://www.coastalmississippi.com/events/lansdowne-wish-you-well-tour/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-14",
@@ -2123,10 +2213,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-14",
@@ -2134,10 +2226,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Join us for an unforgettable morning of glamour, incredible talent, and delicious food at our Drag Show & Three\u2011Course Brunch. Tickets are $60 per person, and while the menu is crafted fresh and finalized just before the show, you can always expect a beautifully curated dining experience.Doors open at 10:30 a.m., giving you time to settle in, socialize, and get comfortable before the show kicks off at 11:30 a.m. Our performers bring energy, joy, and sparkle to the room, and they always appreciate cash tips. We keep a limited amount of change on hand for your convenience.Your ticket includes the full three\u2011course brunch, the drag show entertainment, and tax and gratuity for the food. Beverages\u2014both alcoholic and non-alcoholic\u2014are available for purchase and will include their own tax and gratuity.To ensure that groups are seated together, we strongly encourage guests to purchase all tickets for their table in a single transaction. If that isn\u2019t possible, simply email us at info@biloxiwhitepillars.com with the names of everyone in your party so we can arrange seating accordingly. Without this information, we cannot guarantee group seating. Please note we do not issue physical tickets; just have your order confirmation ready to show at the door. All ticket sales are final and non-refundable.Thank you for supporting White Pillars and our incredible local drag entertainers!",
-      "url": "https://www.coastalmississippi.com/drag-brunch-3/",
+      "url": "https://www.coastalmississippi.com/events/drag-brunch-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-15",
+      "title": "ArtVentures 2026 - Camp 1- Ages 6-8",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "CAMP - 1ArtVentures 2026 \u2013 An Amazing Summer Arts Camp Gets Even Better. We\u2019re pleased to announce that The Arts, Hancock County\u2019s summer arts camp, is back and bigger and better than ever! This year, kids will enjoy hands-on fun with new projects in various art mediums guided by professional artists and teachers with over 50+ years of experience. kids ages 6-8 and kids ages 9-12Camp tuition - $165 per camper all supplies included and a light snack provided. June 15 - 17 CAMP - 1 Ages 6-8, meet 9:00a-12:15p Ages 9-12, meet 1:00-4:15p * 6-year-olds must have completed Kindergarten REG Today - https://tinyurl.com/ArtVenturesKidsArtCamp2026There is limited space in each camp and age ranges will be strictly observed.The schedule allows us to design a curriculum best suited to specific ages and give each camper the time and attention they deserve.We know that art deepens our understanding of ourselves and others. It builds self-esteem and encourages creative problem-solving. Art is for every child. For more information on getting your child into one of these limited classes, or to give the priceless gift of sponsoring a student, please contact us at info@hancockarts.org or call 228-342-4521",
+      "url": "https://www.coastalmississippi.com/events/artventures-2026-camp-1-ages-6-8/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-15",
+      "title": "ArtVentures 2026 - Camp 1- Ages 9-12",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "CAMP - 1ArtVentures 2026 \u2013 An Amazing Summer Arts Camp Gets Even Better. We\u2019re pleased to announce that The Arts, Hancock County\u2019s summer arts camp, is back and bigger and better than ever! This year, kids will enjoy hands-on fun with new projects in various art mediums guided by professional artists and teachers with over 50+ years of experience. kids ages 6-8 and kids ages 9-12Camp tuition - $165 per camper all supplies included and a light snack provided. June 15 - 17 CAMP - 1 Ages 6-8, meet 9:00a-12:15p Ages 9-12, meet 1:00-4:15p * 6-year-olds must have completed Kindergarten REG Today - https://tinyurl.com/ArtVenturesKidsArtCamp2026There is limited space in each camp and age ranges will be strictly observed.The schedule allows us to design a curriculum best suited to specific ages and give each camper the time and attention they deserve.We know that art deepens our understanding of ourselves and others. It builds self-esteem and encourages creative problem-solving. Art is for every child. For more information on getting your child into one of these limited classes, or to give the priceless gift of sponsoring a student, please contact us at info@hancockarts.org or call 228-342-4521",
+      "url": "https://www.coastalmississippi.com/events/artventures-2026-camp-1-ages-9-12/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-15",
@@ -2145,10 +2265,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence?Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience. Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures1/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures1/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-15",
@@ -2156,10 +2278,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days2/",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-17",
@@ -2167,10 +2291,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot2/",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-17",
@@ -2178,10 +2304,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-18",
@@ -2189,10 +2317,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-19",
@@ -2200,10 +2330,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-19",
@@ -2211,10 +2343,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-19",
@@ -2222,10 +2356,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-19",
@@ -2233,10 +2369,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Martin Phillips is back\u2026 for the first time\u2026 again!Martin was named \u201cDC\u2019s Funniest Student\u201d in college and eventually earned his \u201cGolden Ticket\u201d on Kill Tony following an impromptu bucket pull at his home club in DC. He is now a fan favorite within the Kill Tony universe and has performed at some of the biggest comedy venues on the planet.Martin has since moved to Austin, Texas, where he continues to \u201ckill\u201d Tony on a regular basis while headlining shows across the country. When not telling jokes, Martin is an avid film and music nerd, a professional tap\u2011dancer, a blues harmonica player, and a very convincing RFK Jr. impersonator (only hotter)!",
-      "url": "https://www.coastalmississippi.com/lunchbox-comedy-presents-martin-phillips/",
+      "url": "https://www.coastalmississippi.com/events/lunchbox-comedy-presents-martin-phillips/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-20",
@@ -2244,10 +2382,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-20",
@@ -2255,10 +2395,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-20",
@@ -2266,10 +2408,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "Enjoy a live performance by Andy Whatley & Co at The Sanctuary, featuring soulful vocals, skilled musicianship, and an inviting live music atmosphere.",
-      "url": "https://www.coastalmississippi.com/andy-whatley-co/",
+      "url": "https://www.coastalmississippi.com/events/andy-whatley-co/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-21",
@@ -2277,10 +2421,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-22",
+      "title": "ArtVentures 2026 - Camp 2: Ages 6-8",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "CAMP - 2ArtVentures 2026 \u2013 An Amazing Summer Arts Camp Gets Even Better. We\u2019re pleased to announce that The Arts, Hancock County\u2019s summer arts camp, is back and bigger and better than ever! This year, kids will enjoy hands-on fun with new projects in various art mediums guided by professional artists and teachers with over 50+ years of experience. kids ages 6-8 and kids ages 9-12Camp tuition - $165 per camper all supplies included and a light snack provided. June 22 - 24CAMP - 2Ages 6-8, meet 9:00a-12:15p Ages 9-12, meet 1:00-4:15p * 6-year-olds must have completed Kindergarten REG Today - https://tinyurl.com/ArtVenturesKidsArtCamp2026There is limited space in each camp and age ranges will be strictly observed.The schedule allows us to design a curriculum best suited to specific ages and give each camper the time and attention they deserve.We know that art deepens our understanding of ourselves and others. It builds self-esteem and encourages creative problem-solving. Art is for every child. For more information on getting your child into one of these limited classes, or to give the priceless gift of sponsoring a student, please contact us at info@hancockarts.org or call 228-342-4521",
+      "url": "https://www.coastalmississippi.com/events/artventures-2026-camp-2-ages-6-8/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-22",
+      "title": "ArtVentures 2026 - Camp 2: Ages 9-12",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "CAMP - 2ArtVentures 2026 \u2013 An Amazing Summer Arts Camp Gets Even Better. We\u2019re pleased to announce that The Arts, Hancock County\u2019s summer arts camp, is back and bigger and better than ever! This year, kids will enjoy hands-on fun with new projects in various art mediums guided by professional artists and teachers with over 50+ years of experience. kids ages 6-8 and kids ages 9-12Camp tuition - $165 per camper all supplies included and a light snack provided. June 22 - 24CAMP - 2Ages 6-8, meet 9:00a-12:15p Ages 9-12, meet 1:00-4:15p * 6-year-olds must have completed Kindergarten REG Today - https://tinyurl.com/ArtVenturesKidsArtCamp2026There is limited space in each camp and age ranges will be strictly observed.The schedule allows us to design a curriculum best suited to specific ages and give each camper the time and attention they deserve.We know that art deepens our understanding of ourselves and others. It builds self-esteem and encourages creative problem-solving. Art is for every child. For more information on getting your child into one of these limited classes, or to give the priceless gift of sponsoring a student, please contact us at info@hancockarts.org or call 228-342-4521",
+      "url": "https://www.coastalmississippi.com/events/artventures-2026-camp-2-ages-9-12/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-22",
@@ -2288,10 +2460,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence?Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience. Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures2/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures2/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-24",
@@ -2299,10 +2473,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-24",
@@ -2310,10 +2486,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "Two bands. One stage. Zero excuses!Get ready for a night of raw energy, heavy riffs, and chaos you can feel in your chest as We\u2019re Wolves and Donefor collide for an unforgettable live experience. From haunting melodies to crushing breakdowns, this show is built for the ones who live loud and leave!",
-      "url": "https://www.coastalmississippi.com/were-wolves-donefor-beast-of-the-east-tour-with-black-out-the-sun/",
+      "url": "https://www.coastalmississippi.com/events/were-wolves-donefor-beast-of-the-east-tour-with-black-out-the-sun/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-25",
@@ -2321,10 +2499,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-26",
@@ -2332,10 +2512,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-26",
@@ -2343,10 +2525,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Scrapin the Coast 2026",
+      "location": "Gulfport/Biloxi",
+      "category": "Family",
+      "description": "Scrapin\u2019 the Coast is one of the South\u2019s premier custom truck and car shows, drawing enthusiasts from across the country to the Mississippi Gulf Coast. Held at the Mississippi Coast Coliseum, the event showcases slammed and lifted trucks, custom cars, specialty builds, vendors, live entertainment, and family-friendly activities\u2014making it a high-energy weekend that blends automotive culture with coastal fun. Specific event details can be found on the event's website.",
+      "url": "https://www.coastalmississippi.com/events/scrapin-the-coast-2026/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-27",
@@ -2354,10 +2551,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-27",
@@ -2365,10 +2564,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-28",
@@ -2376,10 +2577,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-06-29",
@@ -2387,10 +2590,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence?Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience. Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures3/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures3/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-01",
@@ -2398,10 +2603,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-02",
@@ -2409,10 +2616,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-07-02",
+      "title": "78th Annual Mississippi Deep Sea Fishing Rodeo",
+      "location": "Gulfport/Biloxi",
+      "category": "Dining",
+      "description": "Celebrate Independence Day weekend at the 78th Annual Mississippi Deep Sea Fishing Rodeo at Jones Park in Gulfport! This beloved Coastal tradition brings together competitive fishing for anglers of all ages, live entertainment, carnival rides, local food and retail vendors, and a dazzling fireworks show over the Gulf. Not an angler? No problem\u2014enjoy exciting prizes, shopping, live music, and family\u2011friendly fun, including the popular Princess Scholarship Pageant. It\u2019s a weekend\u2011long celebration of fishing, community, and patriotic fun you won\u2019t want to miss!",
+      "url": "https://www.coastalmississippi.com/events/78th-annual-mississippi-deep-sea-fishing-rodeo/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-03",
@@ -2420,10 +2642,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-03",
@@ -2431,10 +2655,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-04",
@@ -2442,10 +2668,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-04",
@@ -2453,10 +2681,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-04",
@@ -2464,10 +2694,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "We invite everyone to come out to Red, White & Biloxi! This lively, fun event will be held on the Biloxi Town Green to celebrate America! Admission is free, but donations are welcome! Stay tuned for more details.For more information, call 228-435-6339 or visit the Downtown Main Street Biloxi Facebook page, or www.mainstreetbiloxi.com.",
-      "url": "https://www.coastalmississippi.com/red-white-biloxi-america-250-celebration/",
+      "url": "https://www.coastalmississippi.com/events/red-white-biloxi-america-250-celebration/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-05",
@@ -2475,10 +2707,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-06",
@@ -2486,10 +2720,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence?Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience. Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures4/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures4/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-08",
@@ -2497,10 +2733,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-09",
@@ -2508,10 +2746,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-09",
@@ -2519,10 +2759,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/vintage-flamingo-market/",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-10",
@@ -2530,10 +2772,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-10",
@@ -2541,10 +2785,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Barrier Island Cleanup Initiative | Ship Island",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "It\u2019s that time of year again! Mississippi State University is teaming up with the National Park Service for monthly cleanups on our beautiful Barrier Islands, and we need your help!During these hands-on events, volunteers will spend 4-5 hours collecting and documenting trash along a designated section of the shoreline. You can meet us at the cleanup site or hop on a chartered shuttle for a scenic ride to and from the location!Shuttle Locations:Petit Bois cleanups \u2013 Shuttle from Pascagoula Point Boat Launch - 645 Beach Blvd. Pascagoula, MS 39567All other cleanups \u2013 Shuttle from Point Cadet Marina -119 Beach Blvd. Biloxi, MS 39530 (behind the Golden Nugget Casino)If you choose to meet at the site, the exact coordinates will be sent before the event. Must be 18+ to participate.Choose a date and location that works for you, and sign up today! With your help, we aim to clean all 68 miles of Barrier Island shoreline in just three years!ARRIVAL SCHEDULE:Volunteers will meet at the Point Cadet Marina at 8:30 a.m. and will return to the boat launch by 1 p.m. Transportation to the island will be provided by Charter-for-hire boat captains. Boats will depart by 9 a.m. Volunteers must be on board at 9 a.m.WHAT TO EXPECT: There are no facilities on the island. Please use the restroom before getting on the boat.The boat ride is approximately 30 minutes. Cleanup supplies and water will be provided by the event staff.BYO (bring your own): refillable water bottle, snacks, closed-toe shoes, sun protection (hat, sunglasses, sunscreen), and any necessary and/or emergency medications if applicable.We will likely get wet during the event, so a towel or change of clothes might be helpful for your ride home.IMPORTANT:Must be 18+ or older This is a physically intensive marine debris removal event, so make sure you're prepared by drinking lots of water and eating healthy meals the night before and the morning of the cleanup!Should be experienced in outdoor activities, including prolonged heat and sun exposure with no shadeMust be comfortable in and around water and know basic water safetyWill be wading through at least waist-deep water at times and will need to climb in and out of boats that may not have a ladder, as there are no boat docks on the islandsMust be able to lift 25-50 pounds on a consistent basisNo weapons/alcohol allowedPlease record data on the provided data sheet for any debris you pick up! Without data, there is no documentation of all our hard work to help preserve our islands.",
+      "url": "https://www.coastalmississippi.com/events/barrier-island-cleanup-initiative-ship-island1/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-10",
@@ -2552,10 +2811,38 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Bayou Stampede Band is a Slidell, Louisiana-based country and classic rock cover band established in November 2023. The band plays local venues on the Northshore and Southshore of Lake Pontchartrain including \"The Blue Crab (Slidell & New Orleans),\" \"Gilligil's Island,\" \"Triangle Square,\" \"The Barn @ Ground Pat'i in Kenner,\" \"Katz Lounge,\" \"Trackside Bar & Grill,\" \"Mimi's Country Kitchen,\" & \"Hidden Oaks Campground\" as well as larger festivals and fairs like \"The Slidell Food & Fun Festival,\" \"The Crawfish Festival,\" and \"The Louisiana Food Truck Festival!\"",
-      "url": "https://www.coastalmississippi.com/bayou-stampede/",
+      "url": "https://www.coastalmississippi.com/events/bayou-stampede/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-07-11",
+      "title": "11th Annual Frida Fest",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Mark your calendars for Saturday, July 11 - we're bringing the fiesta to Old Town Bay Saint Louis!Founded in 2015 by the vibrant duo Ann Madden and Sandy Maggio, Frida Fest is a grand tribute to the legendary Mexican artist Frida Kahlo. This festival celebrates diversity, uplifts artists, and helps make a positive impact in our community. Each year, our beloved Frida look-alike contest raises funds for a meaningful cause - and this year, all proceeds benefit El Pueblo. El Pueblo is a nonprofit organization serving low-income immigrants across Mississippi by providing professional, low-cost humanitarian and family-based immigration legal services.Our look-alike contest welcomes everyone-women, men, children, and especially your beloved pets!You can sign up on our website at mockingbirdcafe.com or register on the day of the event until 6 p.m.Need help perfecting your Frida look? Stroll through our local shops in Old Town Bay St. Louis - they're stocked with all the Frida-inspired flair you could dream of. See you in Bay St. Louis!This event is ever evolving! Keep up with all of the happenings on our social media pages, as well as the official 11th Annual Frida Fest Facebook event page by Mockingbird Caf\u00e9. Here are just a few things happening around town:Grab your Frida flair from Old Town Bay St Louis shops | ALL DAYFrida 5Kahlo Run by Bay Saint Louis Running Company | 8 a.m.Special Frida food & drink menu at Mockingbird Cafe | 3-9 p.m.Live music at Mockingbird Cafe | 3:30-6 p.m.Frida Look-Alike packet pick up & in person sign up | 4-6 p.m.DJ Doug Funnie of Good Earth Records providing the tunes | 6 p.m.\u2013tillFrida Look-Alike participants line up | 6:30 p.m.Frida Look-Alike Contest starts / 7pm",
+      "url": "https://www.coastalmississippi.com/events/11th-annual-frida-fest/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Frida Fest",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Mark your calendars for Saturday, July 11th - we\u2019re bringing the fiesta to Old Town Bay Saint Louis! Founded in 2015 by the vibrant duo Ann Madden and Sandy Maggio, Frida Fest is a grand tribute to the legendary Mexican artist Frida Kahlo. This festival celebrates diversity, uplifts artists, and helps make a positive impact in our community. Each year, our beloved Frida look-alike contest raises funds for a meaningful cause - and this year, all proceeds benefit El Pueblo. El Pueblo is a nonprofit organization serving low-income immigrants across Mississippi by providing professional, low-cost humanitarian and family-based immigration legal services. Our look-alike contest welcomes everyone\u2014women, men, children, and especially your beloved pets! Receive a free drink ticket when you sign up ahead of time on our website - mockingbirdcafe.com or register on the day of the event until 6 PM. Need help perfecting your Frida look? Stroll through our local shops in Old Town Bay St. Louis - they\u2019re stocked with all the Frida-inspired flair you could dream of. See you in Bay St. Louis! This event is ever evolving! Keep up with all of the happenings on our social media pages, as well as the official 11th Annual Frida Fest Facebook event page by Mockingbird Caf\u00e9. Here are just a few things happening around town. \ud83d\udecd\ufe0f Grab your Frida flair from Old Town Bay St. Louis shops | ALL DAY \ud83c\udfc3\ud83c\udffb\u200d\u2640\ufe0fFrida 5Kahlo Run by Bay Saint Louis Running Company | 8am \ud83c\udf2eSpecial Frida food & drink menu at Mockingbird Cafe | 3pm-9pm \ud83e\ude87Live music at Mockingbird Cafe | 3:30pm-6pm \ud83c\udf38Frida Look-Alike packet pick up & in person sign up | 4pm-6pm \ud83c\udfa4DJ Doug Funnie of Good Earth Records providing the tunes | 6pm-till \u231b\ufe0fFrida Look-Alike participants line up | 6:30pm \ud83c\udfc1Frida Look-Alike Contest starts | 7pm",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/frida-fest-1710715?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-11",
@@ -2563,10 +2850,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-11",
@@ -2574,10 +2863,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Hotel California, a renowned tribute band dedicated to capturing the essence of the Eagles, the iconic American rock group. Come on a nostalgic journey through the timeless hits of the Eagles including: \"Take It Easy\" and \"Take It To The Limit\" at Hollywood Casino Gulf Coast.",
-      "url": "https://www.coastalmississippi.com/hotel-california/",
+      "url": "https://www.coastalmississippi.com/events/hotel-california/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-11",
@@ -2588,7 +2879,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609632?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-11",
@@ -2596,10 +2889,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Star-Spangled Cleanup",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "This event is a part of the Mississippi Coastal Cleanup Program. At these events, participants pick up trash while collecting data on the types and amounts of trash collected. We welcome anyone to join us in our effort to remove the remaining fireworks debris from our beaches. Let's have some fun!Event Details:When: Saturday, July 11, from 8 a.m. to 10 a.m.Where: Multiple locations across the Mississippi Gulf Coast.What: Join us in removing firework debris. All cleanup supplies are provided.Weather happens! Please keep in mind that this cleanup is subject to cancellation.Each cleanup location will have a Site Captain present to provide cleanup supplies and guidance throughout the event. This event gets hot. Please make sure to bring plenty of sun protection (hats, sunglasses, sun cream, etc.) and a refillable water bottle. All locations will have extra water provided during the event.Cleanup Locations:Bay St. Louis Washington Street PierBiloxi LighthouseD'Iberville MarinaGulfport Jones ParkLong Beach HarborMoss Point Hwy 63 Boat LaunchOcean Springs East BeachOcean Springs Fort MaurepausPascagoula Front BeachPass Christian Harbor (Meet by Shaggy's)Volunteer registration is now open! Please sign up today!If you have any questions about the event, please check our FAQ page, then email the Program Coordinator at evelyn.mcqueen@msstate.edu.",
+      "url": "https://www.coastalmississippi.com/events/star-spangled-cleanup/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-11",
@@ -2610,7 +2918,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588551?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-11",
@@ -2618,10 +2928,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a night of sharp wit, clever storytelling, and nonstop laughs as Kevin Hollingsworth takes the stage. Known for his charismatic delivery and hilariously honest takes on everyday life, Kevin brings a unique blend of charm, sarcasm, and quick-fire humor that keeps audiences hooked from start to finish.From relatable moments to unexpected twists, Kevin\u2019s comedic style resonates with fans of all backgrounds, earning him a reputation as a rising favorite in the stand\u2011up scene. Whether you\u2019ve seen him on stage before or are catching his set for the first time, this show guarantees a high\u2011energy, unforgettable night of comedy.",
-      "url": "https://www.coastalmississippi.com/lunchbox-comedy-presents-kevin-hollingsworth/",
+      "url": "https://www.coastalmississippi.com/events/lunchbox-comedy-presents-kevin-hollingsworth/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-12",
@@ -2629,10 +2941,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-13",
@@ -2640,10 +2954,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence?Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time 2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience. Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures5/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures5/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-13",
@@ -2651,10 +2967,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days3/",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-4/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-15",
@@ -2662,10 +2980,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot3/",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-4/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-15",
@@ -2673,10 +2993,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-16",
@@ -2687,7 +3009,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/friends-of-the-animal-shelter-hancock-co-1693386?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "6:00 PM - 7:00 PM"
+      "timeLabel": "6:00 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-16",
@@ -2695,10 +3019,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Happy Birthday America! An Original Musical",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Join Music, Arts & Practicality (M.A.P.) for Happy Birthday America!, an original musical celebrating the history of America and Mississippi!Join a cast of adults and children as they tell the story of America through a multi-media production featuring music, dance, video, and theatre.Admission is free, and reservations can be secured on our website www.MAPKidsHancock.com. Reserve your seats early; seating is limited.This official America250 project was made possible in part by the Mississippi Humanities Council, supported by grants from the State of Mississippi.",
+      "url": "https://www.coastalmississippi.com/events/happy-birthday-america-an-original-musical/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-17",
@@ -2706,10 +3045,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-17",
@@ -2717,10 +3058,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-17",
@@ -2728,10 +3071,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-17",
@@ -2739,10 +3084,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Outdoors",
       "description": "Every year, the Gulf Coast roars to life as the Gulf Coast Big Rig Truck Show rolls into town! Join us at the Mississippi Coast Coliseum as its massive hall is filled with over 83 gleaming 18-wheelers, each one a testament to craftsmanship and trucking pride. From classic rigs that tell stories of the open road to cutting-edge models showcasing the latest innovations, this event is a paradise for truck enthusiasts.But it\u2019s not just about the trucks. Exhibitors line the floor, offering a wide range of items from vintage collectibles to the latest gear for trucking companies. Whether you\u2019re a driver, a fan, or just curious, there\u2019s something for everyone.The excitement ramps up with truck competitions across several categories, where the best of the best battle for bragging rights. And don\u2019t forget the raffles supporting Tunnels to Towers (T2T)\u2014a chance to win great prizes while giving back to a worthy cause!As the sun sets on Saturday, the magic continues with the neatest convoy cruising down the Beach Boulevard, a sight that turns heads and lights up the night. Families love this event for its welcoming atmosphere, and as the show grows bigger every year.Join us for a weekend of horsepower, chrome, and community!",
-      "url": "https://www.coastalmississippi.com/gulf-coast-big-rig-truck-show/",
+      "url": "https://www.coastalmississippi.com/events/gulf-coast-big-rig-truck-show/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-18",
@@ -2750,10 +3097,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-18",
@@ -2761,10 +3110,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-18",
@@ -2772,10 +3123,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "Get ready for a full\u2011throttle night of hard rock as M\u00f6tley Kr\u00fce \u2013 A Tribute to the World\u2019s Most Notorious Band teams up with GN\u2019R Reloaded \u2013 A Tribute to Guns N\u2019 Roses for an electrifying live show. From explosive riffs and iconic anthems to raw attitude and nonstop energy, this double\u2011billing delivers the ultimate homage to two of rock\u2019s most legendary bands.Expect crowd\u2011favorite hits, powerful performances, and an arena\u2011style rock experience packed into an unforgettable night. Whether you\u2019re reliving the glory days or discovering these classics live on stage, this show promises big sound, big energy, and wall\u2011to\u2011wall rock and roll.Don\u2019t miss this high\u2011octane tribute event made for true rock fans!",
-      "url": "https://www.coastalmississippi.com/m\u00f6tley-kr\u00fce-a-tribute-to-the-worlds-most-notorious-band-gnr-reloaded-a-tribute-to-guns-n-roses/",
+      "url": "https://www.coastalmississippi.com/events/m%C3%B6tley-kr%C3%BCe-a-tribute-to-the-worlds-most-notorious-band-gnr-reloaded-a-tribute-to-guns-n-roses/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-19",
@@ -2783,10 +3136,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-19",
@@ -2794,10 +3149,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 21, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-6/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-6/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-20",
@@ -2805,10 +3162,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Creative creatures, curious why some animals burst with color or how an octopus shows off its surprising intelligence?Dive into discovery at Camp Aqua: Creative Creatures! Explore the science behind nature\u2019s artistry and unleash your own creativity with hands-on art projects and marine-themed activities. Grab your paintbrush and join the adventure! Camp Aqua runs from Monday through Friday, 8 a.m. to 3 p.m.Weekly camps will run from June 1 to July 24, 2026.Daily ScheduleMonday \u2013 Start your Ed-VentureTuesday \u2013 Problem SolversWednesday \u2013 Cool ColorsThursday \u2013 Beautiful Behaviors (Ship Island) *Ship Island is dependent on the weather*Friday \u2013 Tool Time2026 Camp Dates:Camp Aqua: Creative Creatures is a week-long experience. Camp begins at 8 a.m. and ends at 3 p.m.June 1 \u2013 5June 15 \u2013 19June 22 \u2013 26June 29 \u2013 July 3July 6 \u2013 10July 13 \u2013 17July 20 \u2013 24Now registering: Junior interns, ages 7-11. Cost: $275 per camperRegistration Includes:Camp T-shirt2 snacks dailyKeesler Federal Credit Union swag bagExcursion to Ship Island",
-      "url": "https://www.coastalmississippi.com/camp-aqua-creative-creatures6/",
+      "url": "https://www.coastalmississippi.com/events/camp-aqua-creative-creatures6/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-22",
@@ -2816,10 +3175,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-23",
@@ -2827,10 +3188,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-24",
@@ -2838,10 +3201,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-24",
@@ -2849,10 +3214,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-25",
@@ -2860,10 +3227,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-25",
@@ -2871,10 +3240,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-26",
@@ -2882,10 +3253,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-29",
@@ -2893,10 +3266,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-30",
@@ -2904,10 +3279,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-31",
@@ -2915,10 +3292,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-07-31",
@@ -2926,10 +3305,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-01",
@@ -2937,10 +3318,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-01",
@@ -2948,10 +3331,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-02",
@@ -2959,10 +3344,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-05",
@@ -2970,10 +3357,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-06",
@@ -2981,10 +3370,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-07",
@@ -2992,10 +3383,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-07",
@@ -3003,10 +3396,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-08",
@@ -3014,10 +3409,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-08",
@@ -3028,7 +3425,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609633?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-08",
@@ -3036,10 +3435,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-08",
@@ -3050,7 +3451,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588552?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Barrier Island Cleanup Initiative | Ship Island",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "It\u2019s that time of year again! Mississippi State University is teaming up with the National Park Service for monthly cleanups on our beautiful Barrier Islands, and we need your help!During these hands-on events, volunteers will spend 4-5 hours collecting and documenting trash along a designated section of the shoreline. You can meet us at the cleanup site or hop on a chartered shuttle for a scenic ride to and from the location!Shuttle Locations:Petit Bois cleanups \u2013 Shuttle from Pascagoula Point Boat Launch - 645 Beach Blvd. Pascagoula, MS 39567All other cleanups \u2013 Shuttle from Point Cadet Marina -119 Beach Blvd. Biloxi, MS 39530 (behind the Golden Nugget Casino)If you choose to meet at the site, the exact coordinates will be sent before the event. Must be 18+ to participate.Choose a date and location that works for you, and sign up today! With your help, we aim to clean all 68 miles of Barrier Island shoreline in just three years!ARRIVAL SCHEDULE:Volunteers will meet at the Point Cadet Marina at 8:30 a.m. and will return to the boat launch by 1 p.m. Transportation to the island will be provided by Charter-for-hire boat captains. Boats will depart by 9 a.m. Volunteers must be on board at 9 a.m.WHAT TO EXPECT: There are no facilities on the island. Please use the restroom before getting on the boat.The boat ride is approximately 30 minutes. Cleanup supplies and water will be provided by the event staff.BYO (bring your own): refillable water bottle, snacks, closed-toe shoes, sun protection (hat, sunglasses, sunscreen), and any necessary and/or emergency medications if applicable.We will likely get wet during the event, so a towel or change of clothes might be helpful for your ride home.IMPORTANT:Must be 18+ or older This is a physically intensive marine debris removal event, so make sure you're prepared by drinking lots of water and eating healthy meals the night before and the morning of the cleanup!Should be experienced in outdoor activities, including prolonged heat and sun exposure with no shadeMust be comfortable in and around water and know basic water safetyWill be wading through at least waist-deep water at times and will need to climb in and out of boats that may not have a ladder, as there are no boat docks on the islandsMust be able to lift 25-50 pounds on a consistent basisNo weapons/alcohol allowedPlease record data on the provided data sheet for any debris you pick up! Without data, there is no documentation of all our hard work to help preserve our islands.",
+      "url": "https://www.coastalmississippi.com/events/barrier-island-cleanup-initiative-ship-island3/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-09",
@@ -3058,10 +3474,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-10",
@@ -3069,10 +3487,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days4/",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-5/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-12",
@@ -3080,10 +3500,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-08-12",
+      "title": "South MS Horse Show & Rodeo Association - Horse Show",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "The South Mississippi Horse Show & Rodeo Association (SMHS&RA) organizes a series of horse shows throughout the year, including timed events, judged classes, and outdoor arena competitions. Many of their events are family-friendly and open to exhibitors and spectators alike.",
+      "url": "https://www.coastalmississippi.com/events/south-ms-horse-show-rodeo-association-horse-show/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-13",
@@ -3091,10 +3526,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-13",
@@ -3102,10 +3539,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/vintage-flamingo-market/",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-14",
@@ -3113,10 +3552,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-14",
@@ -3124,10 +3565,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-14",
@@ -3135,10 +3578,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Experience Lil Wayne live on the Tha Carter VI Tour!Few experiences in hip-hop compare to seeing Lil Wayne perform live. For over two decades, Weezy has been one of the most electrifying stage performers in the genre, bringing a combination of raw lyrical talent, infectious energy, and genuine love for the crowd that transforms every arena and amphitheater into a celebration. The Tha Carter VI Tour gives fans across America the chance to witness this energy firsthand, with 30 shows stretching from a BottleRock Festival headline set in Napa through an arena-closing finale at Thompson-Boling Arena in Knoxville. If you have ever wanted to see one of the greatest rappers of all time do what he does best, this is the tour to make it happen!A Lil Wayne live show is built on spontaneity and skill. Unlike many modern hip-hop artists who rely heavily on backing tracks, Wayne is known for rapping every bar, freestyling between songs, and feeding off the audience in real time. He reads the crowd, adjusts his setlist on the fly, and creates moments that are unique to each performance. Whether he is tearing through the rapid-fire verses of \"A Milli\" or letting the entire venue sing every word of \"Lollipop,\" each show has its own personality. With the Tha Carter VI Tour celebrating the full arc of his legendary Carter album series, fans can expect deep cuts alongside the massive hits \u2014 from \"Go DJ\" and \"Fireman\" to \"6 Foot 7 Foot\" and \"Uproar.\" Don't forget to STAY where you play in Coastal Mississippi! Turn one night into a full weekend getaway \u2013 Book today!",
-      "url": "https://www.coastalmississippi.com/lil-wayne-20-years-of-carter-classics/",
+      "url": "https://www.coastalmississippi.com/events/lil-wayne-20-years-of-carter-classics/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-15",
@@ -3146,10 +3591,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-15",
@@ -3157,10 +3604,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-15",
@@ -3168,10 +3617,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Casino Entertainment",
       "description": "Timeless in a way that few other acts can claim, The Spinners are one of the most iconic and enduring groups in R&B history! With a towering legacy spanning over six decades, come see these Hall of Famers perform classic hits such as \"I'll Be Around,\" \"Then Came You,\" and \u201cWorking My Way Back To You.\u201d",
-      "url": "https://www.coastalmississippi.com/the-spinners/",
+      "url": "https://www.coastalmississippi.com/events/the-spinners/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Biloxi Gun Show",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Buy-Sell-Trade-BrowseBring your gun and trade for the gun you always wanted. See hundreds of displays of new and old guns, ammo, gun parts, books, knives, jewelry, camouflage, militaria, and related items at discount prices. For $2 OFF Admission, Follow Us On FB (2AEvents)& Share Event Post! (Show your shared post to the cashier at the door)",
+      "url": "https://www.coastalmississippi.com/events/biloxi-gun-show/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-15",
@@ -3179,10 +3643,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Bruce is one of the nation's favorite standup comedians and most recently was seen on Bert Kreischer's Fully Loaded Tour\", \"LIT AF Tour\" with Martin Lawrence, \"The Real Mike Epps Tour,\" and the \"Royal Comedy Tour\" with Sommore. When not on tour, Bruce can be found performing at premier comedy clubs across the United States. He is also featured on the Netflix original comedy series \"Family Reunion\" as \"Brother Davis\", a hilarious foil for Loretta Devine's character. He is shooting his Netflix Special this May in Chicago and is due out in the fall of 2025.In addition to stand-up comedy, film, and TV, Bruce Bruce can also add author to his list of credits. Penguin Publishing released Bruce's first memoir, Baby James Brown, which regales readers with hilarious stories from his childhood and experiences that shaped the comedian he is today.",
-      "url": "https://www.coastalmississippi.com/bruce-bruce/",
+      "url": "https://www.coastalmississippi.com/events/bruce-bruce/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-15",
@@ -3190,10 +3656,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "MK Music USA and The Sound 228 present Nolan\u2019s 50th Birthday Rock Bash, an electrifying night of live rock music featuring Scotty Austin, The Almas, Lowerline, and NVSN. Celebrate this milestone birthday with high\u2011energy performances, powerful vocals, and a stacked lineup built for rock fans who want a night to remember.Attendees will also have the chance to win an iPad giveaway \u2014 must be present to win.This event is 21+ only.Tickets:General admission (advance): $25Day of show: $30Come early, rock hard, and celebrate big!",
-      "url": "https://www.coastalmississippi.com/nolans-50th-birthday-rock-bash-with-scotty-austin-the-almas-lowerline-nvsn/",
+      "url": "https://www.coastalmississippi.com/events/nolans-50th-birthday-rock-bash-with-scotty-austin-the-almas-lowerline-nvsn/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-16",
@@ -3201,10 +3669,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-16",
@@ -3212,10 +3682,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Join us for an unforgettable morning of glamour, incredible talent, and delicious food at our Drag Show & Three\u2011Course Brunch. Tickets are $60 per person, and while the menu is crafted fresh and finalized just before the show, you can always expect a beautifully curated dining experience.Doors open at 10:30 a.m., giving you time to settle in, socialize, and get comfortable before the show kicks off at 11:30 a.m. Our performers bring energy, joy, and sparkle to the room, and they always appreciate cash tips. We keep a limited amount of change on hand for your convenience.Your ticket includes the full three\u2011course brunch, the drag show entertainment, and tax and gratuity for the food. Beverages\u2014both alcoholic and non-alcoholic\u2014are available for purchase and will include their own tax and gratuity.To ensure that groups are seated together, we strongly encourage guests to purchase all tickets for their table in a single transaction. If that isn\u2019t possible, simply email us at info@biloxiwhitepillars.com with the names of everyone in your party so we can arrange seating accordingly. Without this information, we cannot guarantee group seating. Please note we do not issue physical tickets; just have your order confirmation ready to show at the door. All ticket sales are final and non-refundable.Thank you for supporting White Pillars and our incredible local drag entertainers!",
-      "url": "https://www.coastalmississippi.com/drag-brunch-4/",
+      "url": "https://www.coastalmississippi.com/events/drag-brunch-4/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-19",
@@ -3223,10 +3695,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot4/",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-5/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-19",
@@ -3234,10 +3708,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-20",
@@ -3245,10 +3721,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-21",
@@ -3256,10 +3734,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-21",
@@ -3267,10 +3747,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-21",
@@ -3278,10 +3760,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-22",
@@ -3289,10 +3773,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-22",
@@ -3300,10 +3786,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-22",
@@ -3311,10 +3799,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 21, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-7/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-7/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-23",
@@ -3322,10 +3812,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-26",
@@ -3333,10 +3825,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-27",
@@ -3347,7 +3841,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/2026-hancock-business-industry-award-gala-1685943?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "5:30 PM - 10:00 PM"
+      "timeLabel": "5:30 PM - 10:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-27",
@@ -3355,10 +3851,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-28",
@@ -3366,10 +3864,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-28",
@@ -3377,10 +3877,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-29",
@@ -3388,10 +3890,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-29",
@@ -3399,10 +3903,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-08-30",
@@ -3410,10 +3916,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-02",
@@ -3421,10 +3929,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-03",
@@ -3432,10 +3942,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-04",
@@ -3443,10 +3955,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-04",
@@ -3454,10 +3968,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-04",
@@ -3465,10 +3981,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "We invite everyone to come out to this lively, fun event from 6 p.m. to 9 p.m. in Downtown Biloxi! Admission is free, but donations are welcome! We feature live music, food trucks, art vendors, and great ice-cold refreshments! Biloxi Main Street will feature 5 First Friday events this year: March, April, May, June, and September. We will host an America 250 Celebration on the Biloxi Town Green on July 4, titled \u201cRed, White & Biloxi.\u201d Stay tuned for details on this!For more information, call 228-435-6339 or visit the Downtown Main Street Biloxi Facebook page, or www.mainstreetbiloxi.com.",
-      "url": "https://www.coastalmississippi.com/first-friday-block-party-5/",
+      "url": "https://www.coastalmississippi.com/events/first-friday-block-party-5/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-05",
@@ -3476,10 +3994,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-05",
@@ -3487,10 +4007,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-05",
@@ -3498,10 +4020,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready to sing your heart out as CRYRS, the #1 live emo tribute band, takes over The Sanctuary for a night of nostalgia\u2011fuelled anthems and high\u2011energy performance. From emotional lyrics to crowd\u2011shouting choruses, CRYRS delivers the soundtrack of an era that defined a generation.",
-      "url": "https://www.coastalmississippi.com/cryrs-1-live-emo-tribute-band/",
+      "url": "https://www.coastalmississippi.com/events/cryrs-1-live-emo-tribute-band/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-06",
@@ -3509,10 +4033,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-09",
@@ -3520,10 +4046,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-10",
@@ -3531,10 +4059,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-10",
@@ -3542,10 +4072,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/vintage-flamingo-market/",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-11",
@@ -3553,10 +4085,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-11",
@@ -3564,10 +4098,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-12",
@@ -3575,10 +4111,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-12",
@@ -3589,7 +4127,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609634?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-12",
@@ -3597,10 +4137,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-12",
@@ -3611,7 +4153,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588553?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-12",
@@ -3619,10 +4163,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 21, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-8/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-8/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Princess Ball 2026 and Fairytale Marketplace",
+      "location": "Gulfport/Biloxi",
+      "category": "Dining",
+      "description": "\u2728 The Princess Ball 2026 & Fairytale Marketplace \u2728 Step into a world of magic, music, and make-believe at The Princess Ball 2026, an elegant and enchanting celebration designed especially for children and their families. This unforgettable fairytale experience brings beloved storybook characters to life through live performances, interactive activities, and royal moments your little ones will treasure forever. \ud83d\udc51 The Princess Ball 2026Guests are welcomed into a beautifully themed ballroom where fairytale princesses and heroic friends host a royal celebration fit for kings and queens. The event features four short shows filled with singing, dancing, and storytelling, plus magical moments woven throughout the day. Between performances, children can enjoy character meet-and-greets, royal dances, crafts, games, and immersive activities led by professional performers. This is a family-friendly, high-energy event created to delight children while giving parents a comfortable, well-organized experience. \ud83c\udff0 The Fairytale MarketplaceJust outside the ballroom, the Fairytale Marketplace offers even more fun and adventure. Families can explore a whimsical outdoor marketplace filled with themed vendors, delicious food, bounce houses, games, and interactive character encounters. You may meet heroes and villains, or other magical characters as you stroll the marketplace and enjoy hands-on activities for all ages. \u2728 The Fairytale Marketplace is included with your Princess Ball ticket, and a limited number of Marketplace-only tickets will also be available for families who want to experience the magic without attending the ballroom event. From sparkling gowns to heroic quests, The Princess Ball 2026 and Fairytale Marketplace is a one-of-a-kind celebration where stories come alive, imaginations soar, and memories are made. \ud83d\udc51\u2728",
+      "url": "https://www.coastalmississippi.com/events/princess-ball-2026-and-fairytale-marketplace/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-13",
@@ -3630,10 +4189,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-14",
@@ -3641,10 +4202,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days5/",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-6/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-16",
@@ -3652,10 +4215,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot5/",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-6/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-16",
@@ -3663,10 +4228,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Create Clay Pumpkins \u2013 Two-Session Handbuilding Class",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Just in time for fall decorating!Get creative with clay in this festive, two-session Clay Pumpkin Workshop led by Margaret Inabinet! Whether you\u2019re a beginner or a seasoned artist, you\u2019ll learn handbuilding techniques to craft your own charming pumpkins \u2014 perfect for autumn d\u00e9cor, Halloween, or Thanksgiving.September 17 & 24 *9 - 11a View details - https://tinyurl.com/ClayPumpkins-PeggyInabinet What you\u2019ll do:Shape and build two pumpkins using the pinch pot methodAdd stems, leaves, and texture for personalitySand and glaze your fired pieces for a polished finishWhen your pumpkins are done, they\u2019ll be ready for pickup within a week \u2014 just in time to show off your handmade fall d\u00e9cor!About the Instructor:Margaret Inabinet, retired art teacher and seasoned ceramic artist, brings over a decade of clay experience and a passion for creative learning.Limited spots available \u2014 sign up today and make something beautiful for fall!",
+      "url": "https://www.coastalmississippi.com/events/create-clay-pumpkins-two-session-handbuilding-class/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-17",
@@ -3677,7 +4257,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/friends-of-the-animal-shelter-hancock-co-1693387?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "6:00 PM - 7:00 PM"
+      "timeLabel": "6:00 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-17",
@@ -3685,10 +4267,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-18",
@@ -3696,10 +4280,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-18",
@@ -3707,10 +4293,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-18",
@@ -3718,10 +4306,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Driftapalooza Music & Arts Festival",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Presented by Driftwood Motel & Good Earth Records, Driftapalooza features live music, local art, food vendors, and the community for an unforgettable Gulf Coast weekend. The lineup is coming soon! Tickets available soon. Follow on Facebook for updates.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/driftapalooza-music-arts-festival-1713056?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "6:00 PM - 9:30 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-19",
@@ -3729,10 +4332,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-19",
@@ -3740,10 +4345,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Barrier Island Cleanup Initiative | Horn Island",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "It\u2019s that time of year again! Mississippi State University is teaming up with the National Park Service for monthly cleanups on our beautiful Barrier Islands, and we need your help!During these hands-on events, volunteers will spend 4-5 hours collecting and documenting trash along a designated section of the shoreline. You can meet us at the cleanup site or hop on a chartered shuttle for a scenic ride to and from the location!Shuttle Locations:Petit Bois cleanups \u2013 Shuttle from Pascagoula Point Boat Launch - 645 Beach Blvd. Pascagoula, MS 39567All other cleanups \u2013 Shuttle from Point Cadet Marina -119 Beach Blvd. Biloxi, MS 39530 (behind the Golden Nugget Casino)If you choose to meet at the site, the exact coordinates will be sent before the event. Must be 18+ to participate.Choose a date and location that works for you, and sign up today! With your help, we aim to clean all 68 miles of Barrier Island shoreline in just three years!ARRIVAL SCHEDULE:Volunteers will meet at the Point Cadet Marina at 8:30 a.m. and will return to the boat launch by 1 p.m. Transportation to the island will be provided by Charter-for-hire boat captains. Boats will depart by 9 a.m. Volunteers must be on board at 9 a.m.WHAT TO EXPECT: There are no facilities on the island. Please use the restroom before getting on the boat.The boat ride is approximately 30 minutes. Cleanup supplies and water will be provided by the event staff.BYO (bring your own): refillable water bottle, snacks, closed-toe shoes, sun protection (hat, sunglasses, sunscreen), and any necessary and/or emergency medications if applicable.We will likely get wet during the event, so a towel or change of clothes might be helpful for your ride home.IMPORTANT:Must be 18+ or older This is a physically intensive marine debris removal event, so make sure you're prepared by drinking lots of water and eating healthy meals the night before and the morning of the cleanup!Should be experienced in outdoor activities, including prolonged heat and sun exposure with no shadeMust be comfortable in and around water and know basic water safetyWill be wading through at least waist-deep water at times and will need to climb in and out of boats that may not have a ladder, as there are no boat docks on the islandsMust be able to lift 25-50 pounds on a consistent basisNo weapons/alcohol allowedPlease record data on the provided data sheet for any debris you pick up! Without data, there is no documentation of all our hard work to help preserve our islands.",
+      "url": "https://www.coastalmississippi.com/events/barrier-island-cleanup-initiative-horn-island/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-19",
@@ -3751,10 +4371,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Experience art in the heart of Gulfport at the Second Annual Gulfport Arts Festival in beautiful Downtown Gulfport, Mississippi. This one-day event will host local artisans, crafters, and musicians showcasing a variety of media: pottery, painting, stained glass, jewelry, woodworking, and more!Enjoy all Downtown Gulfport has to offer as local businesses come together to make this festival a new annual staple for the community. Free to Attend. Donations welcome! There is sure to be something for everyone. We look forward to seeing you there!",
-      "url": "https://www.coastalmississippi.com/gulfport-arts-festival/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-arts-festival/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-19",
@@ -3762,10 +4384,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "For more than three decades, Melissa Etheridge has been one of folk-rock's most resonant voices, offering comfort and solace to listeners while also serving as a defiant beacon of hope. The Kansas-born Etheridge initially studied music at Berklee College of Music in Boston, dropping out to pursue her dreams while playing sets in Southern California's lesbian bars. Etheridge's 1988 self-titled debut\u2014which she recorded in four days\u2014went double-platinum and was hailed widely by critics for its stripped-down take on roots rock, which recalled fellow Midwesterner John Cougar Mellencamp while also channeling the passion of Janis Joplin. Its blues-tinged single \"Bring Me Some Water\" was nominated for the Best Female Rock Vocal Performance Grammy, one of 15 nominations she's received throughout her career.One of her two wins was in honor of \"Come to My Window,\" a single from her fourth album \u2018Yes I Am\u2019 that was released after she came out of the closet in 1993. That jangly anthem for self-acceptance, and its stunning video starring Juliette Lewis, remains one of the 1990s' most beloved singles; in 2001, when she performed it at The Concert For New York City the audience happily filled in after a mic glitch left her inaudible, while in 2017 she celebrated Independence Day with a stirring performance fronting the famed orchestra The Boston Pops.Etheridge's career has been a testament to tenacity and honesty, with her rich, raspy voice making her forthright lyrics land even more powerfully. The bluesy, sultry \"Window\" follow-up \"I'm the Only One\" peaked at No. 8 on the Hot 100; her 2006 song \"I Need to Wake Up,\" which accompanied the environmentally conscious film \u2018An Inconvenient Truth,\u2019 became the first song from a documentary to win the Best Original Song Oscar, and in 2014 she launched ME Records, her own record label, through which she's released projects like her Stax Records salute \u2018MEmphis Rock and Soul.\u2019 On her forthcoming tour of the U.S. and Europe, Etheridge is celebrating the 25th anniversary of \u2018Yes I Am\u2019\u2014and a career defined by a willingness to say \"yes\" to her artistic and personal desires.",
-      "url": "https://www.coastalmississippi.com/melissa-etheridge-the-rise-tour/",
+      "url": "https://www.coastalmississippi.com/events/melissa-etheridge-the-rise-tour/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-20",
@@ -3773,10 +4397,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-23",
@@ -3784,10 +4410,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-24",
@@ -3795,10 +4423,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-25",
@@ -3806,10 +4436,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-25",
@@ -3817,10 +4449,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-26",
@@ -3828,10 +4462,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-26",
@@ -3839,10 +4475,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-26",
@@ -3850,10 +4488,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Classes, Programs, & Lectures",
       "description": "You are invited to one magical night! Do you love costumes, fantasy, and unforgettable experiences? Gather your fellow adventurers from all realms across time and space to celebrate where the veil is thinnest, and the magic is real.Step into a night of fantasy and fae at the 7th Annual Faery Court Ball: Court of Anubis and the Undead!Date: Saturday, September 26, 2026Time: 8 PM - 1 AMVIP Early Entry: 7 PM - 8 PM (includes reserved seating & exclusive entertainment)Location: Joppa Shrine, 13280 Shriners Blvd, Biloxi, MS 39532Attire: Fantasy Costume or Formal Required (Adults 18+ | PG-13)Tickets release \u2013July 1!",
-      "url": "https://www.coastalmississippi.com/7th-annual-faery-court-ball-court-of-anubis-and-the-undead/",
+      "url": "https://www.coastalmississippi.com/events/7th-annual-faery-court-ball-court-of-anubis-and-the-undead/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-27",
@@ -3861,10 +4501,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-09-30",
@@ -3872,10 +4514,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-01",
@@ -3883,10 +4527,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-02",
@@ -3894,10 +4540,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-02",
@@ -3905,10 +4553,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-03",
@@ -3916,10 +4566,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-03",
@@ -3927,10 +4579,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-04",
@@ -3941,7 +4595,22 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-10-04",
+      "title": "Cruisin' the Coast 2026 | 30th Anniversary Event",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Cruisin\u2019 the Coast\u00ae returns to the Mississippi Gulf Coast October 4\u201311, 2026, celebrating its 30th Anniversary as America\u2019s Largest Block Party! This iconic week\u2011long event features thousands of antique, classic, and hot rod vehicles cruising a stunning 30\u2011mile beachside route with stops in Bay St. Louis, Pass Christian, Gulfport, Biloxi, D\u2019Iberville, Ocean Springs, and Pascagoula. Enjoy cruise\u2011ins, headline bands and oldies entertainment, a swap meet, the CTC/Vicari Auto Auction, food vendors, and more as car enthusiasts from across the U.S. and beyond gather to celebrate automotive nostalgia on the Coast!",
+      "url": "https://www.coastalmississippi.com/events/cruisin-the-coast-2026-30th-anniversary-event/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-04",
@@ -3949,10 +4618,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-05",
@@ -3963,7 +4634,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-06",
@@ -3974,7 +4647,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-07",
@@ -3985,7 +4660,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-07",
@@ -3993,10 +4670,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-08",
@@ -4007,7 +4686,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-08",
@@ -4015,10 +4696,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-08",
@@ -4026,10 +4709,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/vintage-flamingo-market/",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-09",
@@ -4040,7 +4725,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-09",
@@ -4048,10 +4735,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-09",
@@ -4059,10 +4748,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Barrier Island Cleanup Initiative | Ship Island",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "It\u2019s that time of year again! Mississippi State University is teaming up with the National Park Service for monthly cleanups on our beautiful Barrier Islands, and we need your help!During these hands-on events, volunteers will spend 4-5 hours collecting and documenting trash along a designated section of the shoreline. You can meet us at the cleanup site or hop on a chartered shuttle for a scenic ride to and from the location!Shuttle Locations:Petit Bois cleanups \u2013 Shuttle from Pascagoula Point Boat Launch - 645 Beach Blvd. Pascagoula, MS 39567All other cleanups \u2013 Shuttle from Point Cadet Marina -119 Beach Blvd. Biloxi, MS 39530 (behind the Golden Nugget Casino)If you choose to meet at the site, the exact coordinates will be sent before the event. Must be 18+ to participate.Choose a date and location that works for you, and sign up today! With your help, we aim to clean all 68 miles of Barrier Island shoreline in just three years!ARRIVAL SCHEDULE:Volunteers will meet at the Point Cadet Marina at 8:30 a.m. and will return to the boat launch by 1 p.m. Transportation to the island will be provided by Charter-for-hire boat captains. Boats will depart by 9 a.m. Volunteers must be on board at 9 a.m.WHAT TO EXPECT: There are no facilities on the island. Please use the restroom before getting on the boat.The boat ride is approximately 30 minutes. Cleanup supplies and water will be provided by the event staff.BYO (bring your own): refillable water bottle, snacks, closed-toe shoes, sun protection (hat, sunglasses, sunscreen), and any necessary and/or emergency medications if applicable.We will likely get wet during the event, so a towel or change of clothes might be helpful for your ride home.IMPORTANT:Must be 18+ or older This is a physically intensive marine debris removal event, so make sure you're prepared by drinking lots of water and eating healthy meals the night before and the morning of the cleanup!Should be experienced in outdoor activities, including prolonged heat and sun exposure with no shadeMust be comfortable in and around water and know basic water safetyWill be wading through at least waist-deep water at times and will need to climb in and out of boats that may not have a ladder, as there are no boat docks on the islandsMust be able to lift 25-50 pounds on a consistent basisNo weapons/alcohol allowedPlease record data on the provided data sheet for any debris you pick up! Without data, there is no documentation of all our hard work to help preserve our islands.",
+      "url": "https://www.coastalmississippi.com/events/barrier-island-cleanup-initiative-ship-island2/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-09",
@@ -4070,10 +4774,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Still Standing | A Tribute to Elton John brings the iconic sounds, style, and showmanship of Sir Elton John to The Sanctuary as part of the Cruisers Concert Series during Cruisin\u2019 the Coast!From soaring ballads to high\u2011energy classics, this live tribute captures the spirit of one of music\u2019s most legendary performers.Set against the excitement of Cruisin\u2019 the Coast, Still Standing delivers a night filled with crowd\u2011singing favorites, dazzling performances, and timeless hits that span decades. Whether you\u2019re winding down after a day of cruising or looking to keep the party going after sunset, this concert is the perfect soundtrack to the Coast\u2019s biggest week!Celebrate great cars, great music, and a great atmosphere with an unforgettable night at The Sanctuary.",
-      "url": "https://www.coastalmississippi.com/still-standing-a-tribute-to-elton-john-cruisers-concert-series/",
+      "url": "https://www.coastalmississippi.com/events/still-standing-a-tribute-to-elton-john-cruisers-concert-series/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-09",
@@ -4081,10 +4787,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "More than 35 years after Travis Tritt launched his music career, the Southern rock-influenced artist continues to sell out shows and stay true and relevant to country music fans across the globe. Continuously performing shows and withholding a heavy appearance schedule, Tritt is proving to be unstoppable.The highly abbreviated Tritt timeline began when the young Marietta, Georgia, native incorporated his lifelong influences of Southern rock, blues, and gospel into his country music during a honky-tonk apprenticeship that led him to Warner Bros. in 1989. Over the course of a decade, Travis released seven studio albums and a greatest hits package for the label. His 1990 debut Country Club and its succession of hits put him in the vanguard of the genre's early '90s boom, dubbing him as one of \u201cThe Class of \u201889,\u201d which included country music superstars Garth Brooks, Clint Black, and Alan Jackson; all of whom dominated the charts in the early \u201890s.Travis Tritt continues to build on a career defined by relentless touring and an unmistakable connection with his fans. His packed tour schedule consistently brings his music to sold-out crowds across the country, reinforcing his status as one of country music\u2019s most enduring performers. Riding a sustained wave of momentum, Tritt remains deeply committed to delivering the authentic, Southern rock-infused country sound that has resonated across generations. With a storied legacy and a passion for the stage that shows no signs of fading, Travis Tritt continues to move forward\u2026 in full throttle.",
-      "url": "https://www.coastalmississippi.com/travis-tritt/",
+      "url": "https://www.coastalmississippi.com/events/travis-tritt/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4095,7 +4803,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4103,10 +4813,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4117,7 +4829,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609635?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 7:00 PM"
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4125,10 +4839,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4139,7 +4855,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588554?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "10:00 AM - 1:00 PM"
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4147,10 +4865,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Acclaimed TV late-night show host, admired stand-up comedian, best-selling children\u2019s book author, much-in-demand corporate speaker, TV and movie voice-over artist, pioneering car builder and mechanic, and philanthropist\u2026Jay Leno is widely characterized as \u201cthe hardest working man in show business.\u201d",
-      "url": "https://www.coastalmississippi.com/jay-leno/",
+      "url": "https://www.coastalmississippi.com/events/jay-leno/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-10",
@@ -4158,10 +4878,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Private Eyes, The Premier Tribute to Daryl Hall & John Oates, was formed in 2018. Delivering the timeless music from the best-selling duo of all time, this Los Angeles-based band is the only Hall & Oates tribute to feature sonically accurate renditions of all the greatest hits as well as some choice fan favorites. As a six-to-seven-piece band composed of LA's finest players, they pride themselves on delivering pristine vocal harmonies, a rhythm section filled with show-stopping dynamics, and the sexiest of sax work to weave its way through any venue. You\u2019ll feel like you're experiencing a classic-era Daryl Hall & John Oates performance as frontman Chris Hudson captures the subtle nuances and emotion of Daryl Hall\u2019s smooth, soulful vocals. Co-frontman Nate Beausoleil authentically delivers the firepower of GE Smith's guitar lines coupled with John Oates' foundational harmony blend, a key ingredient in the legendary Hall & Oates vocal sound. All the hits from Philly\u2019s finest rock and soul duo are delivered throughout a 75-minute casino set up to a 2-hour performing arts center \"Evening Of The Greatest Hits & More\", guaranteed to strike a chord with audiences of any age. Their setlist covers contemporary classics from \"You Make My Dreams (Come True),\" \"Maneater,\" \"Rich Girl\", and \"Kiss On My List\u201d to the timeless balladry of \"She's Gone,\" \"Sara Smile\" and \"Every Time You Go Away\u201d, to mega-hits such as \"I Can't Go For That (No Can Do),\" and \u201cOut Of Touch\u201d. No matter the venue size or audience age, Private Eyes leaves attendees on their feet wanting more. The group has performed throughout the lower 48 states and in Anguilla in the British West Indies. The band is currently booking performing arts centers, theaters, resorts, fairs, festivals, clubs, casinos, and private events worldwide!",
-      "url": "https://www.coastalmississippi.com/private-eyes-the-premier-daryl-hall-john-oates-tribute/",
+      "url": "https://www.coastalmississippi.com/events/private-eyes-the-premier-daryl-hall-john-oates-tribute/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-11",
@@ -4172,7 +4894,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://www.cruisinthecoast.com/schedule/",
       "cta": "View Event",
       "source": "Cruisin' the Coast",
-      "timeLabel": "Multi-day event"
+      "timeLabel": "Multi-day event",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-11",
@@ -4180,10 +4904,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-12",
@@ -4191,10 +4917,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Free Admission",
       "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
-      "url": "https://www.coastalmississippi.com/hospitality-days6/",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-7/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-13",
@@ -4205,7 +4933,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/2026-swing-for-the-cause-golf-classic-1685946?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "11:00 AM - 6:00 PM"
+      "timeLabel": "11:00 AM - 6:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-14",
@@ -4213,10 +4943,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-15",
@@ -4224,10 +4956,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-16",
@@ -4235,10 +4969,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-16",
@@ -4249,7 +4985,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/st-rose-de-lima-centennial-1003133?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "12:00 AM"
+      "timeLabel": "12:00 AM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-16",
@@ -4257,10 +4995,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-16",
@@ -4268,10 +5008,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
-      "url": "https://www.coastalmississippi.com/depot-district-at-dusk/",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-17",
@@ -4282,7 +5024,9 @@ window.__ATTRACTIONS_FEED__ = {
       "url": "https://business.hancockchamber.org/community-calendar/Details/boo-in-the-bay-parade-1562156?sourceTypeId=Website",
       "cta": "View Event",
       "source": "Hancock Chamber",
-      "timeLabel": "5:30 PM - 9:00 PM"
+      "timeLabel": "5:30 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-17",
@@ -4290,10 +5034,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-17",
@@ -4301,10 +5047,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Watercolor Exploration Workshop with Kathy Bensabat",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Ready to splash into watercolor? Join our 2-day Watercolor Exploration Workshop with Kathy Bensabat. All levels welcome, ages 15+. Saturday, Oct 17, 10a\u20133p & Sunday, Oct 18, 12:30\u20133:30p. Build skills, gain confidence, and paint with guidance. Space is limited\u2014register today: https://tinyurl.com/WatercolorWithKathyOct",
+      "url": "https://www.coastalmississippi.com/events/watercolor-exploration-workshop-with-kathy-bensabat/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-17",
@@ -4312,10 +5073,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "The Carter\u2019s Champions 5K Pink Dress Run/Walk will take place for the 9th year on October 17. Festivities take place at Chandeleur Island Brewing Company, 2711 14th Street in Downtown Gulfport. Registration will be followed by the Breast Cancer Survivor Celebration and a warm-up to get you ready for your run or walk. To receive a Pink Dress Run T-shirt, you must pre-register by October 5. Walk-ins are welcome and can register at the Run, but please note that they may not receive a shirt. This is not a timed event. The route is a 5K, 3.1-mile run, walk, or pub crawl, but you can turn around at any point and return to Chandeleur Island Brewing Company. You can run, walk, ride a bike, bring your kids, dress your pet in pink, and bring them along, or form a team. You will help local breast cancer patients treated by Memorial Health System receive financial support to help pay for treatments, co-pays, medicine, mammograms, breast ultrasounds, and more! 100% of the funds raised for the Memorial Hospital Foundation will directly assist local patients fighting all kinds of cancer.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
-      "url": "https://www.coastalmississippi.com/9th-annual-pink-dress-run/",
+      "url": "https://www.coastalmississippi.com/events/9th-annual-pink-dress-run/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-17",
@@ -4323,10 +5086,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 21, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-10/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-10/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-18",
@@ -4334,10 +5099,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-18",
@@ -4345,10 +5112,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Dining",
       "description": "Join us for an unforgettable morning of glamour, incredible talent, and delicious food at our Drag Show & Three\u2011Course Brunch. Tickets are $60 per person, and while the menu is crafted fresh and finalized just before the show, you can always expect a beautifully curated dining experience.Doors open at 10:30 a.m., giving you time to settle in, socialize, and get comfortable before the show kicks off at 11:30 a.m. Our performers bring energy, joy, and sparkle to the room, and they always appreciate cash tips. We keep a limited amount of change on hand for your convenience.Your ticket includes the full three\u2011course brunch, the drag show entertainment, and tax and gratuity for the food. Beverages\u2014both alcoholic and non-alcoholic\u2014are available for purchase and will include their own tax and gratuity.To ensure that groups are seated together, we strongly encourage guests to purchase all tickets for their table in a single transaction. If that isn\u2019t possible, simply email us at info@biloxiwhitepillars.com with the names of everyone in your party so we can arrange seating accordingly. Without this information, we cannot guarantee group seating. Please note we do not issue physical tickets; just have your order confirmation ready to show at the door. All ticket sales are final and non-refundable.Thank you for supporting White Pillars and our incredible local drag entertainers!",
-      "url": "https://www.coastalmississippi.com/drag-brunch-5/",
+      "url": "https://www.coastalmississippi.com/events/drag-brunch-5/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-21",
@@ -4356,10 +5125,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
-      "url": "https://www.coastalmississippi.com/wednesdays-at-the-depot6/",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-7/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-21",
@@ -4367,10 +5138,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-22",
@@ -4378,10 +5151,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-23",
@@ -4389,10 +5164,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-23",
@@ -4400,10 +5177,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Three Days Grace - Alienation Tour",
+      "location": "Gulfport/Biloxi",
+      "category": "Live Music",
+      "description": "The Alienation Tour is the band\u2019s headlining concert tour in support of their eighth studio album Alienation (released in 2025). This tour spans North America, Europe, and more in 2026, featuring support from rock acts like I Prevail, The Funeral Portrait, Sleep Theory, Finger Eleven, and Royal Tusk on select dates.",
+      "url": "https://www.coastalmississippi.com/events/three-days-grace-alienation-tour/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-24",
@@ -4411,10 +5203,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-24",
@@ -4422,10 +5216,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-25",
@@ -4433,10 +5229,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-28",
@@ -4444,10 +5242,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-29",
@@ -4455,10 +5255,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Dining",
       "description": "Rev your engines! Join us from 5 to 9 p.m. every Thursday for a sunset cruise-in featuring classic cars, Jeeps, motorcycles, and hot rods. We will keep the drinks cold, the stage rockin\u2019 with live music, and the atmosphere lively. This year, we\u2019re introducing food trucks as a part of the action! We will have 2 each week to bring a new element to the party.We are also revamping the prizes! Attendees will now vote for best car, best Jeep, and best bike.Show your receipts from Rumble in Players Services to earn $5 free slot play and an entry toward our weekly $500 free play drawing. Earn additional entries on Thursdays toward our Jeep Wrangler giveaway in October!",
-      "url": "https://www.coastalmississippi.com/rumble-on-the-gulf-beachside-rally/",
+      "url": "https://www.coastalmississippi.com/events/rumble-on-the-gulf-beachside-rally/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-30",
@@ -4466,10 +5268,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-30",
@@ -4477,10 +5281,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-31",
@@ -4488,10 +5294,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-10-31",
@@ -4499,10 +5307,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-01",
@@ -4510,10 +5320,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-04",
@@ -4521,10 +5333,25 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Festival",
       "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
-      "url": "https://www.coastalmississippi.com/gulfport-harbor-farmers-market/",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Shuck Cancer Gulf Coast Main Event",
+      "location": "Gulfport/Biloxi",
+      "category": "Community",
+      "description": "Shuck Cancer Gulf Coast is a signature fundraising event hosted by the American Cancer Society, bringing together Coastal Mississippi\u2019s top restaurants, oyster farmers, and community leaders for an unforgettable evening on the water. Guests enjoy fresh Gulf oysters, local cuisine, craft cocktails, live entertainment, and interactive experiences\u2014all in support of a critical mission: ensuring that no one has to face cancer alone. Funds raised help provide free rides to treatment, lodging for patients traveling far from home, and vital support services for individuals and families across rural and coastal Mississippi. This event is open to the public with a limited number of tickets available and is expected to sell out. More than a celebration, Shuck Cancer is a powerful reminder of what our community can do when we come together to make a difference.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/shuck-cancer-gulf-coast-main-event-1708792?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "6:00 PM - 9:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-06",
@@ -4532,10 +5359,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-06",
@@ -4543,10 +5372,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-07",
@@ -4554,10 +5385,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-07",
@@ -4565,10 +5398,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Arts & Culture",
       "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
-      "url": "https://www.coastalmississippi.com/stage-bar-live-entertainment/",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-07",
@@ -4576,10 +5411,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Arts & Culture",
       "description": "Flow like the fish and discover nirvana at Fin & Zen Yoga, Mississippi Aquarium's monthly fitness event!Experience yoga in the Aquarium's most captivating setting, Aquatic Wonders. Take in the serene sights of sharks, stingrays, reef fishes, and other sea life while you dive into body and mind alignment. Yoga Instructor Brittany Simmons will lead participants through Vinyasa yoga - a creative style of yoga that links breath and movement together in a flowing sequence. The event starts before the Aquarium opens to the public.Fin and Zen Yoga wishes to bring out the happier and healthier version of you! There is nothing more Zen than Yoga at Mississippi Aquarium.2026 Dates:February 8, 2026March 15, 2026April 11, 2026May 16, 2026June 21, 2026July 19, 2026August 22, 2026September 12, 2026October 17, 2026November 7, 2026 Reserve Your Mat!Fin & Zen Yoga Ticket Price:General Admission Price $34.95 || Annual Passholder Price $24.95 - *Annual Passholders will get $10 OFF. Annual Passholders can email annualpassholder@msaquarim.org to set up their reservation. Each Fin & Zen Yoga ticket includes a single yoga session and same-day admission to the Aquarium. An adult must accompany children 13-15. Doors open at 8:30 a.m. Class begins promptly at 8:45 a.m. No entry is permitted after 8:50 a.m.Participants must bring their exercise mat, towel, and reusable water bottle.All ticket sales are final. No refunds or rainchecks. BOOK NOW AT: https://www.msaquarium.org/events/2026/fin-zen-yoga",
-      "url": "https://www.coastalmississippi.com/fin-zen-yoga-9/",
+      "url": "https://www.coastalmississippi.com/events/fin-zen-yoga-9/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-07",
@@ -4587,10 +5424,12 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Gulfport/Biloxi",
       "category": "Live Music",
       "description": "The Stephens Bros bring their signature sound and high\u2011energy performance to the stage for a night of live music you won\u2019t want to miss. Known for tight musicianship, dynamic vocals, and crowd\u2011pleasing sets, The Stephens Bros deliver a show that blends great songs with an engaging, feel\u2011good concert experience.Doors: 6 PM\u2022 JT McCaffrey (Acoustic): 7 PM\u20137:45 PM\u2022 The Stephens Bros: 8 PM\u201310 PMLearn more about JT McCaffrey at https://linktr.ee/jtmccaf?utm_source=linktree_profile_share",
-      "url": "https://www.coastalmississippi.com/the-stephens-bros-with-acoustic-opening-with-jt-mccaffrey/",
+      "url": "https://www.coastalmississippi.com/events/the-stephens-bros-with-acoustic-opening-with-jt-mccaffrey/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     },
     {
       "date": "2026-11-08",
@@ -4598,10 +5437,311 @@ window.__ATTRACTIONS_FEED__ = {
       "location": "Bay St. Louis",
       "category": "Live Music",
       "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
-      "url": "https://www.coastalmississippi.com/hollydeck-live-music/",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
       "cta": "View Event",
       "source": "Coastal Mississippi",
-      "timeLabel": ""
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Hospitality Days",
+      "location": "Gulfport/Biloxi",
+      "category": "Free Admission",
+      "description": "In the Hospitality State, hospitality isn't just something we do, it's who we are!That's why we're offering free admission to hospitality employees (hotel, restaurant, and attraction workers) on select Mondays.Proof of employment must be provided at the time of redemption. Offer only valid for select dates:Monday, January 12, 2026Monday, February 9, 2026Monday, March 9, 2026Monday, April 13, 2026Monday, May 11, 2026Monday, June 15, 2026Monday, July 13, 2026Monday, August 10, 2026Monday, September 14, 2026Monday, October 12, 2026Monday, November 9, 2026Monday, December 14, 2026Valid only on the promotional date. Only available at the gate.",
+      "url": "https://www.coastalmississippi.com/events/hospitality-days-8/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Gulfport Harbor Farmer's Market",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Vintage Flamingo Market",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "This upscale market specializes in unique gifts and vintage finds. From glassware to large furniture, and everything in between, you\u2019re sure to find something you love.Open once a month, from the second Thursday to the second Sunday\u2014special openings on November 28 for Small Business Saturday, and December 19 for the Christmas Sale.Hours: Thursday-Saturday 9 a.m.- 6 p.m., Sunday 11 a.m. - 6 p.m.***Event dates and details are provided by our Tourism Partners and are subject to change or cancellation by the event host/organizer. Please refer to the event host's website or Facebook event for the most up-to-date event detail information.",
+      "url": "https://www.coastalmississippi.com/events/vintage-flamingo-market/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Stage Bar Live Entertainment",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Bud & Burgers in the Bay",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "You are invited you to Bud & Burgers in the Bay, a competition that's all about finding the best burger in the region. This spectacular event is set to take place during Port Air Space Day on Saturday, November 14th, from 11am to 3pm at the Historic Courthouse on Main Street, Gex Street side. BUD & BURGERS IN THE BAY IS NOT JUST ANY BURGER COMPETITION: It's also a celebration of the many accomplishments in space and ocean exploration at Stennis Space Center. The event promises a day filled with incredible experiences, including live music, and interactive exhibits. Participating is easy, just go to www.hancockchamber.org to register online and find out all the details you need. Teams can compete for the title with an entry fee of $100. Additionally, we offer sponsorship opportunities ranging from $250 to $1,000, providing you with great visibility and involvement in this stellar event. PRIZES AND RECOGNITION: A panel of esteemed judges will crown the best burgers, and the winners will receive prestigious prizes. But that's not all! The crowd's opinion matters, and the burger with the most votes will earn the People's Choice award. Let your creativity soar, as burgers with a space theme are the order of the day. Let your imagination blast off and create an extraordinary burger that's truly out of this world! THE ULTIMATE PRIZE OF THE DAY? Bragging rights! Take home the honor of being crowned as the team with the best burgers in town. People's Choice voting is $1 per vote for their favorite burger. Mark your calendars, prepare your taste buds, and gear up for an unforgettable day of burgers, fun, and community.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/bud-burgers-in-the-bay-1588617?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "11:00 AM - 3:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Port Air Space Day in the Bay",
+      "location": "Bay St. Louis",
+      "category": "Festival",
+      "description": "Port Air Space Day in the Bay will run from 11 a.m. - 3 p.m. on the grounds surrounding the Historic Hancock County Courthouse on Main Street. Local restaurants will feature special drinks and menu items and merchants will decorate their stores and offer special space related promotions to welcome visitors during this festive event. Featured events include: Crowds of people will enjoy fascinating exhibits such as underwater drones, flight simulators, robotic games and even a portable planetarium! During Port Air Space Day in the Bay children of all ages will be able to meet face-to-face with people who work in STEM careers in Hancock County.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/port-air-space-day-in-the-bay-1588610?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "11:00 AM - 3:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Second Saturday",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "During Second Saturday each month in Old Town Bay St. Louis & the Depot District, you'll find cool deals, fresh meals and live music! Old Town stays lively all day, with many merchants and restaurants offering specials.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/second-saturday-1609636?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "10:00 AM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Stage Bar Live Entertainment",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "The Writing Room @ 100 Men Hall",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "The Writing Room at the 100 Men Hall is a place where writers gather in a storied place to write our stories. Author in residence, Ellen Morris Prewitt will lead the group. Ellen will share tips for using the concrete experience of place to unlock our individual stories. Come to one session or all sessions and write together in a supportive group. Writers of all levels welcome. Ellen was the Peter Taylor Fellow at the Kenyon College Summer Writing Program. She writes both fiction and nonfiction. Her short stories have twice been nominated for Pushcart Prizes; one of her essays was included in Sue Silverman's guide on writing memoir as an example of how to use metaphor. Ellen has conducted many writing workshops, including facilitating for eight years a weekly writing group of men and women living on the streets. Free, but please RSVP here .",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/the-writing-room-100-men-hall-1588555?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "10:00 AM - 1:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-14",
+      "title": "TrainTastic Kids Free Weekend",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Kids Free Weekend at TrainTastic is back!Buy one (1) adult, military, or senior ticket and get one (1) child admission (ages 3\u201317) free!Ages 2 & Under: Always freeMUSEUM HOURSSaturday: 10 AM \u2013 5 PMSunday: 1 PM \u2013 5 PMGet ready for 50,000 sq. ft. of train\u2011themed excitement, featuring:25+ immersive train displays5 million LEGO\u00ae bricks in LEGO LandS.T.E.A.M. Shop activitiesFace Painting by Hues & Heart by Cora.Additional cost: a portion of the proceeds benefits TrainTastic.Outdoor train rides for even more fun!",
+      "url": "https://www.coastalmississippi.com/events/traintastic-kids-free-weekend-2/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Taste of Hancock",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Hosted by the Hancock County Community Development Foundation , in partnership with Community Bank and the Hancock Chamber of Commerce , this year's Taste of Hancock will be bigger, bolder, and more delicious than ever - celebrating the rich culinary spirit that defines Hancock County. Guests will savor signature dishes, desserts, and craft cocktails from more than 20 of Hancock County's top restaurants, bars, and beverage purveyors during the \"Culinary Showcase of the Century.\" Live music, vibrant energy, and mouthwatering aromas will fill the air as attendees experience the very best of local flavor and hospitality. Tickets are $50 per person and available now at HancockChamber.org . A limited number of reserved tables are available through sponsorships at the $1,000 and $1,500 levels. Guests must be 21 or older to attend, and a cash bar will feature signature cocktails and other refreshments throughout the evening. Supporting Partners for Tourism 100% of the proceeds from the event benefit Partners for Tourism , a fund of the Hancock County Community Development Foundation. This fund supports tourism initiatives, business development, and quality-of-life projects that showcase Hancock County as a premier destination to live, work, and play.",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/taste-of-hancock-1599930?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "6:00 PM - 8:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Wednesdays at the Depot",
+      "location": "Bay St. Louis",
+      "category": "Dining",
+      "description": "Wednesdays at the Depot is a vibrant, free monthly concert series bringing the community together in the heart of Old Town Bay St. Louis.Held on the historic Depot Grounds, this open-air event showcases live music from talented local artists while highlighting local businesses, food vendors, makers, and community organizations. It\u2019s a relaxed, family-friendly atmosphere where residents and visitors alike gather to enjoy great music, Coastal breezes, and small-town charm.Guests are encouraged to bring lawn chairs or blankets and settle in for an evening under the oaks. Food and beverages are available for purchase from local vendors, and nearby shops and restaurants make it easy to turn the evening into a full Old Town experience.Admission is free and open to the public.For band lineups and event updates, follow Wednesdays at the Depot on social media.",
+      "url": "https://www.coastalmississippi.com/events/wednesdays-at-the-depot-8/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Gulfport Harbor Farmer's Market",
+      "location": "Gulfport/Biloxi",
+      "category": "Festival",
+      "description": "Enjoy a variety of fresh, locally sourced items perfect for eating on the spot or taking home to savor later!From seasonal produce to handcrafted goods, the Gulfport Harbor Farmers Market offers a relaxed, Coastal atmosphere where you can shop local and enjoy the flavors of the Coast.",
+      "url": "https://www.coastalmississippi.com/events/gulfport-harbor-farmers-market/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Friends of the Animal Shelter Hancock Co.",
+      "location": "Bay St. Louis",
+      "category": "Community",
+      "description": "This every- other- month meeting is for anyone interested in getting involved in or wanting to learn more about Friends of the Animal Shelter Hancock Co. Friends is the 501c3 that supports the Hancock County Animal Shelter and whose mission is to ...",
+      "url": "https://business.hancockchamber.org/community-calendar/Details/friends-of-the-animal-shelter-hancock-co-1693388?sourceTypeId=Website",
+      "cta": "View Event",
+      "source": "Hancock Chamber",
+      "timeLabel": "6:00 PM - 7:00 PM",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Stage Bar Live Entertainment",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Depot District at Dusk",
+      "location": "Gulfport/Biloxi",
+      "category": "Arts & Culture",
+      "description": "Get ready for a brand-new tradition, Depot District at Dusk!Join us every 3rd Friday from 4:30 p.m. until dusk for an evening full of live music, local vendors, and shopping. Restaurant and bar specials will also be available. Join us for this family-friendly fun!Bring your lawn chairs, grab a bite, sip something refreshing, and soak up the vibe as the sun goes down in the heart of Downtown Gulfport.",
+      "url": "https://www.coastalmississippi.com/events/depot-district-at-dusk/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Stage Bar Live Entertainment",
+      "location": "Bay St. Louis",
+      "category": "Arts & Culture",
+      "description": "Join us at Hollywood Gulf Coast Casino for live music at the Stage Bar every Friday and Saturday!Upcoming Artist Lineup:MARCHMar 6\u20137: StarzMar 13\u201314: Cajun ClassicsMar 20\u201321: StarzMar 27\u201328: Mach V NOLAAPRILApr 3\u20134: 3rd Street BandApr 10\u201311: WitnessApr 17\u201318: QuiksilvrApr 24\u201325: Ado Soul & The TribeVisit our website for the most up\u2011to\u2011date entertainment schedule!",
+      "url": "https://www.coastalmississippi.com/events/stage-bar-live-entertainment/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Hollydeck Live Music",
+      "location": "Bay St. Louis",
+      "category": "Live Music",
+      "description": "Join us at Hollywood Casino Gulf Coast at the Hollydeck to enjoy live music, great cocktails, and a scenic view!Fridays | 6 p.m. to 10 p.m.Saturdays | 4 p.m. to 8 p.m. Sundays | 2 p.m. to 6 p.m.See our website for the latest entertainment lineup!",
+      "url": "https://www.coastalmississippi.com/events/hollydeck-live-music/",
+      "cta": "View Event",
+      "source": "Coastal Mississippi",
+      "timeLabel": "",
+      "hasLiveLink": true,
+      "linkNote": ""
     }
   ]
 };
